@@ -1,0 +1,11 @@
+language: perl
+perl:
+- "5.24"
+install:
+  - sudo apt-get install -y libxml2-utils
+  - cpanm XML::XPath
+script: make test
+notifications:
+  slack:
+    rooms:
+      - quadrama:zefTDt67wOctFmDjVYcZEPm3#general
