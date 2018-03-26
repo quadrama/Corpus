@@ -52,16 +52,24 @@
           <person xml:id="lelio">
             <persName>LELIO</persName>
             <persName xml:id="lelio_oder_hilaria">LELIO ODER HILARIA</persName>
+            <roleName>in Mannskleidern; unter dem Namen Lelio</roleName>
           </person>
           <person xml:id="laura">
             <persName>LAURA</persName>
           </person>
           <person xml:id="solbist">
             <persName>SOLBIST</persName>
+            <roleName>ein Advokat</roleName>
           </person>
           <person xml:id="leander">
             <persName>LEANDER</persName>
+            <roleName>der Laura Liebhaber</roleName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#wumshäter" passive="#laura" />
+            <relation name="parent_of" active="#wumshäter" passive="#valer" />
+            <relation name="lover_of" active="#leander" passive="#laura" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -97,13 +105,13 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Wumshäter.</castItem>
-                <castItem>Laura, dessen Tochter.</castItem>
-                <castItem>Valer, dessen Sohn.</castItem>
-                <castItem>Hilaria, in Mannskleidern; unter dem Namen Lelio.</castItem>
-                <castItem>Solbist, ein Advokat.</castItem>
-                <castItem>Leander, der Laura Liebhaber.</castItem>
-                <castItem>Lisette.</castItem>
+                <castItem corresp="#wumshäter">Wumshäter.</castItem>
+                <castItem corresp="#laura">Laura, dessen Tochter.</castItem>
+                <castItem corresp="#valer">Valer, dessen Sohn.</castItem>
+                <castItem corresp="#lelio"  corresp="#lelio_oder_hilaria">Hilaria, in Mannskleidern; unter dem Namen Lelio.</castItem>
+                <castItem corresp="#solbist">Solbist, ein Advokat.</castItem>
+                <castItem corresp="#leander">Leander, der Laura Liebhaber.</castItem>
+                <castItem corresp="#lisette">Lisette.</castItem>
                 <pb n="424"/>
               </castGroup>
             </castList>

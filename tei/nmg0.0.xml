@@ -43,6 +43,7 @@
           <person xml:id="don_juan">
             <persName>DON JUAN</persName>
             <persName xml:id="von_juan">VON JUAN</persName>
+            <roleName>spanischer Grande</roleName>
           </person>
           <person xml:id="leporello">
             <persName>LEPORELLO</persName>
@@ -70,6 +71,7 @@
           </person>
           <person xml:id="signor_rubio">
             <persName>SIGNOR RUBIO</persName>
+            <roleName>Polizeidirektor</roleName>
           </person>
           <person xml:id="signor_negro">
             <persName>SIGNOR NEGRO</persName>
@@ -106,6 +108,12 @@
             <persName>DIE GNOMEN</persName>
             <persName xml:id="viele_gnomen">VIELE GNOMEN</persName>
           </person>
+          <listRelation>
+          <relation type="personal" name="parent_of" active="#der_gouverneur" passive="#donna_anna"/>
+          <relation type="personal" name="associated_with" active="#leporello" passive="#don_juan"/>
+          <relation type="personal" name="associated_with" active="#gasparo" passive="#der_gouverneur"/>
+          <relation type="personal" name="associated_with" active="#lisette" passive="#donna_anna"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -141,18 +149,18 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Der Gouverneur Don Gusman</castItem>
-                <castItem>Donna Anna, seine Tochter</castItem>
-                <castItem>Don Octavio</castItem>
-                <castItem>Don Juan, spanischer Grande</castItem>
-                <castItem>Doktor Faust</castItem>
-                <castItem>Ein Ritter</castItem>
-                <castItem>Signor Rubio, Polizeidirektor</castItem>
-                <castItem>Signor Negro</castItem>
-                <castItem>Leporello, Diener des Don Juan</castItem>
-                <castItem>Gasparo, Diener des Gouverneurs</castItem>
-                <castItem>Lisette, Magd der Donna Anna</castItem>
-                <castItem>Gnomen</castItem>
+                <castItem corresp="#der_gouverneur">Der Gouverneur Don Gusman</castItem>
+                <castItem corresp="#donna_anna">Donna Anna, seine Tochter</castItem>
+                <castItem corresp="#don_octavio">Don Octavio</castItem>
+                <castItem corresp="#don_juan">Don Juan, spanischer Grande</castItem>
+                <castItem corresp="#faust">Doktor Faust</castItem>
+                <castItem corresp="#der_ritter">Ein Ritter</castItem>
+                <castItem corresp="#signor_rubio">Signor Rubio, Polizeidirektor</castItem>
+                <castItem corresp="#signor_negro">Signor Negro</castItem>
+                <castItem corresp="#leporello">Leporello, Diener des Don Juan</castItem>
+                <castItem corresp="#gasparo">Gasparo, Diener des Gouverneurs</castItem>
+                <castItem corresp="#lisette">Lisette, Magd der Donna Anna</castItem>
+                <castItem corresp="#die_gnomen">Gnomen</castItem>
                 <castItem>Mehrere Nebenpersonen</castItem>
               </castGroup>
             </castList>

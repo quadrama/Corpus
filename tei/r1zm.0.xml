@@ -75,6 +75,11 @@
           <person xml:id="sunim">
             <persName>SUNIM</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#adam" passive="#henam" />
+            <relation name="parent_of" active="#adam" passive="#sunim" />
+            <relation name="related_with" active="#selima" passive="#adam" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -109,15 +114,15 @@
             <castList>
               <head><pb n="2"/> Personen.</head>
               <castGroup>
-                <castItem>Adam.</castItem>
-                <castItem>Kain.</castItem>
-                <castItem>Seth.</castItem>
-                <castItem>Heman, einer von Adams jüngsten Söhnen.</castItem>
-                <castItem>Sunim, der jüngste.</castItem>
-                <castItem>Eva.</castItem>
-                <castItem>Selima, eine Enkelin Adams.</castItem>
+                <castItem corresp="#adam">Adam.</castItem>
+                <castItem corresp="#kain">Kain.</castItem>
+                <castItem corresp="#seth">Seth.</castItem>
+                <castItem corresp="#heman">Heman, einer von Adams jüngsten Söhnen.</castItem>
+                <castItem corresp="#sunim">Sunim, der jüngste.</castItem>
+                <castItem corresp="#eva">Eva.</castItem>
+                <castItem corresp="#selima">Selima, eine Enkelin Adams.</castItem>
                 <castItem>Drei Mütter, die ihre Kinder Adam das erste Mal bringen.</castItem>
-                <castItem>Ein Todesengel.</castItem>
+                <castItem corresp="#der_todesengel">Ein Todesengel.</castItem>
               </castGroup>
             </castList>
           </div>

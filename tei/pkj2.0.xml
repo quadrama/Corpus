@@ -42,15 +42,18 @@
         <listPerson>
           <person xml:id="tine">
             <persName>TINE</persName>
+            <roleName>Magd</roleName>
           </person>
           <person xml:id="bäuerin">
             <persName>BÄUERIN</persName>
             <persName xml:id="die_bäuerin">DIE BÄUERIN</persName>
             <persName xml:id="der_bäuerin_stimme">DER BÄUERIN STIMME</persName>
+            <roleName>Bäuerin</roleName>
           </person>
           <person xml:id="bauer">
             <persName>BAUER</persName>
             <persName xml:id="bauer_ephraim">BAUER EPHRAIM</persName>
+            <roleName>Bauer</roleName>
           </person>
           <person xml:id="viehhändler">
             <persName>VIEHHÄNDLER</persName>
@@ -65,9 +68,11 @@
           <person xml:id="joseph_schindler">
             <persName>JOSEPH SCHINDLER</persName>
             <persName xml:id="joseph">JOSEPH</persName>
+            <roleName>Großknecht</roleName>
           </person>
           <person xml:id="blumig">
             <persName>BLUMIG</persName>
+            <roleName>Viehhändler</roleName>
           </person>
           <person xml:id="beckern">
             <persName>BECKERN</persName>
@@ -138,6 +143,12 @@
             <persName>VATER JAKOB</persName>
             <persName xml:id="vater_jakobs">VATER JAKOBS</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#bauer" passive="#breite" />
+            <relation name="parent_of" active="#bäuerin" passive="#breite" />
+            <relation name="parent_of" active="#bauer" passive="#ernst" />
+            <relation name="parent_of" active="#bäuerin" passive="#ernst" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -178,13 +189,13 @@
               <castList>
                 <head>Personen.</head>
                 <castGroup>
-                  <castItem>Gottlieb Ephraim, Bauer.</castItem>
-                  <castItem>Beate Ephraim, Bäuerin.</castItem>
-                  <castItem>Breite Ephraim, Tochter.</castItem>
-                  <castItem>Ernst Ephraim, Sohn.</castItem>
-                  <castItem>Joseph Schindler, Großknecht.</castItem>
-                  <castItem>Blumig, Viehhändler.</castItem>
-                  <castItem>Tine, Magd.</castItem>
+                  <castItem corresp="#bauer">Gottlieb Ephraim, Bauer.</castItem>
+                  <castItem corresp="#bäuerin">Beate Ephraim, Bäuerin.</castItem>
+                  <castItem corresp="#breite">Breite Ephraim, Tochter.</castItem>
+                  <castItem corresp="#ernst">Ernst Ephraim, Sohn.</castItem>
+                  <castItem corresp="#joseph_schindler">Joseph Schindler, Großknecht.</castItem>
+                  <castItem corresp="#blumig">Blumig, Viehhändler.</castItem>
+                  <castItem corresp="#tine">Tine, Magd.</castItem>
                 </castGroup>
               </castList>
             </div>

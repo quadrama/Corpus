@@ -51,9 +51,11 @@
           </person>
           <person xml:id="christel">
             <persName>CHRISTEL</persName>
+            <roleName>ein Dorfmädchen</roleName>
           </person>
           <person xml:id="der_alte_raschke">
             <persName>DER ALTE RASCHKE</persName>
+            <roleName>Besenbinder</roleName>
           </person>
           <person xml:id="die_junge_raschke">
             <persName>DIE JUNGE RASCHKE</persName>
@@ -64,6 +66,7 @@
           <person xml:id="der_junge_raschke">
             <persName>DER JUNGE RASCHKE</persName>
             <persName xml:id="hermann_raschke">HERMANN RASCHKE</persName>
+            <roleName>Besenbinder</roleName>
           </person>
           <person xml:id="die_frau_pastorin">
             <persName>DIE FRAU PASTORIN</persName>
@@ -139,6 +142,11 @@
           <person xml:id="johannes_habundus">
             <persName>JOHANNES HABUNDUS</persName>
           </person>
+          <listRelation>
+            <relation name="spouses" mutual="#der_alte_raschke #die_alte_raschke" />
+            <relation name="spouses" mutual="#der_junge_raschke #die_junge_raschke" />
+            <relation name="parent_of" active="#johannes_habundus" passive="#rapunzel" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -173,20 +181,20 @@
             <castList>
               <head><pb n="5"/> Personen.</head>
               <castGroup>
-                <castItem>Der alte Raschke, Besenbinder.</castItem>
-                <castItem>Die alte Raschke, seine Frau.</castItem>
-                <castItem>Der junge Raschke, Besenbinder.</castItem>
-                <castItem>Die junge Raschke, seine Frau.</castItem>
-                <castItem>Johannes Habundus.</castItem>
-                <castItem>Rapunzel, dessen Tochter.</castItem>
-                <castItem>Prinzessin Trull.</castItem>
+                <castItem corresp="#der_alte_raschke">Der alte Raschke, Besenbinder.</castItem>
+                <castItem corresp="#die_alte_raschke">Die alte Raschke, seine Frau.</castItem>
+                <castItem corresp="#der_junge_raschke">Der junge Raschke, Besenbinder.</castItem>
+                <castItem corresp="#die_junge_raschke">Die junge Raschke, seine Frau.</castItem>
+                <castItem corresp="#johannes_habundus">Johannes Habundus.</castItem>
+                <castItem corresp="#rapunzel">Rapunzel, dessen Tochter.</castItem>
+                <castItem corresp="#prinzessin_trull">Prinzessin Trull.</castItem>
                 <castItem>Motz Gothla.</castItem>
-                <castItem>Der Wirt Weise.</castItem>
-                <castItem>Die Wirtin.</castItem>
-                <castItem>Der Gendarm Hunnius.</castItem>
-                <castItem>Der Amtssekretär.</castItem>
-                <castItem>Der Dorfpolizist.</castItem>
-                <castItem>Christel, ein Dorfmädchen.</castItem>
+                <castItem corresp="#der_wirt">Der Wirt Weise.</castItem>
+                <castItem corresp="#die_wirtin">Die Wirtin.</castItem>
+                <castItem corresp="#der_gendarm">Der Gendarm Hunnius.</castItem>
+                <castItem corresp="#der_amtssekretär">Der Amtssekretär.</castItem>
+                <castItem corresp="#der_polizist">Der Dorfpolizist.</castItem>
+                <castItem corresp="#christel">Christel, ein Dorfmädchen.</castItem>
                 <castItem>Zwei betreßte Diener.</castItem>
                 <castItem>Lehrer, Pastor, Kaplan, Hausdiener, Gräfin, Lehrers- und Pastorsfrau, Vornehme Leute, Dorfleute usw.</castItem>
               </castGroup>

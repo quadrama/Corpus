@@ -48,12 +48,15 @@
           </person>
           <person xml:id="dr_hofmiller">
             <persName>DR. HOFMILLER</persName>
+            <roleName>Chemiker</roleName>
           </person>
           <person xml:id="dr_malkolm">
             <persName>DR. MALKOLM</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="dr_hornstein">
             <persName>DR. HORNSTEIN</persName>
+            <roleName>Arzt</roleName>
           </person>
           <person xml:id="eine_tiefe_männerstimme">
             <persName>EINE TIEFE MÄNNERSTIMME</persName>
@@ -61,36 +64,46 @@
           </person>
           <person xml:id="veit_kunz">
             <persName>VEIT KUNZ</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="gespensterschreck">
             <persName>GESPENSTERSCHRECK</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="rohrdommel">
             <persName>ROHRDOMMEL</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="kiesgräber">
             <persName>KIESGRÄBER</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="spreizfüsschen">
             <persName>SPREIZFÜSSCHEN</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="mausi">
             <persName>MAUSI</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="kullmann">
             <persName>KULLMANN</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="chorus">
             <persName>CHORUS</persName>
           </person>
           <person xml:id="laurus_bein">
             <persName>LAURUS BEIN</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="hagelmeier">
             <persName>HAGELMEIER</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="karaminka">
             <persName>KARAMINKA</persName>
+            <roleName>Weinstubengast</roleName>
           </person>
           <person xml:id="haglmeier">
             <persName>HAGLMEIER</persName>
@@ -100,6 +113,7 @@
           </person>
           <person xml:id="lydia">
             <persName>LYDIA</persName>
+            <roleName>Tänzerin</roleName>
           </person>
           <person xml:id="dirckens">
             <persName>DIRCKENS</persName>
@@ -131,9 +145,11 @@
           </person>
           <person xml:id="breitenbach">
             <persName>BREITENBACH</persName>
+            <roleName>Schauspieler</roleName>
           </person>
           <person xml:id="fahrstuhl">
             <persName>FAHRSTUHL</persName>
+            <roleName>Zeitungskorrespondent</roleName>
           </person>
           <person xml:id="regisseur">
             <persName>REGISSEUR</persName>
@@ -155,7 +171,12 @@
           </person>
           <person xml:id="almer">
             <persName>ALMER</persName>
+            <roleName>Maler</roleName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#mutter" passive="#franziska" />
+            <relation name="siblings" mutual="#dirckens #sophie" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -232,39 +253,39 @@
             <castList>
               <head><pb n="7"/> Personen.</head>
               <castGroup>
-                <castItem>Der Herzog von Rotenburg.</castItem>
-                <castItem>Die Herzogin.</castItem>
-                <castItem>Freiherr von Hohenkemnath.</castItem>
-                <castItem>Gislind von Glonnthal.</castItem>
-                <castItem>Pater Emmeran.</castItem>
-                <castItem>Der Rotenburger Polizeipräsident.</castItem>
-                <castItem>Frau Eberhardt.</castItem>
-                <castItem>Franziska, ihre Tochter.</castItem>
-                <castItem>Dr. Hofmiller, Chemiker.</castItem>
-                <castItem>Veit Kunz.</castItem>
-                <castItem>Dr. Malkolm</castItem>
-                <castItem>Kiesgräber,</castItem>
-                <castItem>Kullmann,</castItem>
-                <castItem>Laurus Bein,</castItem>
-                <castItem>Hagelmeier,</castItem>
-                <castItem>Gespensterschreck,</castItem>
-                <castItem>Rohrdommel,</castItem>
+                <castItem corresp="#herzog">Der Herzog von Rotenburg.</castItem>
+                <castItem corresp="#herzogin">Die Herzogin.</castItem>
+                <castItem corresp="#hohenkemnath">Freiherr von Hohenkemnath.</castItem>
+                <castItem corresp="#gislind">Gislind von Glonnthal.</castItem>
+                <castItem corresp="#pater">Pater Emmeran.</castItem>
+                <castItem corresp="#polizeipräsident">Der Rotenburger Polizeipräsident.</castItem>
+                <castItem corresp="#mutter">Frau Eberhardt.</castItem>
+                <castItem corresp="#franziska">Franziska, ihre Tochter.</castItem>
+                <castItem corresp="#dr_hofmiller">Dr. Hofmiller, Chemiker.</castItem>
+                <castItem corresp="#veit_kunz">Veit Kunz.</castItem>
+                <castItem corresp="#dr_malkolm">Dr. Malkolm</castItem>
+                <castItem corresp="#kiesgräber">Kiesgräber,</castItem>
+                <castItem corresp="#kullmann">Kullmann,</castItem>
+                <castItem corresp="#laurus_bein">Laurus Bein,</castItem>
+                <castItem corresp="#hagelmeier" corresp="#haglmeier">Hagelmeier,</castItem>
+                <castItem corresp="#gespensterschreck">Gespensterschreck,</castItem>
+                <castItem corresp="#rohrdommel">Rohrdommel,</castItem>
                 <castItem>Schlammgrundel,</castItem>
-                <castItem>Spreizfüßchen,</castItem>
-                <castItem>Karaminka,</castItem>
-                <castItem>Mausi, Weinstubengäste.</castItem>
-                <castItem><pb n="7"/> Oberleutnant Dirckens.</castItem>
-                <castItem>Sophie, seine Schwester.</castItem>
-                <castItem>Lydia Höpfl, Tänzerin.</castItem>
-                <castItem>Ein Kind.</castItem>
+                <castItem corresp="#spreizfüsschen">Spreizfüßchen,</castItem>
+                <castItem corresp="#karaminka">Karaminka,</castItem>
+                <castItem corresp="#mausi">Mausi, Weinstubengäste.</castItem>
+                <castItem corresp="#dirckens"><pb n="7"/> Oberleutnant Dirckens.</castItem>
+                <castItem corresp="#sophie">Sophie, seine Schwester.</castItem>
+                <castItem corresp="#lydia">Lydia Höpfl, Tänzerin.</castItem>
+                <castItem corresp="#das_kind">Ein Kind.</castItem>
                 <castItem>Ein Drache.</castItem>
-                <castItem>Ralf Breitenbach, Schauspieler.</castItem>
-                <castItem>William Fahrstuhl, Zeitungskorrespondent.</castItem>
-                <castItem>Ein Regisseur.</castItem>
-                <castItem>Ein Livreebedienter.</castItem>
-                <castItem>Dr. Hornstein, Arzt.</castItem>
-                <castItem>Karl Almer, Maler.</castItem>
-                <castItem>Der kleine Veitralf.</castItem>
+                <castItem corresp="#breitenbach">Ralf Breitenbach, Schauspieler.</castItem>
+                <castItem corresp="#fahrstuhl">William Fahrstuhl, Zeitungskorrespondent.</castItem>
+                <castItem corresp="#regisseur"  corresp="#der_regisseur">Ein Regisseur.</castItem>
+                <castItem corresp="#der_diener">Ein Livreebedienter.</castItem>
+                <castItem corresp="#dr_hornstein">Dr. Hornstein, Arzt.</castItem>
+                <castItem corresp="#almer">Karl Almer, Maler.</castItem>
+                <castItem corresp="#veitralf">Der kleine Veitralf.</castItem>
                 <castItem>Lakaien, Reitknechte, Chorsängerinnen.</castItem>
                 <pb n="8"/>
               </castGroup>

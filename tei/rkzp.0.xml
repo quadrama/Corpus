@@ -92,11 +92,11 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Die Witwe.</castItem>
-                <castItem>Leander.</castItem>
-                <castItem>Damon.</castItem>
-                <castItem>Oronte.</castItem>
-                <castItem>Lisette.</castItem>
+                <castItem corresp="#die_witwe">Die Witwe.</castItem>
+                <castItem corresp="#leander">Leander.</castItem>
+                <castItem corresp="#damon">Damon.</castItem>
+                <castItem corresp="#oronte">Oronte.</castItem>
+                <castItem corresp="#lisette">Lisette.</castItem>
                 <pb n="706"/>
               </castGroup>
             </castList>

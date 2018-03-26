@@ -45,9 +45,11 @@
           </person>
           <person xml:id="merkur">
             <persName>MERKUR</persName>
+            <roleName>in der Gestalt des Sosias</roleName>
           </person>
           <person xml:id="jupiter">
             <persName>JUPITER</persName>
+            <roleName>in der Gestalt des Amphitryon</roleName>
           </person>
           <person xml:id="alkmene">
             <persName>ALKMENE</persName>
@@ -57,6 +59,7 @@
           </person>
           <person xml:id="amphitryon">
             <persName>AMPHITRYON</persName>
+            <roleName>Feldherr der Thebaner</roleName>
           </person>
           <person xml:id="erster_feldherr">
             <persName>ERSTER FELDHERR</persName>
@@ -87,6 +90,11 @@
           <person xml:id="die_feldherren">
             <persName>DIE FELDHERREN</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#sosias" passive="#amphitryon" />
+            <relation name="spouses" mutual="#alkmene #amphitryon" />
+            <relation name="spouses" mutual="#charis #sosias" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -122,13 +130,13 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Jupiter, in der Gestalt des Amphitryon.</castItem>
-                <castItem>Merkur, in der Gestalt des Sosias.</castItem>
-                <castItem>Amphitryon, Feldherr der Thebaner.</castItem>
-                <castItem>Sosias, sein Diener.</castItem>
-                <castItem>Alkmene, Gemahlin des Amphitryon.</castItem>
-                <castItem>Charis, Gemahlin des Sosias.</castItem>
-                <castItem>Feldherren.</castItem>
+                <castItem corresp="#jupiter">Jupiter, in der Gestalt des Amphitryon.</castItem>
+                <castItem corresp="#merkur">Merkur, in der Gestalt des Sosias.</castItem>
+                <castItem corresp="#amphitryon">Amphitryon, Feldherr der Thebaner.</castItem>
+                <castItem corresp="#sosias">Sosias, sein Diener.</castItem>
+                <castItem corresp="#alkmene">Alkmene, Gemahlin des Amphitryon.</castItem>
+                <castItem corresp="#charis">Charis, Gemahlin des Sosias.</castItem>
+                <castItem corresp="#die_feldherren">Feldherren.</castItem>
               </castGroup>
             </castList>
           </div>

@@ -51,9 +51,11 @@
           </person>
           <person xml:id="steigerl">
             <persName>STEIGERL</persName>
+            <roleName>ein gewesener Trödler</roleName>
           </person>
           <person xml:id="schmalz">
             <persName>SCHMALZ</persName>
+            <roleName>Freund des Steigerlischen Hauses</roleName>
           </person>
           <person xml:id="jean">
             <persName>JEAN</persName>
@@ -63,6 +65,7 @@
           </person>
           <person xml:id="lottchen">
             <persName>LOTTCHEN</persName>
+            <roleName>Fritzens Geliebte</roleName>
           </person>
           <person xml:id="fritz">
             <persName>FRITZ</persName>
@@ -87,6 +90,7 @@
           </person>
           <person xml:id="magier">
             <persName>MAGIER</persName>
+            <roleName>ein Magier</roleName>
           </person>
           <person xml:id="chor_der_vier_diener">
             <persName>CHOR DER VIER DIENER</persName>
@@ -132,6 +136,17 @@
           <person xml:id="die_hoffnung">
             <persName>DIE HOFFNUNG</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#steigerl" passive="#fritz" />
+            <relation name="parent_of" active="#frau_steigerl" passive="#fritz" />
+            <relation name="friends" mutual="#speck #steigerl #frau_steigerl" />
+            <relation name="friends" mutual="#schmalz #steigerl #frau_steigerl" />
+            <relation name="lover_of" active="#marie" passive="#fritz" />
+            <relation name="lover_of" active="#malchen" passive="#fritz" />
+            <relation name="lover_of" active="#lottchen" passive="#fritz" />
+            <relation name="associated_with" active="#jean" passive="#fritz" />
+
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -169,21 +184,21 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Herr Steigerl, ein gewesener Trödler.</castItem>
-                <castItem>Frau Steigerl.</castItem>
-                <castItem>Fritz, ihr Sohn.</castItem>
-                <castItem>Speck,</castItem>
-                <castItem>Schmalz, Freunde des Steigerlischen Hauses.</castItem>
-                <castItem>Poros, ein Magier.</castItem>
-                <castItem>Marie,</castItem>
-                <castItem>Malchen,</castItem>
-                <castItem>Lottchen, Fritzens Geliebte.</castItem>
-                <castItem>Jean, Fritzens Bedienter.</castItem>
-                <castItem>Ein Schneidermeister.</castItem>
-                <castItem>Ein Schuster.</castItem>
-                <castItem>Ein Kutscher.</castItem>
+                <castItem corresp="#steigerl">Herr Steigerl, ein gewesener Trödler.</castItem>
+                <castItem corresp="#frau_steigerl">Frau Steigerl.</castItem>
+                <castItem corresp="#fritz">Fritz, ihr Sohn.</castItem>
+                <castItem corresp="#spec">Speck,</castItem>
+                <castItem corresp="#schmalz">Schmalz, Freunde des Steigerlischen Hauses.</castItem>
+                <castItem corresp="#magier">Poros, ein Magier.</castItem>
+                <castItem corresp="#marie">Marie,</castItem>
+                <castItem corresp="#malchen">Malchen,</castItem>
+                <castItem corresp="#lottchen">Lottchen, Fritzens Geliebte.</castItem>
+                <castItem corresp="#jean">Jean, Fritzens Bedienter.</castItem>
+                <castItem corresp="#schneider">Ein Schneidermeister.</castItem>
+                <castItem corresp="#schuster">Ein Schuster.</castItem>
+                <castItem corresp="#kutscher">Ein Kutscher.</castItem>
                 <castItem>Ein Salami-Mann.</castItem>
-                <castItem>Eine Öbstlerin.</castItem>
+                <castItem corresp="#öbstlerin">Eine Öbstlerin.</castItem>
                 <castItem>Gläubiger, Fritzens Vettern, Godeln und Mahmen des Steigerlischen Hauses.</castItem>
               </castGroup>
             </castList>

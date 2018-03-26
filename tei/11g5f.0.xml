@@ -129,6 +129,12 @@
           <person xml:id="die_schweizer">
             <persName>DIE SCHWEIZER</persName>
           </person>
+          <listRelation>
+            <relation type="personal" name="related_with" active="#nichte" passive="#marquise" />
+            <relation type="personal" name="associated_with" active="#saint_jean" passive="#domherr" />
+            <relation type="personal" name="associated_with" active="#la_fleur" passive="#der_marquis" />
+            <relation type="personal" name="associated_with" active="#jäck" passive="marquise" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -164,23 +170,23 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Der Domherr</castItem>
-                <castItem>Der Graf</castItem>
-                <castItem>Der Ritter</castItem>
-                <castItem>Der Marquis</castItem>
-                <castItem>Die Marquise</castItem>
-                <castItem>Ihre Nichte</castItem>
-                <castItem>Der Oberst der Schweizergarde</castItem>
-                <castItem>Saint Jean, Bedienter des Domherrn</castItem>
-                <castItem>La Fleur, Bedienter des Marquis</castItem>
-                <castItem>Jäck, ein Knabe, Diener der Marquise</castItem>
+                <castItem corresp="#domherr">Der Domherr</castItem>
+                <castItem corresp="#graf">Der Graf</castItem>
+                <castItem corresp="#ritter">Der Ritter</castItem>
+                <castItem corresp="#der_marquis">Der Marquis</castItem>
+                <castItem corresp="#marquise">Die Marquise</castItem>
+                <castItem corresp="#nichte">Ihre Nichte</castItem>
+                <castItem corresp="#oberst">Der Oberst der Schweizergarde</castItem>
+                <castItem corresp="#saint_jean">Saint Jean, Bedienter des Domherrn</castItem>
+                <castItem corresp="#la_fleur">La Fleur, Bedienter des Marquis</castItem>
+                <castItem corresp="#jäck">Jäck, ein Knabe, Diener der Marquise</castItem>
                 <castItem>Gesellschaft von Herren und Damen</castItem>
                 <castItem>Zwei Hofjuweliere</castItem>
                 <castItem>Jünglinge</castItem>
                 <castItem>Kinder</castItem>
                 <castItem>Ein Kammermädchen</castItem>
                 <castItem>Sechs Schweizer</castItem>
-                <castItem>Bediente</castItem>
+                <castItem corresp="#bediente">Bediente</castItem>
                 <pb n="7"/>
               </castGroup>
             </castList>

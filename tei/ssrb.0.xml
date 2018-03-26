@@ -42,9 +42,11 @@
         <listPerson>
           <person xml:id="jarl">
             <persName>JARL</persName>
+            <roleName>Ritter aus Yngurds Heer</roleName>
           </person>
           <person xml:id="erichson">
             <persName>ERICHSON</persName>
+            <roleName>Ritter aus Yngurds Heer</roleName>
           </person>
           <person xml:id="der_trabant_1.1">
             <persName>DER TRABANT</persName>
@@ -56,31 +58,39 @@
           </person>
           <person xml:id="irma">
             <persName>IRMA</persName>
+            <roleName>Tochter des verstorbenen Normannenkönigs Ottfried</roleName>
           </person>
           <person xml:id="asla">
             <persName>ASLA</persName>
           </person>
           <person xml:id="nös">
             <persName>NÖS</persName>
+            <roleName>Normännische Grafen und Reichsherren</roleName>
           </person>
           <person xml:id="egrösund">
             <persName>EGRÖSUND</persName>
+            <roleName>Normännische Grafen und Reichsherren</roleName>
           </person>
           <person xml:id="ourdal">
             <persName>OURDAL</persName>
+            <roleName>Normännische Grafen und Reichsherren</roleName>
           </person>
           <person xml:id="biörneland">
             <persName>BIÖRNELAND</persName>
+            <roleName>Normännische Grafen und Reichsherren</roleName>
           </person>
           <person xml:id="yngurd">
             <persName>YNGURD</persName>
             <persName xml:id="yngurds">YNGURDS</persName>
+            <roleName>König der Normannen</roleName>
           </person>
           <person xml:id="droll">
             <persName>DROLL</persName>
+            <roleName>Normännische Küstenfischer</roleName>
           </person>
           <person xml:id="knaut">
             <persName>KNAUT</persName>
+            <roleName>Normännische Küstenfischer</roleName>
           </person>
           <person xml:id="ritter">
             <persName>RITTER</persName>
@@ -88,9 +98,11 @@
           </person>
           <person xml:id="alf">
             <persName>ALF</persName>
+            <roleName>König der Dänen, Sohn des verstorbenen Königs Ubo</roleName>
           </person>
           <person xml:id="gyldenbrog">
             <persName>GYLDENBROG</persName>
+            <roleName>Kanzler des Dänenkönigs Alf</roleName>
           </person>
           <person xml:id="eine_stimme">
             <persName>EINE STIMME</persName>
@@ -115,9 +127,11 @@
           </person>
           <person xml:id="oskar">
             <persName>OSKAR</persName>
+            <roleName>Sohn Brunhildens, Posthumus (Nachkind) von Ottfried, Halbbruder der Königin Irma</roleName>
           </person>
           <person xml:id="brunhilde">
             <persName>BRUNHILDE</persName>
+            <roleName>Schwester Alfs, Wittwe des verstorbenen Normannenkönigs Ottfried, Stiefmutter der Königin Irma</roleName>
           </person>
           <person xml:id="der_krieger">
             <persName>DER KRIEGER</persName>
@@ -139,9 +153,11 @@
           </person>
           <person xml:id="kurl">
             <persName>KURL</persName>
+            <roleName>ein Knapp aus dem Normännischen Reichsheer</roleName>
           </person>
           <person xml:id="marduff">
             <persName>MARDUFF</persName>
+            <roleName>Yngurds Leibdiener</roleName>
           </person>
           <person xml:id="ein_knapp">
             <persName>EIN KNAPP</persName>
@@ -152,6 +168,21 @@
           <person xml:id="allgemeiner_ruf">
             <persName>ALLGEMEINER RUF</persName>
           </person>
+          <listRelation>
+            <relation name="spouses" mutual="#yngurd #irma" />
+            <relation name="parent_of" active="#yngurd" passive="#asla" />
+            <relation name="parent_of" active="#irma" passive="#asla" />
+            <relation name="siblings" mutual="#brunhilde #alf " />
+            <relation name="parent_of" active="#brunhilde" passive="#irma" />
+            <relation name="parent_of" active="#brunhilde" passive="#oskar" />
+            <relation name="siblings" mutual="#oskar #irma " />
+            <relation name="associated_with" active="#erichson" passive="#yngurd" />
+            <relation name="associated_with" active="#jarl" passive="#yngurd" />
+            <relation name="associated_with" active="#der_trabant_1.1" passive="#yngurd" />
+            <relation name="associated_with" active="#marduff" passive="#yngurd" />
+            <relation name="associated_with" active="#gyldenbrog" passive="#alf" />
+            <relation name="associated_with" active="#ein_knappe #ein_knapp #der_knapp" passive="#alf" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -263,26 +294,26 @@
             <castList>
               <head><pb n="16"/><pb n="3"/>Personen.</head>
               <castGroup>
-                <castItem>Yngurd, König der Normannen.</castItem>
-                <castItem>Irma, seine Gemahlin, Tochter des verstorbenen Normannenkönigs Ottfried.</castItem>
-                <castItem>Asla, Yngurds und Irma's Tochter.</castItem>
-                <castItem>Alf, König der Dänen, Sohn des verstorbenen Königs Ubo.</castItem>
-                <castItem>Brunhilde, Schwester Alfs, Wittwe des verstorbenen Normannenkönigs Ottfried, Stiefmutter der Königin Irma.</castItem>
-                <castItem>Oskar, Sohn Brunhildens, Posthumus (Nachkind) von Ottfried, Halbbruder der Königin Irma.</castItem>
-                <castItem>Erichson,</castItem>
-                <castItem>Jarl, , Ritter aus Yngurds Heer.</castItem>
-                <castItem>Ein Trabant von Yngurds Burgwacht.</castItem>
-                <castItem>Egrösund,</castItem>
-                <castItem>Biörneland,</castItem>
-                <castItem>Nös,</castItem>
-                <castItem>Ourdal, , Normännische Grafen und Reichsherren.</castItem>
-                <castItem><pb n="3"/> Droll,</castItem>
-                <castItem>Knaut, , Normännische Küstenfischer.</castItem>
-                <castItem>Marduff, Yngurds Leibdiener.</castItem>
-                <castItem>Kurl, ein Knapp aus dem Normännischen Reichsheer.</castItem>
-                <castItem>Gyldenbrog, Kanzler des Dänenkönigs Alf.</castItem>
-                <castItem>Ein dänischer Ritter.</castItem>
-                <castItem>Ein Knapp,</castItem>
+                <castItem corresp="#yngurd">Yngurd, König der Normannen.</castItem>
+                <castItem corresp="#irma">Irma, seine Gemahlin, Tochter des verstorbenen Normannenkönigs Ottfried.</castItem>
+                <castItem corresp="#asla">Asla, Yngurds und Irma's Tochter.</castItem>
+                <castItem corresp="#alf">Alf, König der Dänen, Sohn des verstorbenen Königs Ubo.</castItem>
+                <castItem corresp="#brunhilde">Brunhilde, Schwester Alfs, Wittwe des verstorbenen Normannenkönigs Ottfried, Stiefmutter der Königin Irma.</castItem>
+                <castItem corresp="#oskar">Oskar, Sohn Brunhildens, Posthumus (Nachkind) von Ottfried, Halbbruder der Königin Irma.</castItem>
+                <castItem corresp="#erichson">Erichson,</castItem>
+                <castItem corresp="#jarl">Jarl, , Ritter aus Yngurds Heer.</castItem>
+                <castItem corresp="#der_trabant_1.1">Ein Trabant von Yngurds Burgwacht.</castItem>
+                <castItem corresp="#egrösund">Egrösund,</castItem>
+                <castItem corresp="#biörneland">Biörneland,</castItem>
+                <castItem corresp="#nös">Nös,</castItem>
+                <castItem corresp="#ourdal">Ourdal, , Normännische Grafen und Reichsherren.</castItem>
+                <castItem corresp="#droll"><pb n="3"/> Droll,</castItem>
+                <castItem corresp="#knaut">Knaut, , Normännische Küstenfischer.</castItem>
+                <castItem corresp="#marduff">Marduff, Yngurds Leibdiener.</castItem>
+                <castItem corresp="#kurl">Kurl, ein Knapp aus dem Normännischen Reichsheer.</castItem>
+                <castItem corresp="#gyldenbrog">Gyldenbrog, Kanzler des Dänenkönigs Alf.</castItem>
+                <castItem corresp="#ritter">Ein dänischer Ritter.</castItem>
+                <castItem corresp="#ein_knappe" corresp="#ein_knapp" corresp="#der_knapp">Ein Knapp,</castItem>
                 <castItem>Ein anderer Krieger, , aus Alfs Heer.</castItem>
                 <castItem>Ein Krieger vom Heer des Herzogs von Ostland.</castItem>
                 <castItem>Normännische Ritter, Knappen, Trabanten und Heerhaufen. Dänische Ritter und Knappen. Normännisches Volk. Burggesinde und Frauen der Königin Irma.</castItem>

@@ -40,47 +40,56 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="der_prinz" sex="MALE">
+          <person xml:id="der_prinz">
             <persName>DER PRINZ</persName>
+            <roleName>Prinz von Guastalla</roleName>
           </person>
-          <person xml:id="der_kammerdiener" sex="MALE">
+          <person xml:id="der_kammerdiener">
             <persName>DER KAMMERDIENER</persName>
           </person>
-          <person xml:id="conti" sex="MALE">
+          <person xml:id="conti">
             <persName>CONTI</persName>
+            <roleName>Maler</roleName>
           </person>
-          <person xml:id="marinelli" sex="MALE">
+          <person xml:id="marinelli">
             <persName>MARINELLI</persName>
           </person>
-          <person xml:id="camillo_rota" sex="MALE">
+          <person xml:id="camillo_rota">
             <persName>CAMILLO ROTA</persName>
+            <roleName>einer von des Prinzen Räten</roleName>
           </person>
-          <person xml:id="pirro" sex="MALE">
+          <person xml:id="pirro">
             <persName>PIRRO</persName>
           </person>
-          <person xml:id="angelo" sex="MALE">
+          <person xml:id="angelo">
             <persName>ANGELO</persName>
           </person>
-          <person xml:id="claudia_galotti" sex="FEMALE">
+          <person xml:id="claudia_galotti">
             <persName>CLAUDIA GALOTTI</persName>
             <persName xml:id="claudia">CLAUDIA</persName>
           </person>
-          <person xml:id="emilia" sex="FEMALE">
+          <person xml:id="emilia">
             <persName>EMILIA</persName>
           </person>
-          <person xml:id="appiani" sex="MALE">
+          <person xml:id="appiani">
             <persName>APPIANI</persName>
           </person>
-          <person xml:id="battista" sex="MALE">
+          <person xml:id="battista">
             <persName>BATTISTA</persName>
           </person>
-          <person xml:id="orsina" sex="FEMALE">
+          <person xml:id="orsina">
             <persName>ORSINA</persName>
           </person>
-          <person xml:id="odoardo_galotti" sex="MALE">
+          <person xml:id="odoardo_galotti">
             <persName>ODOARDO GALOTTI</persName>
             <persName xml:id="odoardo">ODOARDO</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#odoardo_galotti" passive="#emilia" />
+            <relation name="parent_of" active="#claudia_galotti" passive="#emilia" />
+            <relation name="associated_with" active="#marinelli" passive="#der_prinz" />
+            <relation name="associated_with" active="#camillo_rota" passive="#der_prinz" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -116,15 +125,15 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Emilia Galotti.</castItem>
-                <castItem>Odoardo,</castItem>
-                <castItem>Claudia Galotti, Eltern der Emilia.</castItem>
-                <castItem>Hettore Gonzaga, Prinz von Guastalla.</castItem>
-                <castItem>Marinelli, Kammerherr des Prinzen.</castItem>
-                <castItem>Camillo Rota, einer von des Prinzen Räten.</castItem>
-                <castItem>Conti, Maler.</castItem>
-                <castItem>Graf Appiani.</castItem>
-                <castItem>Gräfin Orsina.</castItem>
+                <castItem corresp="#emilia">Emilia Galotti.</castItem>
+                <castItem corresp="#odoardo_galotti">Odoardo,</castItem>
+                <castItem corresp="#claudia_galotti">Claudia Galotti, Eltern der Emilia.</castItem>
+                <castItem corresp="#der_prinz">Hettore Gonzaga, Prinz von Guastalla.</castItem>
+                <castItem corresp="#marinelli">Marinelli, Kammerherr des Prinzen.</castItem>
+                <castItem corresp="#camillo_rota">Camillo Rota, einer von des Prinzen Räten.</castItem>
+                <castItem corresp="#conti">Conti, Maler.</castItem>
+                <castItem corresp="#appiani">Graf Appiani.</castItem>
+                <castItem corresp="#orsina">Gräfin Orsina.</castItem>
                 <castItem>Angelo, und einige Bediente.</castItem>
                 <pb n="128"/>
               </castGroup>

@@ -42,24 +42,30 @@
         <listPerson>
           <person xml:id="hannchen">
             <persName>HANNCHEN</persName>
+            <roleName>Zigarrenwicklerin</roleName>
           </person>
           <person xml:id="mutter_lückel">
             <persName>MUTTER LÜCKEL</persName>
           </person>
           <person xml:id="der_alte_schniermann">
             <persName>DER ALTE SCHNIERMANN</persName>
+            <roleName>Werksinvalide</roleName>
           </person>
           <person xml:id="pittjupp">
             <persName>PITTJUPP</persName>
+            <roleName>Schleppjunge auf der Zeche</roleName>
           </person>
           <person xml:id="jan_biggen">
             <persName>JAN BIGGEN</persName>
+            <roleName>Kohlenhäuer</roleName>
           </person>
           <person xml:id="trina">
             <persName>TRINA</persName>
+            <roleName>Hauswäscherin</roleName>
           </person>
           <person xml:id="liesa">
             <persName>LIESA</persName>
+            <roleName>Verkäuferin im Produktenverein der Arbeiterkolonie</roleName>
           </person>
           <person xml:id="diakonus_körting">
             <persName>DIAKONUS KÖRTING</persName>
@@ -67,12 +73,15 @@
           </person>
           <person xml:id="langenscheidt">
             <persName>LANGENSCHEIDT</persName>
+            <roleName>Volontär auf dem Werksbüro</roleName>
           </person>
           <person xml:id="vonderscheer">
             <persName>VONDERSCHEER</persName>
+            <roleName>Betriebsarzt</roleName>
           </person>
           <person xml:id="wittbräuke">
             <persName>WITTBRÄUKE</persName>
+            <roleName>Steiger</roleName>
           </person>
           <person xml:id="hinnäck">
             <persName>HINNÄCK</persName>
@@ -83,6 +92,16 @@
           <person xml:id="klönne">
             <persName>KLÖNNE</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#trina" passive="#liesa" />
+            <relation name="parent_of" active="#trina" passive="#hannchen" />
+            <relation name="parent_of" active="#trina" passive="#pittjup" />
+            <relation name="spouses" mutual="#jan_biggen #trina" />
+            <relation name="parent_of" active="#trina" passive="#hinnäck" />
+            <relation name="parent_of" active="#trina" passive="#anngret" />
+            <relation name="parent_of" active="#jan_biggen" passive="#hinnäck" />
+            <relation name="parent_of" active="#jan_biggen" passive="#anngret" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -117,20 +136,20 @@
             <castList>
               <head><pb n="584"/> Personen.</head>
               <castGroup>
-                <castItem>Die alte Witwe Lückel.</castItem>
-                <castItem>Trina, Hauswäscherin,</castItem>
-                <castItem>Liesa, Verkäuferin im Produktenverein der Arbeiterkolonie,</castItem>
-                <castItem>Hannchen, Zigarrenwicklerin,</castItem>
-                <castItem>Pittjupp, Schleppjunge auf der Zeche, , ihre Kinder.</castItem>
-                <castItem>Jan Biggen, Kohlenhäuer, Trinens Mann.</castItem>
-                <castItem>Hinnäck,</castItem>
-                <castItem>Anngret, , Jan und Trinens Kinder.</castItem>
-                <castItem>Der alte Schniermann, Werksinvalide.</castItem>
-                <castItem>Diakonus Körting.</castItem>
-                <castItem>Betriebsdirektor Klönne.</castItem>
-                <castItem>Langenscheidt, Volontär auf dem Werksbüro.</castItem>
-                <castItem>Dr. Vonderscheer, Betriebsarzt.</castItem>
-                <castItem>Wittbräuke, Steiger.</castItem>
+                <castItem corresp="#mutter_lückel">Die alte Witwe Lückel.</castItem>
+                <castItem corresp="#trina">Trina, Hauswäscherin,</castItem>
+                <castItem corresp="#liesa">Liesa, Verkäuferin im Produktenverein der Arbeiterkolonie,</castItem>
+                <castItem corresp="#hannchen">Hannchen, Zigarrenwicklerin,</castItem>
+                <castItem corresp="#pittjupp">Pittjupp, Schleppjunge auf der Zeche, , ihre Kinder.</castItem>
+                <castItem corresp="#jan_biggen">Jan Biggen, Kohlenhäuer, Trinens Mann.</castItem>
+                <castItem corresp="#hinnäck">Hinnäck,</castItem>
+                <castItem corresp="#anngret">Anngret, , Jan und Trinens Kinder.</castItem>
+                <castItem corresp="#der_alte_schniermann">Der alte Schniermann, Werksinvalide.</castItem>
+                <castItem corresp="#diakonus_körting">Diakonus Körting.</castItem>
+                <castItem corresp="#klönne">Betriebsdirektor Klönne.</castItem>
+                <castItem corresp="#langenscheidt">Langenscheidt, Volontär auf dem Werksbüro.</castItem>
+                <castItem corresp="#vonderscheer">Dr. Vonderscheer, Betriebsarzt.</castItem>
+                <castItem corresp="#wittbräuke">Wittbräuke, Steiger.</castItem>
                 <castItem>Berg- und Hüttenleute.</castItem>
                 <castItem>Koloniebewohner.</castItem>
               </castGroup>

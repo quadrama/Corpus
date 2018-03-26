@@ -40,36 +40,41 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="clavigo" sex="MALE">
+          <person xml:id="clavigo">
             <persName>CLAVIGO</persName>
+            <roleName>Archivarius des Königs</roleName>
           </person>
-          <person xml:id="carlos" sex="MALE">
+          <person xml:id="carlos">
             <persName>CARLOS</persName>
           </person>
-          <person xml:id="buenco" sex="MALE">
+          <person xml:id="buenco">
             <persName>BUENCO</persName>
           </person>
-          <person xml:id="sophie" sex="FEMALE">
+          <person xml:id="sophie">
             <persName>SOPHIE</persName>
           </person>
-          <person xml:id="marie" sex="FEMALE">
+          <person xml:id="marie">
             <persName>MARIE</persName>
           </person>
-          <person xml:id="guilbert" sex="MALE">
+          <person xml:id="guilbert">
             <persName>GUILBERT</persName>
           </person>
-          <person xml:id="beaumarchais" sex="MALE">
+          <person xml:id="beaumarchais">
             <persName>BEAUMARCHAIS</persName>
           </person>
-          <person xml:id="bedienter" sex="MALE">
+          <person xml:id="bedienter">
             <persName>BEDIENTER</persName>
           </person>
-          <person xml:id="saint_george" sex="MALE">
+          <person xml:id="saint_george">
             <persName>SAINT GEORGE</persName>
           </person>
-          <person xml:id="die_männer" sex="MALE">
+          <person xml:id="die_männer">
             <persName>DIE MÄNNER</persName>
           </person>
+          <listRelation>
+            <relation type="personal" name="friends" mutual="#clavigo #carlos" />
+            <relation type="personal" name="spouses" mutual="#guilbert #sophie" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -105,14 +110,14 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Clavigo, Archivarius des Königs</castItem>
-                <castItem>Carlos, dessen Freund</castItem>
-                <castItem>Beaumarchais</castItem>
-                <castItem>Marie Beaumarchais</castItem>
-                <castItem>Sophie Guilbert, geborne Beaumarchais</castItem>
-                <castItem>Guilbert, ihr Mann</castItem>
-                <castItem>Buenco</castItem>
-                <castItem>Saint George</castItem>
+                <castItem corresp="#clavigo">Clavigo, Archivarius des Königs</castItem>
+                <castItem corresp="#carlos">Carlos, dessen Freund</castItem>
+                <castItem corresp="#beaumarchais">Beaumarchais</castItem>
+                <castItem corresp="#marie">Marie Beaumarchais</castItem>
+                <castItem corresp="#sophie">Sophie Guilbert, geborne Beaumarchais</castItem>
+                <castItem corresp="#guilbert">Guilbert, ihr Mann</castItem>
+                <castItem corresp="#buenco">Buenco</castItem>
+                <castItem corresp="#saint_george">Saint George</castItem>
               </castGroup>
             </castList>
           </div>

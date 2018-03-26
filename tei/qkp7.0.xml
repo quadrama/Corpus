@@ -42,6 +42,7 @@
         <listPerson>
           <person xml:id="danilow">
             <persName>DANILOW</persName>
+            <roleName>Abgeordneter der Stadt Moskau</roleName>
           </person>
           <person xml:id="mehrere_deputierte">
             <persName>MEHRERE DEPUTIERTE</persName>
@@ -57,6 +58,7 @@
           </person>
           <person xml:id="aaron">
             <persName>AARON</persName>
+            <roleName>Archivar von Moskau</roleName>
           </person>
           <person xml:id="der_bote">
             <persName>DER BOTE</persName>
@@ -66,18 +68,22 @@
           </person>
           <person xml:id="theophanes">
             <persName>THEOPHANES</persName>
+            <roleName>Bischof von Pleskow, , Beisitzer des Gerichts über Alexis</roleName>
           </person>
           <person xml:id="jaguschinsky">
             <persName>JAGUSCHINSKY</persName>
+            <roleName>Generalprokurator</roleName>
           </person>
           <person xml:id="menzikof">
             <persName>MENZIKOF</persName>
           </person>
           <person xml:id="schaphirow">
             <persName>SCHAPHIROW</persName>
+            <roleName>Generalpostmeister</roleName>
           </person>
           <person xml:id="ostermann">
             <persName>OSTERMANN</persName>
+            <roleName>Vizekanzler</roleName>
           </person>
           <person xml:id="einige">
             <persName>EINIGE</persName>
@@ -90,27 +96,32 @@
           </person>
           <person xml:id="tolstoi">
             <persName>TOLSTOI</persName>
+            <roleName>Staatsrat</roleName>
           </person>
           <person xml:id="therese">
             <persName>THERESE</persName>
           </person>
           <person xml:id="anna">
             <persName>ANNA</persName>
+            <roleName>Hoffräulein</roleName>
           </person>
           <person xml:id="katharina">
             <persName>KATHARINA</persName>
           </person>
           <person xml:id="mons">
             <persName>MONS</persName>
+            <roleName>Kammerherr Katharinens</roleName>
           </person>
           <person xml:id="euphrosyne">
             <persName>EUPHROSYNE</persName>
           </person>
           <person xml:id="costa">
             <persName>COSTA</persName>
+            <roleName>Hofnarr Peters</roleName>
           </person>
           <person xml:id="schepelew">
             <persName>SCHEPELEW</persName>
+            <roleName>Kommandant der Festung zu St. Petersburg</roleName>
           </person>
           <person xml:id="alexis">
             <persName>ALEXIS</persName>
@@ -154,6 +165,11 @@
           <person xml:id="gordon">
             <persName>GORDON</persName>
           </person>
+          <listRelation>
+            <relation name="associated_with" active="#mons" passive="#katharina" />
+            <relation name="siblings" mutual="#mons #therese" />
+            <relation name="associated_with" active="#costa" passive="#peter" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -188,27 +204,27 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Zar Peter.</castItem>
-                <castItem>Alexis.</castItem>
-                <castItem>Katharina.</castItem>
-                <castItem>Euphrosyne.</castItem>
-                <castItem>Menzikof.</castItem>
-                <castItem>Gordon.</castItem>
-                <castItem>Tolstoi, Staatsrat.</castItem>
-                <castItem>Jaguschinsky, Generalprokurator,</castItem>
-                <castItem>Ostermann, Vizekanzler,</castItem>
-                <castItem>Schaphirow, Generalpostmeister,</castItem>
-                <castItem>Theophanes, Bischof von Pleskow, , Beisitzer des Gerichts über Alexis.</castItem>
-                <castItem>Oberst Schepelew, Kommandant der Festung zu St. Petersburg.</castItem>
-                <castItem>Mons de la Croix, Kammerherr Katharinens.</castItem>
-                <castItem>Therese, seine Schwester,</castItem>
-                <castItem>Anna Cramer, , Hoffräulein.</castItem>
-                <castItem>Danilow, Abgeordneter der Stadt Moskau.</castItem>
-                <castItem>Aaron, Archivar von Moskau.</castItem>
-                <castItem>Ein Arzt.</castItem>
-                <castItem>Costa, Hofnarr Peters.</castItem>
+                <castItem corresp="#peter">Zar Peter.</castItem>
+                <castItem corresp="#alexis">Alexis.</castItem>
+                <castItem corresp="#katharina">Katharina.</castItem>
+                <castItem corresp="#euphrosyne">Euphrosyne.</castItem>
+                <castItem corresp="#menzikof">Menzikof.</castItem>
+                <castItem corresp="#gordon">Gordon.</castItem>
+                <castItem corresp="#tolstoi">Tolstoi, Staatsrat.</castItem>
+                <castItem corresp="#jaguschinsky">Jaguschinsky, Generalprokurator,</castItem>
+                <castItem corresp="#ostermann">Ostermann, Vizekanzler,</castItem>
+                <castItem corresp="#schaphirow">Schaphirow, Generalpostmeister,</castItem>
+                <castItem corresp="#theophanes">Theophanes, Bischof von Pleskow, , Beisitzer des Gerichts über Alexis.</castItem>
+                <castItem corresp="#schepelew">Oberst Schepelew, Kommandant der Festung zu St. Petersburg.</castItem>
+                <castItem corresp="#mons">Mons de la Croix, Kammerherr Katharinens.</castItem>
+                <castItem corresp="#therese">Therese, seine Schwester,</castItem>
+                <castItem corresp="#anna">Anna Cramer, Hoffräulein.</castItem>
+                <castItem corresp="#danilow">Danilow, Abgeordneter der Stadt Moskau.</castItem>
+                <castItem corresp="#aaron">Aaron, Archivar von Moskau.</castItem>
+                <castItem corresp="#arzt">Ein Arzt.</castItem>
+                <castItem corresp="#costa">Costa, Hofnarr Peters.</castItem>
                 <castItem>Zwei Türsteher.</castItem>
-                <castItem>Ein Bote.</castItem>
+                <castItem corresp="#der_bote">Ein Bote.</castItem>
                 <castItem>Abgeordnete Alt-Russischer Städte.</castItem>
                 <castItem>Generale, Senatoren, Geistliche, Soldaten.</castItem>
                 <castItem>Sekretäre, ein Dentschik.</castItem>
