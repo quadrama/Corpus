@@ -42,9 +42,11 @@
         <listPerson>
           <person xml:id="daja">
             <persName>DAJA</persName>
+            <roleName>eine Christin, aber in dem Hause des Juden, als Gesellschafterin der Recha</roleName>
           </person>
           <person xml:id="nathan">
             <persName>NATHAN</persName>
+            <roleName>ein reicher Jude in Jerusalem</roleName>
           </person>
           <person xml:id="recha">
             <persName>RECHA</persName>
@@ -86,6 +88,12 @@
           <person xml:id="mansor">
             <persName>MANSOR</persName>
           </person>
+          <listRelation>
+            <relation name="siblings" mutual="#sittah #saladin" />
+            <relation name="parent_of" active="#nathan" passive="#recha" />
+            <relation name="associated_with" active="#daja" passive="#nathan" />
+            <relation name="associated_with" active="#daja" passive="#recha" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -140,15 +148,15 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Sultan Saladin.</castItem>
-                <castItem>Sittah, dessen Schwester.</castItem>
-                <castItem>Nathan, ein reicher Jude in Jerusalem.</castItem>
-                <castItem>Recha, dessen angenommene Tochter.</castItem>
-                <castItem>Daja, eine Christin, aber in dem Hause des Juden, als Gesellschafterin der Recha.</castItem>
-                <castItem>Ein junger Tempelherr.</castItem>
-                <castItem>Ein Derwisch.</castItem>
-                <castItem>Der Patriarch von Jerusalem.</castItem>
-                <castItem>Ein Klosterbruder.</castItem>
+                <castItem corresp="#saladin">Sultan Saladin.</castItem>
+                <castItem corresp="#sittah">Sittah, dessen Schwester.</castItem>
+                <castItem corresp="#natan">Nathan, ein reicher Jude in Jerusalem.</castItem>
+                <castItem corresp="#recha">Recha, dessen angenommene Tochter.</castItem>
+                <castItem corresp="#daja">Daja, eine Christin, aber in dem Hause des Juden, als Gesellschafterin der Recha.</castItem>
+                <castItem corresp="#tempelherr">Ein junger Tempelherr.</castItem>
+                <castItem corresp="#derwisch">Ein Derwisch.</castItem>
+                <castItem corresp="#patriarch">Der Patriarch von Jerusalem.</castItem>
+                <castItem corresp="#klosterbruder">Ein Klosterbruder.</castItem>
                 <castItem>Ein Emir nebst verschiednen Mamelucken des Saladin.</castItem>
               </castGroup>
             </castList>

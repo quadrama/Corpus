@@ -45,31 +45,40 @@
           </person>
           <person xml:id="frank">
             <persName>FRANK</persName>
+            <roleName>Schauspieldirektor</roleName>
           </person>
           <person xml:id="eiler">
             <persName>EILER</persName>
+            <roleName>ein Banquier</roleName>
           </person>
           <person xml:id="madame_pfeil">
             <persName>MADAME PFEIL</persName>
             <persName xml:id="mad_pfeil">MAD PFEIL</persName>
+            <roleName>Schauspielerin</roleName>
           </person>
           <person xml:id="madame_krone">
             <persName>MADAME KRONE</persName>
+            <roleName>Schauspielerin</roleName>
           </person>
           <person xml:id="herz">
             <persName>HERZ</persName>
+            <roleName>Schauspieler</roleName>
           </person>
           <person xml:id="madame_vogelsang">
             <persName>MADAME VOGELSANG</persName>
+            <roleName>Schauspielerin</roleName>
           </person>
           <person xml:id="madame_herz">
             <persName>MADAME HERZ</persName>
+            <roleName>Sängerin</roleName>
           </person>
           <person xml:id="mademoiselle_silberklang">
             <persName>MADEMOISELLE SILBERKLANG</persName>
+            <roleName>Sängerin</roleName>
           </person>
           <person xml:id="monsieur_vogelsang">
             <persName>MONSIEUR VOGELSANG</persName>
+            <roleName>ein Sänger</roleName>
           </person>
         </listPerson>
       </particDesc>
@@ -105,16 +114,16 @@
             <castList>
               <head><pb n="2"/> Personen</head>
               <castGroup>
-                <castItem>Frank, Schauspieldirektor</castItem>
-                <castItem>Eiler, ein Banquier</castItem>
-                <castItem>Puf</castItem>
-                <castItem>Herz, Schauspieler</castItem>
-                <castItem>Madame Pfeil</castItem>
-                <castItem>Madame Krone</castItem>
-                <castItem>Madame Vogelsang, Schauspielerinnen</castItem>
-                <castItem>Hr. Vogelsang, ein Sänger</castItem>
-                <castItem>Madame Herz</castItem>
-                <castItem>Mademoiselle Silberklang, Sängerinnen</castItem>
+                <castItem corresp="#frank">Frank, Schauspieldirektor</castItem>
+                <castItem corresp="#eiler">Eiler, ein Banquier</castItem>
+                <castItem corresp="#puf">Puf</castItem>
+                <castItem corresp="#herz">Herz, Schauspieler</castItem>
+                <castItem corresp="#madame_pfeil">Madame Pfeil</castItem>
+                <castItem corresp="#madame_krone">Madame Krone</castItem>
+                <castItem corresp="#madame_vogelsang">Madame Vogelsang, Schauspielerinnen</castItem>
+                <castItem corresp="#monsieur_vogelsang">Hr. Vogelsang, ein Sänger</castItem>
+                <castItem corresp="#madame_herz">Madame Herz</castItem>
+                <castItem corresp="#mademoiselle_silberklang">Mademoiselle Silberklang, Sängerinnen</castItem>
                 <pb n="2"/>
               </castGroup>
             </castList>

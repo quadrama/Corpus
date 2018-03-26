@@ -51,9 +51,11 @@
           </person>
           <person xml:id="storch">
             <persName>STORCH</persName>
+            <roleName>ein reicher Privatmann</roleName>
           </person>
           <person xml:id="lisette">
             <persName>LISETTE</persName>
+            <roleName>ein Stubenmädel</roleName>
           </person>
           <person xml:id="marthe">
             <persName>MARTHE</persName>
@@ -61,6 +63,7 @@
           </person>
           <person xml:id="schwarz">
             <persName>SCHWARZ</persName>
+            <roleName>ein Magier und Anverwandter von Storch</roleName>
           </person>
           <person xml:id="johann">
             <persName>JOHANN</persName>
@@ -70,15 +73,18 @@
           </person>
           <person xml:id="tobischka">
             <persName>TOBISCHKA</persName>
+            <roleName>Tanzmeister</roleName>
           </person>
           <person xml:id="gustchen">
             <persName>GUSTCHEN</persName>
           </person>
           <person xml:id="mehlthau">
             <persName>MEHLTHAU</persName>
+            <roleName>Bürger und Hausinhaber</roleName>
           </person>
           <person xml:id="sperling">
             <persName>SPERLING</persName>
+            <roleName>Nachbarin</roleName>
           </person>
           <person xml:id="erster_bandlkramer">
             <persName>ERSTER BANDLKRAMER</persName>
@@ -101,12 +107,15 @@
           </person>
           <person xml:id="adam">
             <persName>ADAM</persName>
+            <roleName>ein Hausierer</roleName>
           </person>
           <person xml:id="simon">
             <persName>SIMON</persName>
+            <roleName>ein Schiffmeister</roleName>
           </person>
           <person xml:id="seib">
             <persName>SEIB</persName>
+            <roleName>ein Vagabund</roleName>
           </person>
           <person xml:id="hausknecht">
             <persName>HAUSKNECHT</persName>
@@ -122,18 +131,22 @@
           </person>
           <person xml:id="hans">
             <persName>HANS</persName>
+            <roleName>Reitknecht des Majors</roleName>
           </person>
           <person xml:id="turbarius">
             <persName>TURBARIUS</persName>
+            <roleName>Amtsschreiber</roleName>
           </person>
           <person xml:id="gretchen">
             <persName>GRETCHEN</persName>
+            <roleName>ein Bauernmädel</roleName>
           </person>
           <person xml:id="philipp">
             <persName>PHILIPP</persName>
           </person>
           <person xml:id="kalb">
             <persName>KALB</persName>
+            <roleName>Gutsbesitzer</roleName>
           </person>
           <person xml:id="richter">
             <persName>RICHTER</persName>
@@ -146,39 +159,47 @@
           </person>
           <person xml:id="lange">
             <persName>LANGE</persName>
+            <roleName>Musikfreund</roleName>
           </person>
           <person xml:id="herfort">
             <persName>HERFORT</persName>
+            <roleName>Musikfreund</roleName>
           </person>
           <person xml:id="jeanette">
             <persName>JEANETTE</persName>
           </person>
           <person xml:id="harmonikus">
             <persName>HARMONIKUS</persName>
+            <roleName>Kapellmeister</roleName>
           </person>
           <person xml:id="malchen">
             <persName>MALCHEN</persName>
+            <roleName>Köchin</roleName>
           </person>
           <person xml:id="bernhard">
             <persName>BERNHARD</persName>
           </person>
           <person xml:id="robert">
             <persName>ROBERT</persName>
+            <roleName>ein Klaviermeister</roleName>
           </person>
           <person xml:id="sabine">
             <persName>SABINE</persName>
+            <roleName>Anverwandte</roleName>
           </person>
           <person xml:id="therese">
             <persName>THERESE</persName>
           </person>
           <person xml:id="christoph">
             <persName>CHRISTOPH</persName>
+            <roleName>Eisenhändler aus Steiermark</roleName>
           </person>
           <person xml:id="susanne">
             <persName>SUSANNE</persName>
           </person>
           <person xml:id="mathias">
             <persName>MATHIAS</persName>
+            <roleName>Hausmeister</roleName>
           </person>
           <person xml:id="korporal">
             <persName>KORPORAL</persName>
@@ -189,6 +210,28 @@
           <person xml:id="die_männer">
             <persName>DIE MÄNNER</persName>
           </person>
+          <listRelation>
+            <relation type="personal" name="spouses" mutual="#lisette #storch"/>
+            <relation type="personal" name="related_with" active="#schwarz" passive="#storch"/>
+            <relation type="personal" name="related_with" active="#marthe" passive="#storch"/>
+            <relation type="personal" name="related_with" active="#altberg" passive="#storch"/>
+            <relation type="personal" name="spouses" mutual="#mehltau #gustchen"/>
+            <relation type="personal" name="associated_with" active="#nettchen" passive="#mehltau"/>
+            <relation type="personal" name="associated_with" active="#johann" passive="#mehltau"/>
+            <relation type="personal" name="spouses" mutual="#bärbel #adam"/>
+            <relation type="personal" name="parent_of" active="#bärbel" passive="#hänsle"/>
+            <relation type="personal" name="parent_of" active="#bärbel" passive="#jockerle"/>
+            <relation type="personal" name="parent_of" active="#adam" passive="#hänsle"/>
+            <relation type="personal" name="parent_of" active="#adam" passive="#jockerle"/>
+            <relation type="personal" name="associated_with" active="#hans" passive="#stern"/>
+            <relation type="personal" name="associated_with" active="#philipp" passive="#kalb"/>
+            <relation type="personal" name="spouses" mutual="#jeanette #harmonikus"/>
+            <relation type="personal" name="associated_with" active="#bernhard" passive="#harmonikus"/>
+            <relation type="personal" name="friends" mutual="#herfort #lange"/>
+            <relation type="personal" name="spouses" mutual="#mathias #susanne"/>
+            <relation type="personal" name="related_with" active="#therese" passive="#mathias"/>
+            <relation type="personal" name="related_with" active="#sabine" passive="#mathias"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -223,71 +266,71 @@
             <castList>
               <head><pb n="57"/> Personen.</head>
               <castGroup>
-                <castItem>Herr von Storch, ein reicher Privatmann.</castItem>
-                <castItem>Lisette, seine Frau.</castItem>
-                <castItem>Schwarz, ein Magier und Anverwandter von Storch.</castItem>
-                <castItem>Herr Wildgans,</castItem>
-                <castItem>Frau Marthe,</castItem>
-                <castItem>Herr Altberg, Anverwandte Storchs.</castItem>
+                <castItem corresp="#storch">Herr von Storch, ein reicher Privatmann.</castItem>
+                <castItem corresp="#lisette">Lisette, seine Frau.</castItem>
+                <castItem corresp="#schwarz">Schwarz, ein Magier und Anverwandter von Storch.</castItem>
+                <castItem corresp="#wildgans">Herr Wildgans,</castItem>
+                <castItem corresp="#marthe">Frau Marthe,</castItem>
+                <castItem corresp="#altberg">Herr Altberg, Anverwandte Storchs.</castItem>
                 <castItem>Mehrere Freunde und Anverwandte.</castItem>
               </castGroup>
               <castGroup>
                 <head>Erste Reise.</head>
-                <castItem>Herr Mehlthau, Bürger und Hausinhaber.</castItem>
-                <castItem>Gustel, seine Frau.</castItem>
-                <castItem>Johann,</castItem>
-                <castItem>Nettchen, in Mehlthaus Dienste.</castItem>
-                <castItem>Frau Sperling, Nachbarin.</castItem>
-                <castItem>Tobischka, Tanzmeister.</castItem>
+                <castItem corresp="#mehlthau">Herr Mehlthau, Bürger und Hausinhaber.</castItem>
+                <castItem corresp="#gustchen">Gustel, seine Frau.</castItem>
+                <castItem corresp="#johann">Johann,</castItem>
+                <castItem corresp="#nettchen">Nettchen, in Mehlthaus Dienste.</castItem>
+                <castItem corresp="#sperling">Frau Sperling, Nachbarin.</castItem>
+                <castItem corresp="#tobischka">Tobischka, Tanzmeister.</castItem>
               </castGroup>
               <castGroup>
                 <head>Zweite Reise.</head>
-                <castItem>Adam, ein Hausierer.</castItem>
-                <castItem>Bärbel, sein Weib.</castItem>
-                <castItem>Hänsle,</castItem>
-                <castItem>Jockerle, ihre Kinder.</castItem>
-                <castItem>Erster,</castItem>
-                <castItem>Zweiter, Bandelkramer.</castItem>
-                <castItem>Eine Hausiererin.</castItem>
-                <castItem>Simon, ein Schiffmeister.</castItem>
-                <castItem>Ein Grundwächter.</castItem>
-                <castItem>Ein Hausknecht.</castItem>
-                <castItem>Seib, ein Vagabund.</castItem>
+                <castItem corresp="#adam">Adam, ein Hausierer.</castItem>
+                <castItem corresp="#bärbel">Bärbel, sein Weib.</castItem>
+                <castItem corresp="#hänsle">Hänsle,</castItem>
+                <castItem corresp="#jockerle">Jockerle, ihre Kinder.</castItem>
+                <castItem corresp="#erster_bandlkramer">Erster,</castItem>
+                <castItem corresp="#zweiter_bandlkramer">Zweiter, Bandelkramer.</castItem>
+                <castItem corresp="#die_hausiererin">Eine Hausiererin.</castItem>
+                <castItem corresp="#simon">Simon, ein Schiffmeister.</castItem>
+                <castItem corresp="#grundwächter">Ein Grundwächter.</castItem>
+                <castItem corresp="#hausknecht">Ein Hausknecht.</castItem>
+                <castItem corresp="#seib">Seib, ein Vagabund.</castItem>
                 <castItem>Mehrere Bandelkramer.</castItem>
               </castGroup>
               <castGroup>
                 <head>Dritte Reise.</head>
-                <castItem>Herr Kalb von Kälberburg, Gutsbesitzer.</castItem>
-                <castItem>Major Stern.</castItem>
-                <castItem>Hans, Reitknecht des Majors.</castItem>
-                <castItem>Turbarius, Amtsschreiber.</castItem>
-                <castItem>Gretchen, ein Bauernmädel.</castItem>
-                <castItem>Philipp, Diener bei Kalb.</castItem>
-                <castItem>Lisette, Stubenmädel.</castItem>
-                <castItem>Der Richter.</castItem>
-                <castItem>Ein Geschworener.</castItem>
+                <castItem corresp="#kalb">Herr Kalb von Kälberburg, Gutsbesitzer.</castItem>
+                <castItem corresp="#stern">Major Stern.</castItem>
+                <castItem corresp="#hans">Hans, Reitknecht des Majors.</castItem>
+                <castItem corresp="#turbarius">Turbarius, Amtsschreiber.</castItem>
+                <castItem corresp="#gretchen">Gretchen, ein Bauernmädel.</castItem>
+                <castItem corresp="#philipp">Philipp, Diener bei Kalb.</castItem>
+                <castItem corresp="#lisette">Lisette, Stubenmädel.</castItem>
+                <castItem corresp="#richter">Der Richter.</castItem>
+                <castItem corresp="#geschworner">Ein Geschworener.</castItem>
                 <castItem>Landleute beiderlei Geschlechts. Geschworne.</castItem>
               </castGroup>
               <castGroup>
                 <head><pb n="57"/> Vierte Reise.</head>
-                <castItem>Harmonikus, Kapellmeister.</castItem>
-                <castItem>Jeanette, seine Verlobte.</castItem>
-                <castItem>Malchen, Köchin,</castItem>
-                <castItem>Bernard, Diener, bei Harmonikus.</castItem>
-                <castItem>Herfort,</castItem>
-                <castItem>Lange, Musikfreunde.</castItem>
+                <castItem corresp="#harmonikus">Harmonikus, Kapellmeister.</castItem>
+                <castItem corresp="#jeanette">Jeanette, seine Verlobte.</castItem>
+                <castItem corresp="#malchen">Malchen, Köchin,</castItem>
+                <castItem corresp="#bernhard">Bernard, Diener, bei Harmonikus.</castItem>
+                <castItem corresp="#herfort">Herfort,</castItem>
+                <castItem corresp="#lange">Lange, Musikfreunde.</castItem>
                 <castItem>Nachbarsleute.</castItem>
                 <castItem>Rauchfangkehrer.</castItem>
               </castGroup>
               <castGroup>
                 <head>Fünfte Reise.</head>
-                <castItem>Mathias Grob, Hausmeister.</castItem>
-                <castItem>Susanne, sein Weib.</castItem>
-                <castItem>Therese,</castItem>
-                <castItem>Sabine, Anverwandte.</castItem>
-                <castItem>Robert, ein Klaviermeister.</castItem>
-                <castItem>Christoph, Eisenhändler aus Steiermark.</castItem>
-                <castItem>Ein Korporal.</castItem>
+                <castItem corresp="#mathias">Mathias Grob, Hausmeister.</castItem>
+                <castItem corresp="#susanne">Susanne, sein Weib.</castItem>
+                <castItem corresp="#therese">Therese,</castItem>
+                <castItem corresp="#sabine">Sabine, Anverwandte.</castItem>
+                <castItem corresp="#robert">Robert, ein Klaviermeister.</castItem>
+                <castItem corresp="#christoph">Christoph, Eisenhändler aus Steiermark.</castItem>
+                <castItem corresp="#korporal">Ein Korporal.</castItem>
                 <castItem>Wache. Nachbarsleute. Genien. Nebenpersonen.</castItem>
                 <pb n="58"/>
               </castGroup>

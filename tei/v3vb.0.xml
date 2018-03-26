@@ -40,34 +40,41 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="fritz" sex="MALE">
+          <person xml:id="fritz">
             <persName>FRITZ</persName>
-            <persName xml:id="fritzens_stimme" sex="MALE">FRITZENS STIMME</persName>
+            <persName xml:id="fritzens_stimme">FRITZENS STIMME</persName>
           </person>
-          <person xml:id="stimme_des_dieners" sex="MALE">
+          <person xml:id="stimme_des_dieners">
             <persName>STIMME DES DIENERS</persName>
           </person>
-          <person xml:id="theodor" sex="MALE">
+          <person xml:id="theodor">
             <persName>THEODOR</persName>
           </person>
-          <person xml:id="mizi" sex="FEMALE">
+          <person xml:id="mizi">
             <persName>MIZI</persName>
+            <roleName>Modistin</roleName>
           </person>
-          <person xml:id="christine" sex="FEMALE">
+          <person xml:id="christine">
             <persName>CHRISTINE</persName>
           </person>
-          <person xml:id="der_herr" sex="MALE">
+          <person xml:id="der_herr">
             <persName>DER HERR</persName>
           </person>
-          <person xml:id="katharina" sex="FEMALE">
+          <person xml:id="katharina">
             <persName>KATHARINA</persName>
+            <roleName>Frau eines Strumpfwirkers</roleName>
           </person>
-          <person xml:id="weiring" sex="MALE">
+          <person xml:id="weiring">
             <persName>WEIRING</persName>
+            <roleName>Violinspieler am Josefstädter Theater</roleName>
           </person>
-          <person xml:id="lina" sex="FEMALE">
+          <person xml:id="lina">
             <persName>LINA</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#weiring" passive="#christine" />
+            <relation name="parent_of" active="#katharina" passive="#lina" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -102,14 +109,14 @@
             <castList>
               <head><pb n="215"/> Personen.</head>
               <castGroup>
-                <castItem>Hans Weiring, Violinspieler am Josefstädter Theater.</castItem>
-                <castItem>Christine, seine Tochter.</castItem>
-                <castItem>Mizi Schlager, Modistin.</castItem>
-                <castItem>Katharina Binder, Frau eines Strumpfwirkers.</castItem>
-                <castItem>Lina, ihre neunjährige Tochter.</castItem>
-                <castItem>Fritz Lobheimer,</castItem>
-                <castItem>Theodor Kaiser, junge Leute.</castItem>
-                <castItem>Ein Herr.</castItem>
+                <castItem corresp="#weiring">Hans Weiring, Violinspieler am Josefstädter Theater.</castItem>
+                <castItem corresp="#christine">Christine, seine Tochter.</castItem>
+                <castItem corresp="#mizi">Mizi Schlager, Modistin.</castItem>
+                <castItem corresp="#katharina">Katharina Binder, Frau eines Strumpfwirkers.</castItem>
+                <castItem corresp="#lina">Lina, ihre neunjährige Tochter.</castItem>
+                <castItem corresp="#fritz">Fritz Lobheimer,</castItem>
+                <castItem corresp="#theodor">Theodor Kaiser, junge Leute.</castItem>
+                <castItem corresp="#der_herr">Ein Herr.</castItem>
               </castGroup>
             </castList>
           </div>
@@ -3728,7 +3735,7 @@
               <speaker>FRITZ.</speaker>
               <l> Ah, die möcht' ich mir ansehn. <hi>Er nimmt die Lampe und beleuchtet die Bilder.</hi> </l>
             </sp>
-            <sp who="#christine">
+            <sp who="#christine_">
               <speaker>CHRISTINE .</speaker>
               <l>.. Abschied – und Heimkehr!</l>
             </sp>
@@ -4685,7 +4692,7 @@
                 <hi>Sehr rasch.</hi>
               </stage>
             </sp>
-            <sp who="#weiring">
+            <sp who="#_weiring">
               <speaker> WEIRING.</speaker>
               <l> Was willst du denn? –</l>
             </sp>

@@ -63,6 +63,13 @@
           <person xml:id="climene">
             <persName>CLIMENE</persName>
           </person>
+          <listRelation>
+            <relation type="personal" name="parent_of" active="#herr_orgon" passive="#timant" />
+            <relation type="personal" name="friends" mutual="#damon #timant" />
+            <relation type="personal" name="associated_with" active="#philipp" passive="#timant" />
+            <relation type="personal" name="parent_with" active="#herr_geronte" passive="#climene" />
+            <relation type="personal" name="associated_with" active="#lisette" passive="#climene" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -97,13 +104,13 @@
             <castList>
               <head><pb n="8"/> Personen.</head>
               <castGroup>
-                <castItem>Herr Orgon.</castItem>
-                <castItem>Herr Timant, sein Sohn.</castItem>
-                <castItem>Herr Damon, Timantens Freund.</castItem>
-                <castItem>Philipp, Timantens Bedienter.</castItem>
-                <castItem>Herr Geronte.</castItem>
-                <castItem>Fräulein Climene, seine Tochter.</castItem>
-                <castItem>Lisette, Climenens Kammermägdchen.</castItem>
+                <castItem corresp="#herr_orgon">Herr Orgon.</castItem>
+                <castItem corresp="#timant">Herr Timant, sein Sohn.</castItem>
+                <castItem corresp="#damon">Herr Damon, Timantens Freund.</castItem>
+                <castItem corresp="#philipp">Philipp, Timantens Bedienter.</castItem>
+                <castItem corresp="#her_geronte">Herr Geronte.</castItem>
+                <castItem corresp="#climene">Fräulein Climene, seine Tochter.</castItem>
+                <castItem corresp="#lisette">Lisette, Climenens Kammermägdchen.</castItem>
               </castGroup>
             </castList>
           </div>

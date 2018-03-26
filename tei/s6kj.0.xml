@@ -49,6 +49,7 @@
           </person>
           <person xml:id="georg">
             <persName>GEORG</persName>
+            <roleName>sein Knappe</roleName>
           </person>
           <person xml:id="ein_geselle">
             <persName>EIN GESELLE</persName>
@@ -56,15 +57,19 @@
           </person>
           <person xml:id="stadinger">
             <persName>STADINGER</persName>
+            <roleName>Waffenschmied und Tierarzt</roleName>
           </person>
           <person xml:id="brenner">
             <persName>BRENNER</persName>
+            <roleName>Gastwirt, Stadingers Schwager</roleName>
           </person>
           <person xml:id="adelhof">
             <persName>ADELHOF</persName>
+            <roleName>Ritter aus Schwaben</roleName>
           </person>
           <person xml:id="irmentraut">
             <persName>IRMENTRAUT</persName>
+            <roleName>Maries Erzieherin</roleName>
           </person>
           <person xml:id="marie">
             <persName>MARIE</persName>
@@ -75,6 +80,12 @@
           <person xml:id="einige_männer">
             <persName>EINIGE MÄNNER</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#stadinger" passive="#marie" />
+            <relation name="associated_with" active="#georg" passive="#graf" />
+            <relation name="associated_with" active="#irmentraut" passive="#marie" />
+            <relation name="related_with" active="#brenner" passive="#stadinger" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -109,14 +120,14 @@
             <castList>
               <head>Personen</head>
               <castGroup>
-                <castItem>Hans Stadinger, Waffenschmied und Tierarzt (Baß)</castItem>
-                <castItem>Marie, seine Tochter (Sopran)</castItem>
-                <castItem>Ritter Graf von Liebenau (Bariton)</castItem>
-                <castItem>Georg, sein Knappe (Tenor)</castItem>
-                <castItem>Adelhof, Ritter aus Schwaben (Baß)</castItem>
-                <castItem>Irmentraut, Maries Erzieherin (Mezzosopran)</castItem>
-                <castItem>Brenner, Gastwirt, Stadingers Schwager (Tenor)</castItem>
-                <castItem>Ein Schmiedegeselle (Baß)</castItem>
+                <castItem corresp="#stadinger">Hans Stadinger, Waffenschmied und Tierarzt (Baß)</castItem>
+                <castItem corresp="#marie">Marie, seine Tochter (Sopran)</castItem>
+                <castItem corresp="#graf">Ritter Graf von Liebenau (Bariton)</castItem>
+                <castItem corresp="#georg">Georg, sein Knappe (Tenor)</castItem>
+                <castItem corresp="#adelhof">Adelhof, Ritter aus Schwaben (Baß)</castItem>
+                <castItem corresp="#irmentraut">Irmentraut, Maries Erzieherin (Mezzosopran)</castItem>
+                <castItem corresp="#brenner">Brenner, Gastwirt, Stadingers Schwager (Tenor)</castItem>
+                <castItem corresp="#ein_geselle">Ein Schmiedegeselle (Baß)</castItem>
                 <castItem>Schmiedegesellen. Bürger und Bürgerinnen. Ritter. Herolde. Knappen. Pagen. Volk</castItem>
               </castGroup>
             </castList>

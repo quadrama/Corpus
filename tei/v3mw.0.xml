@@ -48,22 +48,34 @@
           </person>
           <person xml:id="richard">
             <persName>RICHARD</persName>
+            <roleName>ein alter reicher Mann vom Lande</roleName>
           </person>
           <person xml:id="jungwitz">
             <persName>JUNGWITZ</persName>
+            <roleName>ein junger wohlhabender Mensch vom Lande</roleName>
           </person>
           <person xml:id="charlotte">
             <persName>CHARLOTTE</persName>
+            <roleName>Richards vorgegebene Tochter</roleName>
           </person>
           <person xml:id="praatgern">
             <persName>PRAATGERN</persName>
+            <roleName>eine Bürgerswittwe</roleName>
           </person>
           <person xml:id="leonore">
             <persName>LEONORE</persName>
+            <roleName>der Frau Praatgern vorgegebene Tochter</roleName>
           </person>
           <person xml:id="laconius">
             <persName>LACONIUS</persName>
+            <roleName>ein Philosoph</roleName>
           </person>
+          <listRelation>
+            <relation name="associated_with" active="#jacob" passive="#jungwitz" />
+            <relation name="parent_of" active="#richard" passive="#charlotte" />
+            <relation name="parent_of" active="#praatgern" passive="#leonore" />
+            <relation name="associated_with" active="#cathrine" passive="#praatgern" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -98,14 +110,14 @@
             <castList>
               <head><pb n="285"/> Personen.</head>
               <castGroup>
-                <castItem>Richard, ein alter reicher Mann vom Lande.</castItem>
-                <castItem>Jungwitz, ein junger wohlhabender Mensch vom Lande.</castItem>
-                <castItem>Jacob, Jungwitzens Bedienter.</castItem>
-                <castItem>Laconius, ein Philosoph.</castItem>
-                <castItem>Frau Praatgern, eine Bürgerswittwe.</castItem>
-                <castItem>Charlotte, Richards vorgegebene Tochter.</castItem>
-                <castItem>Leonore, der Frau Praatgern vorgegebene Tochter.</castItem>
-                <castItem>Cathrine, die Bediente der Frau Praatgern.</castItem>
+                <castItem corresp="#richard">Richard, ein alter reicher Mann vom Lande.</castItem>
+                <castItem corresp="#jungwitz">Jungwitz, ein junger wohlhabender Mensch vom Lande.</castItem>
+                <castItem corresp="#jacob">Jacob, Jungwitzens Bedienter.</castItem>
+                <castItem corresp="#laconius">Laconius, ein Philosoph.</castItem>
+                <castItem corresp="#praatgern">Frau Praatgern, eine Bürgerswittwe.</castItem>
+                <castItem corresp="#charlotte">Charlotte, Richards vorgegebene Tochter.</castItem>
+                <castItem corresp="#leonore">Leonore, der Frau Praatgern vorgegebene Tochter.</castItem>
+                <castItem corresp="#cathrine">Cathrine, die Bediente der Frau Praatgern.</castItem>
               </castGroup>
             </castList>
           </div>

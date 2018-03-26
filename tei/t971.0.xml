@@ -66,6 +66,7 @@
           </person>
           <person xml:id="longimanus">
             <persName>LONGIMANUS</persName>
+            <roleName>Geisterkönig</roleName>
           </person>
           <person xml:id="die_druden">
             <persName>DIE DRUDEN</persName>
@@ -75,6 +76,7 @@
           </person>
           <person xml:id="zephises">
             <persName>ZEPHISES</persName>
+            <roleName>ein Magier, als Geist</roleName>
           </person>
           <person xml:id="winter">
             <persName>WINTER</persName>
@@ -94,6 +96,7 @@
           <person xml:id="mariandl">
             <persName>MARIANDL</persName>
             <persName xml:id="mariandels_gestalt">MARIANDELS GESTALT</persName>
+            <roleName>Köchin</roleName>
           </person>
           <person xml:id="eduard">
             <persName>EDUARD</persName>
@@ -103,6 +106,7 @@
           </person>
           <person xml:id="kolibri">
             <persName>KOLIBRI</persName>
+            <roleName>ein Genius</roleName>
           </person>
           <person xml:id="ein_nachbar">
             <persName>EIN NACHBAR</persName>
@@ -112,6 +116,7 @@
           </person>
           <person xml:id="koliphonius">
             <persName>KOLIPHONIUS</persName>
+            <roleName>ein böser Genius, Wächter des Zaubergartens</roleName>
           </person>
           <person xml:id="mädchen">
             <persName>MÄDCHEN</persName>
@@ -139,6 +144,7 @@
           </person>
           <person xml:id="veritatius">
             <persName>VERITATIUS</persName>
+            <roleName>Beherrscher der Insel der Wahrheit</roleName>
           </person>
           <person xml:id="modestina">
             <persName>MODESTINA</persName>
@@ -146,7 +152,15 @@
           <person xml:id="amine">
             <persName>AMINE</persName>
             <persName xml:id="aminens_stimme">AMINENS STIMME</persName>
+            <roleName>eine Engländerin</roleName>
           </person>
+          <listRelation>
+            <relation name="associated_with" active="#pamphilius" passive="#longimanus" />
+            <relation name="parent_of" active="#zephises" passive="#eduard" />
+            <relation name="associated_with" active="#florian" passive="#zephises" />
+            <relation name="parent_of" active="#veritatius" passive="#modestina" />
+            <relation name="associated_with" active="#aladin" passive="#veritatius" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -181,37 +195,37 @@
             <castList>
               <head><pb n="66"/> Personen.</head>
               <castGroup>
-                <castItem>Longimanus, Geisterkönig.</castItem>
-                <castItem>Pamphilius, sein erster Kammerdiener.</castItem>
-                <castItem>Fee Aprikosa.</castItem>
-                <castItem>Fee Amarillis.</castItem>
-                <castItem>Erster Zauberer.</castItem>
-                <castItem>Zweiter Zauberer.</castItem>
-                <castItem>Ein Feuergeist.</castItem>
-                <castItem>Erste Drude.</castItem>
-                <castItem>Zweite Drude.</castItem>
-                <castItem>Der Winter.</castItem>
-                <castItem>Der Sommer.</castItem>
-                <castItem>Der Herbst.</castItem>
-                <castItem>Der Frühling.</castItem>
-                <castItem>Die Hoffnung.</castItem>
-                <castItem>Kolibri, ein Genius.</castItem>
-                <castItem>Koliphonius, ein böser Genius, Wächter des Zaubergartens.</castItem>
+                <castItem corresp="#longimanus">Longimanus, Geisterkönig.</castItem>
+                <castItem corresp="#pamphilius">Pamphilius, sein erster Kammerdiener.</castItem>
+                <castItem corresp="#fee_aprikosa">Fee Aprikosa.</castItem>
+                <castItem corresp="#fee_amarillis">Fee Amarillis.</castItem>
+                <castItem corresp="#erster_zauberer">Erster Zauberer.</castItem>
+                <castItem corresp="#zweiter_zauberer">Zweiter Zauberer.</castItem>
+                <castItem corresp="#feuergeist">Ein Feuergeist.</castItem>
+                <castItem corresp="#erste_drude">Erste Drude.</castItem>
+                <castItem corresp="#">Zweite Drude.</castItem>
+                <castItem corresp="#winter">Der Winter.</castItem>
+                <castItem corresp="#sommer">Der Sommer.</castItem>
+                <castItem corresp="#herbst">Der Herbst.</castItem>
+                <castItem corresp="#frühling">Der Frühling.</castItem>
+                <castItem corresp="#hoffnung">Die Hoffnung.</castItem>
+                <castItem corresp="#kolibri">Kolibri, ein Genius.</castItem>
+                <castItem corresp="#koliphonius">Koliphonius, ein böser Genius, Wächter des Zaubergartens.</castItem>
                 <castItem>Die Stimme des singenden Baumes.</castItem>
-                <castItem>Zephises, ein Magier, als Geist.</castItem>
-                <castItem>Eduard, sein Sohn.</castItem>
-                <castItem>Florian Waschblau, sein Diener.</castItem>
-                <castItem>Mariandl, Köchin.</castItem>
-                <castItem>Ein Nachbar von Eduard.</castItem>
-                <castItem>Veritatius, Beherrscher der Insel der Wahrheit.</castItem>
-                <castItem>Modestina, seine Tochter.</castItem>
-                <castItem>Aladin, sein erster Höfling.</castItem>
-                <castItem>Amine, eine Engländerin.</castItem>
-                <castItem>Osillis,</castItem>
-                <castItem>Amazilli,</castItem>
+                <castItem corresp="#zephises">Zephises, ein Magier, als Geist.</castItem>
+                <castItem corresp="#eduard">Eduard, sein Sohn.</castItem>
+                <castItem corresp="#florian">Florian Waschblau, sein Diener.</castItem>
+                <castItem corresp="#mariandl">Mariandl, Köchin.</castItem>
+                <castItem corresp="#ein_nachbar">Ein Nachbar von Eduard.</castItem>
+                <castItem corresp="#veritatius">Veritatius, Beherrscher der Insel der Wahrheit.</castItem>
+                <castItem corresp="#modestina">Modestina, seine Tochter.</castItem>
+                <castItem corresp="#aladin">Aladin, sein erster Höfling.</castItem>
+                <castItem corresp="#amine">Amine, eine Engländerin.</castItem>
+                <castItem corresp="#osillis">Osillis,</castItem>
+                <castItem corresp="#amazilli">Amazilli,</castItem>
                 <castItem>Bitta,</castItem>
                 <castItem>Lira, vier verschleierte Mädchen.</castItem>
-                <castItem>Ein Herold.</castItem>
+                <castItem corresp="#herold">Ein Herold.</castItem>
                 <castItem>Zauberer. Feen. Luftgeister. Feuergeister. Genien. Gefolge des Geisterkönigs. Verwünschte im Zaubergarten. Eduards Nachbarn. Inselbewohner. Zwei Diener des Herolds. Zwei Mohren. Wache.</castItem>
                 <pb n="66"/>
               </castGroup>

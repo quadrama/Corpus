@@ -46,12 +46,14 @@
           </person>
           <person xml:id="balthasar">
             <persName>BALTHASAR</persName>
+            <roleName>Kammerdiener des alten Grafen</roleName>
           </person>
           <person xml:id="bedienter">
             <persName>BEDIENTER</persName>
           </person>
           <person xml:id="krautmann">
             <persName>KRAUTMANN</persName>
+            <roleName>Pachter auf den Gütern des Grafen</roleName>
           </person>
           <person xml:id="adolph">
             <persName>ADOLPH</persName>
@@ -61,6 +63,7 @@
           </person>
           <person xml:id="frau_wunschel">
             <persName>FRAU WUNSCHEL</persName>
+            <roleName>Zimmervermieterin</roleName>
           </person>
           <person xml:id="amalie">
             <persName>AMALIE</persName>
@@ -81,6 +84,16 @@
             <persName>EINE MAGD</persName>
             <persName xml:id="magd">MAGD</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#graf" passive="#adolph" />
+            <relation name="siblings" mutual="#gräfin #graf" />
+            <relation name="siblings" mutual="#henriette #stein" />
+            <relation name="associated_with" active="#krautmann" passive="#graf" />
+            <relation name="associated_with" active="#balthasar" passive="#graf" />
+            <relation name="associated_with" active="#ernestine" passive="#gräfin" />
+            <relation name="associated_with" active="#jacob" passive="#gräfin" />
+            <relation name="associated_with" active="#bedienter" passive="#graf" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -116,19 +129,19 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Graf Klingsberg, Vater.</castItem>
-                <castItem>Graf Adolph von Klingsberg, sein Sohn.</castItem>
-                <castItem>Gräfin Woellwarth geborne Klingsberg, seine Schwester.</castItem>
-                <castItem>Lieutenant Baron von Stein.</castItem>
-                <castItem>Henriette, seine Schwester.</castItem>
-                <castItem>Madame Amalie Friedberg.</castItem>
-                <castItem>Krautmann, Pachter auf den Gütern des Grafen.</castItem>
-                <castItem>Frau Wunschel, Zimmervermieterin.</castItem>
-                <castItem>Balthasar Schwalbenschweif, Kammerdiener des alten Grafen.</castItem>
-                <castItem>Ernestine, Kammermädchen der Gräfin.</castItem>
-                <castItem>Jacob, Bedienter der Gräfin.</castItem>
-                <castItem>Eine Magd.</castItem>
-                <castItem>Bedienter des Grafen.</castItem>
+                <castItem corresp="#graf">Graf Klingsberg, Vater.</castItem>
+                <castItem corresp="#adolph">Graf Adolph von Klingsberg, sein Sohn.</castItem>
+                <castItem corresp="#gräfin">Gräfin Woellwarth geborne Klingsberg, seine Schwester.</castItem>
+                <castItem corresp="#stein">Lieutenant Baron von Stein.</castItem>
+                <castItem corresp="#henriette">Henriette, seine Schwester.</castItem>
+                <castItem corresp="#amalie">Madame Amalie Friedberg.</castItem>
+                <castItem corresp="#krautmann">Krautmann, Pachter auf den Gütern des Grafen.</castItem>
+                <castItem corresp="#frau_wunschel">Frau Wunschel, Zimmervermieterin.</castItem>
+                <castItem corresp="#balthasar">Balthasar Schwalbenschweif, Kammerdiener des alten Grafen.</castItem>
+                <castItem corresp="#ernestine">Ernestine, Kammermädchen der Gräfin.</castItem>
+                <castItem corresp="#jacob">Jacob, Bedienter der Gräfin.</castItem>
+                <castItem corresp="#eine_magd">Eine Magd.</castItem>
+                <castItem corresp="#bedienter">Bedienter des Grafen.</castItem>
               </castGroup>
             </castList>
           </div>

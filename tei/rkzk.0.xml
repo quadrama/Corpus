@@ -42,12 +42,14 @@
         <listPerson>
           <person xml:id="staleno">
             <persName>STALENO</persName>
+            <roleName>Leanders Vormund</roleName>
           </person>
           <person xml:id="leander">
             <persName>LEANDER</persName>
           </person>
           <person xml:id="philto">
             <persName>PHILTO</persName>
+            <roleName>ein Alter</roleName>
           </person>
           <person xml:id="lelio">
             <persName>LELIO</persName>
@@ -64,6 +66,11 @@
           <person xml:id="raps">
             <persName>RAPS</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#staleno" passive="#leander" />
+            <relation name="parent_of" active="#anselmo" passive="#lelio" />
+            <relation name="associated_with" active="#maskarill" passive="#lelio" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -99,14 +106,14 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Leander.</castItem>
-                <castItem>Staleno, Leanders Vormund.</castItem>
-                <castItem>Philto, ein Alter.</castItem>
-                <castItem>Anselmus.</castItem>
-                <castItem>Lelio, des Anselmus Sohn.</castItem>
-                <castItem>Maskarill, des Lelio Bedienter.</castItem>
-                <castItem>Raps.</castItem>
-                <castItem>Ein Träger.</castItem>
+                <castItem corresp="#leander">Leander.</castItem>
+                <castItem corresp="#staleno">Staleno, Leanders Vormund.</castItem>
+                <castItem corresp="#philto">Philto, ein Alter.</castItem>
+                <castItem corresp="#anselmo">Anselmus.</castItem>
+                <castItem corresp="#lelio">Lelio, des Anselmus Sohn.</castItem>
+                <castItem corresp="#maskarill">Maskarill, des Lelio Bedienter.</castItem>
+                <castItem corresp="#raps">Raps.</castItem>
+                <castItem corresp="#der_träger">Ein Träger.</castItem>
               </castGroup>
             </castList>
           </div>

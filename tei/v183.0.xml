@@ -42,9 +42,11 @@
         <listPerson>
           <person xml:id="friz">
             <persName>FRIZ</persName>
+            <roleName>Doktor Fausts Hauspursche</roleName>
           </person>
           <person xml:id="rosalinde">
             <persName>ROSALINDE</persName>
+            <roleName>eine Oberstenwitwe</roleName>
           </person>
           <person xml:id="doktor_faust">
             <persName>DOKTOR FAUST</persName>
@@ -54,6 +56,10 @@
             <persName>UNSICHTBARER CHOR</persName>
             <persName xml:id="unsichtbares_chor">UNSICHTBARES CHOR</persName>
           </person>
+          <listRelation>
+            <relation name="siblings" mutual="#friz #rosalinde" />
+            <relation name="associated_with" active="#friz" passive="#doktor_faust" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -88,9 +94,9 @@
             <castList>
               <head>Personen:</head>
               <castGroup>
-                <castItem>Doktor Faust.</castItem>
-                <castItem>Rosalinde, eine Oberstenwitwe.</castItem>
-                <castItem>Friz, ihr Bruder, Doktor Fausts Hauspursche.</castItem>
+                <castItem corresp="#doktor_faust">Doktor Faust.</castItem>
+                <castItem corresp="#rosalinde">Rosalinde, eine Oberstenwitwe.</castItem>
+                <castItem corresp="#friz">Friz, ihr Bruder, Doktor Fausts Hauspursche.</castItem>
               </castGroup>
             </castList>
           </div>

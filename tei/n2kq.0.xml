@@ -45,6 +45,7 @@
           </person>
           <person xml:id="gordon">
             <persName>GORDON</persName>
+            <roleName>Stallmeister</roleName>
           </person>
           <person xml:id="waldemar">
             <persName>WALDEMAR</persName>
@@ -75,15 +76,18 @@
           </person>
           <person xml:id="rosa">
             <persName>ROSA</persName>
+            <roleName>Ein Bürgermädchen</roleName>
           </person>
           <person xml:id="bose">
             <persName>BOSE</persName>
+            <roleName>Arbeiter</roleName>
           </person>
           <person xml:id="hans">
             <persName>HANS</persName>
           </person>
           <person xml:id="hiller">
             <persName>HILLER</persName>
+            <roleName>Gärtner</roleName>
           </person>
           <person xml:id="wächter">
             <persName>WÄCHTER</persName>
@@ -98,6 +102,14 @@
           <person xml:id="henry">
             <persName>HENRY</persName>
           </person>
+          <listRelation>
+            <relation type="personal" name="associated_with" active="#hugo" passive="#waldemar" />
+            <relation type="personal" name="parent_of" active="#hiller" passive="#gertrud" />
+            <relation type="personal" name="parent_of" active="#hiller" passive="#hans" />
+            <relation type="personal" name="associated_with" active="#box" passive="#waldemar" />
+            <relation type="personal" name="parent_of" active="frau_box" passive="#box" />
+            <relation type="personal" name="associated_with" active="#gregor" passive="#georgine" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -132,24 +144,24 @@
             <castList>
               <head><pb n="509"/> Personen.</head>
               <castGroup>
-                <castItem>Waldemar Graf Schenk.</castItem>
-                <castItem>Hugo Graf Schenk, sein Vetter.</castItem>
-                <castItem>Rittmeister von Randor.</castItem>
-                <castItem>Heinrich von Sorben.</castItem>
-                <castItem>Fedor Iwanowitsch Fürst Udaschkin.</castItem>
-                <castItem>Georgine Fürstin Udaschkin.</castItem>
-                <castItem>Hiller, Gärtner.</castItem>
-                <castItem>Gertrud, seine Tochter.</castItem>
-                <castItem>Hans, sein Pflegesohn.</castItem>
-                <castItem>Gordon, Stallmeister,</castItem>
-                <castItem>Box, Kammerdiener, des Grafen Waldemar.</castItem>
-                <castItem>Frau Box, seine Mutter.</castItem>
-                <castItem>Rosa, ein Bürgermädchen.</castItem>
-                <castItem>Bose, Arbeiter.</castItem>
-                <castItem>Der Bezirksvorsteher.</castItem>
-                <castItem>Ein Nachtwächter.</castItem>
-                <castItem>Kammerfrau,</castItem>
-                <castItem>Gregor, Diener, der Fürstin Udaschkin.</castItem>
+                <castItem corresp="#waldemar">Waldemar Graf Schenk.</castItem>
+                <castItem corresp="#hugo">Hugo Graf Schenk, sein Vetter.</castItem>
+                <castItem corresp="#randor">Rittmeister von Randor.</castItem>
+                <castItem corresp="#henry">Heinrich von Sorben.</castItem>
+                <castItem corresp="#udaschkin">Fedor Iwanowitsch Fürst Udaschkin.</castItem>
+                <castItem corresp="#georgine">Georgine Fürstin Udaschkin.</castItem>
+                <castItem corresp="#hiller">Hiller, Gärtner.</castItem>
+                <castItem corresp="#gertrud">Gertrud, seine Tochter.</castItem>
+                <castItem corresp="#hans">Hans, sein Pflegesohn.</castItem>
+                <castItem corresp="#gordon">Gordon, Stallmeister,</castItem>
+                <castItem corresp="#box">Box, Kammerdiener, des Grafen Waldemar.</castItem>
+                <castItem corresp="#frau_box">Frau Box, seine Mutter.</castItem>
+                <castItem corresp="#roe">Rosa, ein Bürgermädchen.</castItem>
+                <castItem corresp="#bose">Bose, Arbeiter.</castItem>
+                <castItem corresp="#bezirksvorsteher">Der Bezirksvorsteher.</castItem>
+                <castItem corresp="#wächter">Ein Nachtwächter.</castItem>
+                <castItem corresp="#kammerfrau">Kammerfrau,</castItem>
+                <castItem corresp="#gregor">Gregor, Diener, der Fürstin Udaschkin.</castItem>
                 <castItem>Gäste. Volk. Bediente.</castItem>
                 <pb n="509"/>
                 <pb n="511"/>

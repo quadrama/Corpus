@@ -60,6 +60,7 @@
           </person>
           <person xml:id="aubry">
             <persName>AUBRY</persName>
+            <roleName>ein Anverwandter des Hauses Dauvenaut</roleName>
           </person>
           <person xml:id="ruthwens">
             <persName>RUTHWENS</persName>
@@ -70,6 +71,7 @@
           <person xml:id="davenaut">
             <persName>DAVENAUT</persName>
             <persName xml:id="dauvenaut">DAUVENAUT</persName>
+            <roleName>Lord von Dauvenaut</roleName>
           </person>
           <person xml:id="george">
             <persName>GEORGE</persName>
@@ -97,15 +99,19 @@
           </person>
           <person xml:id="gadshill">
             <persName>GADSHILL</persName>
+              <roleName>Landleute von Marsden</roleName>
           </person>
           <person xml:id="blunt">
             <persName>BLUNT</persName>
+              <roleName>Landleute von Marsden</roleName>
           </person>
           <person xml:id="scrop">
             <persName>SCROP</persName>
+              <roleName>Landleute von Marsden</roleName>
           </person>
           <person xml:id="perth">
             <persName>PERTH</persName>
+          <roleName>Verwalter auf dem Gute des Grafen von Marsden</roleName>
           </person>
           <person xml:id="frau_blunt">
             <persName>FRAU BLUNT</persName>
@@ -115,6 +121,7 @@
           </person>
           <person xml:id="green">
             <persName>GREEN</persName>
+            <roleName>Landleute von Marsden</roleName>
           </person>
           <person xml:id="die_mädchen">
             <persName>DIE MÄDCHEN</persName>
@@ -125,6 +132,17 @@
           <person xml:id="haushofmeister">
             <persName>HAUSHOFMEISTER</persName>
           </person>
+          <listRelation>
+            <relation name="parent_of" active="#davenaut" passive="#malwina" />
+            <relation name="related_with" active="#aubry" passive="#davenaut" />
+            <relation name="related_with" active="#aubry" passive="#malwina" />
+            <relation name="parent_of" active="#berkley" passive="#janthe" />
+            <relation name="associated_with" active="#george" passive="#davenaut" />
+            <relation name="parent_of" active="#perth" passive="#emmy" />
+            <relation name="spouses" mutual="#emmy #george" />
+            <relation name="spouses" mutual="#frau_blunt #blunt" />
+            <relation name="associated_with" active="#haushofmeister" passive="#davenaut" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -159,22 +177,22 @@
             <castList>
               <head><pb n="22"/> Personen</head>
               <castGroup>
-                <castItem>Sir Humphrey, Lord von Davenaut (Baß)</castItem>
-                <castItem>Malwina, seine Tochter (Sopran)</castItem>
-                <castItem>Edgar Aubry, ein Anverwandter des Hauses Davenaut (Tenor)</castItem>
-                <castItem>Lord Ruthwen (Bariton)</castItem>
-                <castItem>Sir Berkley (Baß)</castItem>
-                <castItem>Janthe, seine Tochter (Sopran)</castItem>
-                <castItem>George Dibdin, in Davenauts Diensten (Tenor)</castItem>
-                <castItem>John Perth, Verwalter auf dem Gute des Grafen von Marsden</castItem>
-                <castItem>Emmy, seine Tochter, George Dibdins Braut (Sopran.)</castItem>
-                <castItem>James Gadshill (Erster Tenor)</castItem>
-                <castItem>Richard Scrop (Zweiter Tenor)</castItem>
-                <castItem>Robert Green (Erster Baß)</castItem>
-                <castItem>Toms Blunt (Zweiter Baß), Landleute von Marsden</castItem>
-                <castItem>Suse, Blunts Frau (Alt)</castItem>
-                <castItem>Der Vampyrmeister</castItem>
-                <castItem>Ein Haushofmeister Davenauts (Bariton)</castItem>
+                <castItem corresp="#davenaut">Sir Humphrey, Lord von Davenaut (Baß)</castItem>
+                <castItem corresp="#malwina">Malwina, seine Tochter (Sopran)</castItem>
+                <castItem corresp="#aubry">Edgar Aubry, ein Anverwandter des Hauses Davenaut (Tenor)</castItem>
+                <castItem corresp="#ruthwen">Lord Ruthwen (Bariton)</castItem>
+                <castItem corresp="#berkley">Sir Berkley (Baß)</castItem>
+                <castItem corresp="#janthe">Janthe, seine Tochter (Sopran)</castItem>
+                <castItem corresp="#george">George Dibdin, in Davenauts Diensten (Tenor)</castItem>
+                <castItem corresp="#perth">John Perth, Verwalter auf dem Gute des Grafen von Marsden</castItem>
+                <castItem corresp="#emmy">Emmy, seine Tochter, George Dibdins Braut (Sopran.)</castItem>
+                <castItem corresp="#gadshill">James Gadshill (Erster Tenor)</castItem>
+                <castItem corresp="#scrop">Richard Scrop (Zweiter Tenor)</castItem>
+                <castItem corresp="#green">Robert Green (Erster Baß)</castItem>
+                <castItem corresp="#blunt">Toms Blunt (Zweiter Baß), Landleute von Marsden</castItem>
+                <castItem corresp="#frau_blunt">Suse, Blunts Frau (Alt)</castItem>
+                <castItem corresp="#vampyrmeister">Der Vampyrmeister</castItem>
+                <castItem corresp="#haushofmeister">Ein Haushofmeister Davenauts (Bariton)</castItem>
                 <castItem>Ein alter Diener Berkleys</castItem>
                 <castItem>Ein Diener Berkleys</castItem>
                 <castItem>Edelherren und Damen. Jäger und Diener Davenauts und Berkleys. Ballett. Landleute von Davenaut und Marsden. Brautjungfern. Blumenmädchen. Guirlandenmädchen. Musikanten. Aufwärter. Schenkmädchen. Geister. Kobolde. Gnomen. Hexen. Teufelsfratzen. Frösche. Fledermäuse</castItem>

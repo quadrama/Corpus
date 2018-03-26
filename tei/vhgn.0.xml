@@ -60,6 +60,7 @@
           </person>
           <person xml:id="sivers">
             <persName>SIVERS</persName>
+            <roleName>Wagners Freund</roleName>
           </person>
           <person xml:id="malldorf">
             <persName>MALLDORF</persName>
@@ -76,6 +77,15 @@
           <person xml:id="steinburg">
             <persName>STEINBURG</persName>
           </person>
+          <listRelation>
+            <relation name="spouses" mutual="#mad #wagner" />
+            <relation name="parent_of" active="#wagner" passive="#sophie" />
+            <relation name="parent_of" active="#wagner" passive="#charlotte" />
+            <relation name="parent_of" active="#wagner" passive="#wilhelm" />
+            <relation name="parent_of" active="#mad" passive="#charlotte" />
+            <relation name="parent_of" active="#mad" passive="#wilhelm" />
+            <relation name="friends" mutual="#sivers #wanger" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -110,17 +120,17 @@
             <castList>
               <head><pb n="60"/> Personen.</head>
               <castGroup>
-                <castItem>Herr Wagner.</castItem>
-                <castItem>Mad. Wagner, dessen zweite Frau.</castItem>
-                <castItem>Sophie, Wagners Tochter erster Ehe.</castItem>
-                <castItem>Charlotte,</castItem>
-                <castItem>Wilhelm, , Wagners Kinder zweiter Ehe.</castItem>
-                <castItem>Fritz, ein Kind von drei bis vier Jahren.</castItem>
-                <castItem>Sivers, Wagners Freund.</castItem>
-                <castItem>Kanzelleirath Malldorf.</castItem>
-                <castItem>Ein Gerichtsdiener.</castItem>
-                <castItem>Ein Kaufmannsdiener.</castItem>
-                <castItem>Ein Dienstmädchen.</castItem>
+                <castItem corresp="#wagner">Herr Wagner.</castItem>
+                <castItem corresp="#mad">Mad. Wagner, dessen zweite Frau.</castItem>
+                <castItem corresp="#sophie">Sophie, Wagners Tochter erster Ehe.</castItem>
+                <castItem corresp="#charlotte">Charlotte,</castItem>
+                <castItem corresp="#wilhelm">Wilhelm, , Wagners Kinder zweiter Ehe.</castItem>
+                <castItem corresp="#fritz">Fritz, ein Kind von drei bis vier Jahren.</castItem>
+                <castItem corresp="#sivers">Sivers, Wagners Freund.</castItem>
+                <castItem corresp="#malldorf">Kanzelleirath Malldorf.</castItem>
+                <castItem corresp="#gerichtsdiener">Ein Gerichtsdiener.</castItem>
+                <castItem corresp="#kaufmannsdiener">Ein Kaufmannsdiener.</castItem>
+                <castItem corresp="#dienstmädchen">Ein Dienstmädchen.</castItem>
               </castGroup>
             </castList>
           </div>

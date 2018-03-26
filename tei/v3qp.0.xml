@@ -88,10 +88,10 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Martin.</castItem>
-                <castItem>Sophie.</castItem>
-                <castItem>Cassian.</castItem>
-                <castItem>Ein Diener.</castItem>
+                <castItem corresp="#martin">Martin.</castItem>
+                <castItem corresp="#sophie">Sophie.</castItem>
+                <castItem corresp="#cassian">Cassian.</castItem>
+                <castItem corresp="#der_diener">Ein Diener.</castItem>
                 <pb n="855"/>
               </castGroup>
             </castList>

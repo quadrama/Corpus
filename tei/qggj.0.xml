@@ -57,13 +57,28 @@
           </person>
           <person xml:id="wendt">
             <persName>WENDT</persName>
+            <roleName>cand. theol. Chambregarnist bei ihnen</roleName>
           </person>
           <person xml:id="toni">
             <persName>TONI</persName>
           </person>
           <person xml:id="selicke">
             <persName>SELICKE</persName>
+            <roleName>Buchhalter</roleName>
           </person>
+          <listRelation>
+            <relation name="spouses" mutual="#selicke #frau_selicke" />
+            <relation name="parent_of" active="#frau_selicke" passive="#toni" />
+            <relation name="parent_of" active="#frau_selicke" passive="#albert" />
+            <relation name="parent_of" active="#frau_selicke" passive="#walter" />
+            <relation name="parent_of" active="#frau_selicke" passive="#linchen" />
+            <relation name="parent_of" active="#selicke" passive="#toni" />
+            <relation name="parent_of" active="#selicke" passive="#albert" />
+            <relation name="parent_of" active="#selicke" passive="#walter" />
+            <relation name="parent_of" active="#selicke" passive="#linchen" />
+            <relation name="associated_with" active="#wendt" passive="#selicke" />
+            <relation name="associated_with" active="#wendt" passive="#frau_selicke" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -99,14 +114,14 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Eduard Selicke, Buchhalter.</castItem>
-                <castItem>Seine Frau.</castItem>
-                <castItem>Toni, 22 Jahre alt,</castItem>
-                <castItem>Albert, 18 Jahre alt,</castItem>
-                <castItem>Walter, 12 Jahre alt,</castItem>
-                <castItem>Linchen, 8 Jahre alt, , ihre Kinder.</castItem>
-                <castItem>Gustav Wendt, cand. theol. Chambregarnist bei ihnen.</castItem>
-                <castItem>Der alte Kopelke.</castItem>
+                <castItem corresp="#selicke">Eduard Selicke, Buchhalter.</castItem>
+                <castItem corresp="#frau_selicke">Seine Frau.</castItem>
+                <castItem corresp="#toni">Toni, 22 Jahre alt,</castItem>
+                <castItem corresp="#albert">Albert, 18 Jahre alt,</castItem>
+                <castItem corresp="#walter">Walter, 12 Jahre alt,</castItem>
+                <castItem corresp="#linchen">Linchen, 8 Jahre alt, , ihre Kinder.</castItem>
+                <castItem corresp="#wendt">Gustav Wendt, cand. theol. Chambregarnist bei ihnen.</castItem>
+                <castItem corresp="#kopelke">Der alte Kopelke.</castItem>
               </castGroup>
             </castList>
           </div>

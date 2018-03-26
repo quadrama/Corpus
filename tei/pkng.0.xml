@@ -54,6 +54,7 @@
           </person>
           <person xml:id="volker">
             <persName>VOLKER</persName>
+            <roleName>der Spielmann</roleName>
           </person>
           <person xml:id="siegfried">
             <persName>SIEGFRIED</persName>
@@ -63,10 +64,19 @@
           </person>
           <person xml:id="ute">
             <persName>UTE</persName>
+            <roleName>die Witwe König Dankwarts</roleName>
           </person>
           <person xml:id="kriemhild">
             <persName>KRIEMHILD</persName>
           </person>
+          <listRelation>
+            <relation name="related_with" active="#dankwart" passive="#hagen" />
+            <relation name="related_with" active="#giselherr" passive="#gunther" />
+            <relation name="related_with" active="#gerenot" passive="#gunther" />
+            <relation name="spouses" mutual="#ute #dankwart" />
+            <relation name="parent_of" active="#ute" passive="#kriemhild" />
+            <relation name="parent_of" active="#dankwart" passive="#kriemhild" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -102,16 +112,16 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>König Gunther.</castItem>
-                <castItem>Hagen Tronje.</castItem>
-                <castItem>Dankwart, dessen Bruder.</castItem>
-                <castItem>Volker, der Spielmann.</castItem>
-                <castItem>Giselher,</castItem>
-                <castItem>Gerenot, Brüder des Königs.</castItem>
+                <castItem corresp="#gunther">König Gunther.</castItem>
+                <castItem corresp="#hagen">Hagen Tronje.</castItem>
+                <castItem corresp="#dankwart">Dankwart, dessen Bruder.</castItem>
+                <castItem corresp="#volker">Volker, der Spielmann.</castItem>
+                <castItem corresp="#giselherr">Giselher,</castItem>
+                <castItem corresp="#gerenot">Gerenot, Brüder des Königs.</castItem>
                 <castItem>Rumolt, der Küchenmeister.</castItem>
-                <castItem>Siegfried.</castItem>
-                <castItem>Ute, die Witwe König Dankwarts.</castItem>
-                <castItem>Kriemhild, ihre Tochter.</castItem>
+                <castItem corresp="#siegfried">Siegfried.</castItem>
+                <castItem corresp="#ute">Ute, die Witwe König Dankwarts.</castItem>
+                <castItem corresp="#kriemhild">Kriemhild, ihre Tochter.</castItem>
                 <castItem>Recken, Volk.</castItem>
               </castGroup>
             </castList>

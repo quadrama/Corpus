@@ -188,21 +188,21 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Der Konferenzier Lionel Mander</castItem>
+                <castItem corresp="#mander">Der Konferenzier Lionel Mander</castItem>
                 <castItem>Der Tod</castItem>
-                <castItem>Der Herr Juwelier</castItem>
-                <castItem>Astarte</castItem>
-                <castItem>Ottilie Kopriva</castItem>
-                <castItem>Der Chor jugendlicher Tänzerinnen</castItem>
-                <castItem>Dr. Michel Mander</castItem>
-                <castItem>Lisiska Mander</castItem>
-                <castItem>Die Nonne Mater Scholastica</castItem>
-                <castItem>Der alte Komiker Tiefsee</castItem>
-                <castItem>Konzertmeister Windfellner</castItem>
-                <castItem>Baron Attendorn</castItem>
-                <castItem>Der erste Kammerdiener José</castItem>
-                <castItem>Der zweite Kammerdiener Henry</castItem>
-                <castItem>Der Küchenchef</castItem>
+                <castItem corresp="#der_herr_juwelier">Der Herr Juwelier</castItem>
+                <castItem corresp="#astarte">Astarte</castItem>
+                <castItem corresp="#fräulein_kopriva">Ottilie Kopriva</castItem>
+                <castItem corresp="#alle_tänzerinnen">Der Chor jugendlicher Tänzerinnen</castItem>
+                <castItem corresp="#dr">Dr. Michel Mander</castItem>
+                <castItem corresp="#lisiska">Lisiska Mander</castItem>
+                <castItem corresp="#mater_scholastica">Die Nonne Mater Scholastica</castItem>
+                <castItem corresp="#tiefsee">Der alte Komiker Tiefsee</castItem>
+                <castItem corresp="#konzertmeister_windfellner">Konzertmeister Windfellner</castItem>
+                <castItem corresp="#baron_attendorf">Baron Attendorn</castItem>
+                <castItem corresp="#diener_josé">Der erste Kammerdiener José</castItem>
+                <castItem corresp="#henry">Der zweite Kammerdiener Henry</castItem>
+                <castItem corresp="#der_küchenchef">Der Küchenchef</castItem>
                 <castItem>Der halbwüchsige Junge als Pan</castItem>
                 <castItem>Musiker, Balletkinder, Damen und Herren der Gesellschaft, Diener</castItem>
                 <pb n="108"/>

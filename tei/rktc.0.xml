@@ -61,6 +61,10 @@
           <person xml:id="lisette">
             <persName>LISETTE</persName>
           </person>
+          <listRelation>
+            <relation name="associated_with" active="#christoph" passive="#der_reisende" />
+            <relation name="parent_of" active="#der_baron" passive="#das_fräulein" />
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -96,13 +100,13 @@
             <castList>
               <head>Personen.</head>
               <castGroup>
-                <castItem>Michel Stich.</castItem>
-                <castItem>Martin Krumm.</castItem>
-                <castItem>Ein Reisender.</castItem>
-                <castItem>Christoph, dessen Bedienter.</castItem>
-                <castItem>Der Baron.</castItem>
-                <castItem>Ein junges Fräulein, dessen Tochter.</castItem>
-                <castItem>Lisette.</castItem>
+                <castItem corresp="#michel_stich">Michel Stich.</castItem>
+                <castItem corresp="#martin_krumm">Martin Krumm.</castItem>
+                <castItem corresp="#der_reisende">Ein Reisender.</castItem>
+                <castItem corresp="#christoph">Christoph, dessen Bedienter.</castItem>
+                <castItem corresp="#der_baron">Der Baron.</castItem>
+                <castItem corresp="#das_fräulein">Ein junges Fräulein, dessen Tochter.</castItem>
+                <castItem corresp="#lisette">Lisette.</castItem>
                 <pb n="376"/>
               </castGroup>
             </castList>
