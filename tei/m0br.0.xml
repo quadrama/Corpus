@@ -67,8 +67,8 @@
             <relation type="personal" name="parent_of" active="#herr_orgon" passive="#timant" />
             <relation type="personal" name="friends" mutual="#damon #timant" />
             <relation type="personal" name="associated_with" active="#philipp" passive="#timant" />
-            <relation type="personal" name="parent_with" active="#herr_geronte" passive="#climene"  />
-            <relation type="personal" name="associated_with" active="#lisette" passive="#climene"
+            <relation type="personal" name="parent_with" active="#herr_geronte" passive="#climene" />
+            <relation type="personal" name="associated_with" active="#lisette" passive="#climene" />
           </listRelation>
         </listPerson>
       </particDesc>

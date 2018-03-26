@@ -313,7 +313,7 @@
                 <castItem corresp="#kurl">Kurl, ein Knapp aus dem Normännischen Reichsheer.</castItem>
                 <castItem corresp="#gyldenbrog">Gyldenbrog, Kanzler des Dänenkönigs Alf.</castItem>
                 <castItem corresp="#ritter">Ein dänischer Ritter.</castItem>
-                <castItem corresp="#ein_knappe" corresp="#ein_knapp" corresp="#der_knapp">Ein Knapp,</castItem>
+                <castItem>Ein Knapp,</castItem>
                 <castItem>Ein anderer Krieger, , aus Alfs Heer.</castItem>
                 <castItem>Ein Krieger vom Heer des Herzogs von Ostland.</castItem>
                 <castItem>Normännische Ritter, Knappen, Trabanten und Heerhaufen. Dänische Ritter und Knappen. Normännisches Volk. Burggesinde und Frauen der Königin Irma.</castItem>

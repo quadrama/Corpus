@@ -203,7 +203,7 @@
                 <castItem corresp="#diener_josé">Der erste Kammerdiener José</castItem>
                 <castItem corresp="#henry">Der zweite Kammerdiener Henry</castItem>
                 <castItem corresp="#der_küchenchef">Der Küchenchef</castItem>
-                <castItem corresp="#ein_halbwüchsiger_junge"  corresp="#der_junge_pan">Der halbwüchsige Junge als Pan</castItem>
+                <castItem>Der halbwüchsige Junge als Pan</castItem>
                 <castItem>Musiker, Balletkinder, Damen und Herren der Gesellschaft, Diener</castItem>
                 <pb n="108"/>
               </castGroup>

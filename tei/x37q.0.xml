@@ -267,7 +267,7 @@
                 <castItem corresp="#kiesgräber">Kiesgräber,</castItem>
                 <castItem corresp="#kullmann">Kullmann,</castItem>
                 <castItem corresp="#laurus_bein">Laurus Bein,</castItem>
-                <castItem corresp="#hagelmeier" corresp="#haglmeier">Hagelmeier,</castItem>
+                <castItem corresp="#hagelmeier #haglmeier">Hagelmeier,</castItem>
                 <castItem corresp="#gespensterschreck">Gespensterschreck,</castItem>
                 <castItem corresp="#rohrdommel">Rohrdommel,</castItem>
                 <castItem>Schlammgrundel,</castItem>
@@ -281,7 +281,7 @@
                 <castItem>Ein Drache.</castItem>
                 <castItem corresp="#breitenbach">Ralf Breitenbach, Schauspieler.</castItem>
                 <castItem corresp="#fahrstuhl">William Fahrstuhl, Zeitungskorrespondent.</castItem>
-                <castItem corresp="#regisseur"  corresp="#der_regisseur">Ein Regisseur.</castItem>
+                <castItem corresp="#regisseur #der_regisseur">Ein Regisseur.</castItem>
                 <castItem corresp="#der_diener">Ein Livreebedienter.</castItem>
                 <castItem corresp="#dr_hornstein">Dr. Hornstein, Arzt.</castItem>
                 <castItem corresp="#almer">Karl Almer, Maler.</castItem>

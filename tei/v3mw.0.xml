@@ -64,7 +64,7 @@
           </person>
           <person xml:id="leonore">
             <persName>LEONORE</persName>
-            <roleName0>der Frau Praatgern vorgegebene Tochter</roleName>
+            <roleName>der Frau Praatgern vorgegebene Tochter</roleName>
           </person>
           <person xml:id="laconius">
             <persName>LACONIUS</persName>

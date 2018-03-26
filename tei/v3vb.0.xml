@@ -3735,7 +3735,7 @@
               <speaker>FRITZ.</speaker>
               <l> Ah, die möcht' ich mir ansehn. <hi>Er nimmt die Lampe und beleuchtet die Bilder.</hi> </l>
             </sp>
-            <sp who="#christine">
+            <sp who="#christine_">
               <speaker>CHRISTINE .</speaker>
               <l>.. Abschied – und Heimkehr!</l>
             </sp>
@@ -4692,7 +4692,7 @@
                 <hi>Sehr rasch.</hi>
               </stage>
             </sp>
-            <sp who="#weiring">
+            <sp who="#_weiring">
               <speaker> WEIRING.</speaker>
               <l> Was willst du denn? –</l>
             </sp>
