@@ -151,7 +151,7 @@
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <p> Ohne Zweifel hat <name ref="#mellefont">Mellefont</name> mit Fleiß das allerelendeste im ganzen Städtchen zu seinem Aufenthalte gewählt. Böse Leute suchen immer das Dunkle, weil sie böse Leute sind. Aber was hilft es ihnen, wenn sie sich auch vor der ganzen Welt verbergen könnten? Das Gewissen ist doch mehr, als eine ganze uns verklagende Welt. – Ach, <rs ref="#sir_william">Sie</rs> weinen schon wieder, schon wieder, Sir! – Sir!</p>
+                <p> Ohne Zweifel hat <name ref="#mellefont">Mellefont</name> mit Fleiß das allerelendeste im ganzen Städtchen zu seinem Aufenthalte gewählt. <rs ref="#mellefont">Böse Leute</rs> suchen immer das Dunkle, weil <rs ref="#mellefont">sie</rs> <rs ref="#mellefont">böse Leute</rs> sind. Aber was hilft es <rs ref="#mellefont">ihnen</rs>, wenn <rs ref="#mellefont">sie sich</rs> auch vor der ganzen Welt verbergen könnten? Das Gewissen ist doch mehr, als eine ganze uns verklagende Welt. – Ach, <rs ref="#sir_william">Sie</rs> weinen schon wieder, schon wieder, <rs ref="#sir_william">Sir</rs>! – <rs ref="#sir_william">Sir</rs>!</p>
               </sp>
               <sp who="#sir_william">
                 <speaker>SIR WILLIAM.</speaker>
@@ -159,31 +159,32 @@
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <l> Ach! <rs ref="#sara">sie</rs> verdient sie, und wenn es blutige Tränen wären.</l>
+                <l> Ach! <rs ref="#sara">sie</rs> verdient <rs ref="#die_tränen">sie</rs>, und wenn <rs ref="#die_tränen">es</rs> blutige Tränen wären.</l>
               </sp>
-              <sp who="#sir_william">
+              <sp who="#sir_william #waitwell">
                 <speaker>SIR WILLIAM.</speaker>
                 <l> Nun so laß mich.</l>
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <p> <rs ref="#sara">Das beste, schönste, unschuldigste Kind, das unter der Sonne gelebt hat</rs>, das muß so verführt werden! Ach <name ref="#sara">Sarchen</name>! <name ref="#sara">Sarchen</name>! Ich habe <rs ref="#sara">dich</rs> aufwachsen sehen; hundertmal habe ich <rs ref="#sara">dich</rs> als ein Kind auf diesen meinen Armen gehabt; auf diesen meinen Armen habe ich <rs ref="#sara">dein</rs> Lächeln, <rs ref="#sara">dein</rs> Lallen bewundert. Aus jeder kindischen Miene strahlte die Morgenröte eines Verstandes, einer Leutseligkeit, einer – –</p>
+                <p> <rs ref="#sara">Das beste, schönste, unschuldigste Kind, das unter der Sonne gelebt hat</rs>, <rs ref="#sara">das</rs> muß so verführt werden! Ach <name ref="#sara">Sarchen</name>! <name ref="#sara">Sarchen</name>!
+           Ich habe <rs ref="#sara">dich</rs> aufwachsen sehen; hundertmal habe ich <rs ref="#sara">dich</rs> als <rs ref="#sara">ein Kind</rs> auf diesen meinen Armen gehabt; auf diesen meinen Armen habe ich <rs ref="#sara">dein</rs> Lächeln, <rs ref="#sara">dein</rs> Lallen bewundert. Aus jeder kindischen Miene strahlte die Morgenröte eines Verstandes, einer Leutseligkeit, einer – –</p>
               </sp>
               <sp who="#sir_william">
                 <speaker>SIR WILLIAM.</speaker>
-                <p> O schweig! Zerfleischt nicht das Gegenwärtige mein Herz schon genug? Willst du meine Martern durch die Erinnerung an vergangne Glückseligkeiten noch höllischer machen? Ändre deine Sprache, wenn du mir einen Dienst tun willst. Tadle mich; mache mir aus meiner Zärtlichkeit <pb n="11"/> ein Verbrechen; vergrößre das Vergehen <rs ref="#sara">meiner Tochter</rs>; erfülle mich, wenn du kannst, mit Abscheu gegen sie; entflamme aufs neue meine Rache gegen <rs><rs ref="#sara">ihren</rs> verfluchten Verführer</rs>; sage, daß <name ref="#sara">Sara</name> nie tugendhaft gewesen, weil sie so leicht aufgehört hat es zu sein; sage, daß <rs ref="#sara">sie</rs> mich nie geliebt, weil <rs ref="#sara">sie</rs> mich heimlich verlassen hat.</p>
+                <p> O schweig! Zerfleischt nicht das Gegenwärtige mein Herz schon genug? Willst <rs ref="#waitwell">du</rs> meine Martern durch die Erinnerung an vergangne Glückseligkeiten noch höllischer machen? Ändre <rs ref="#waitwell">deine</rs> Sprache, wenn <rs ref="#waitwell">du</rs> mir einen Dienst tun willst. Tadle mich; mache mir aus meiner Zärtlichkeit <pb n="11"/> ein Verbrechen; vergrößre <rs ref="#vergehen">das Vergehen</rs> <rs ref="#sara">meiner Tochter</rs>; erfülle mich, wenn <rs ref="#waitwell">du</rs> kannst, mit Abscheu gegen <rs ref="#sara">sie</rs>; entflamme aufs neue meine Rache gegen <rs ref="#sara">ihren</rs> <rs ref="#mellefont">verfluchten Verführer</rs>; sage, daß <name ref="#sara">Sara</name> nie tugendhaft gewesen, weil <rs ref="#sara">sie</rs> so leicht aufgehört hat es zu sein; sage, daß <rs ref="#sara">sie</rs> mich nie geliebt, weil <rs ref="#sara">sie</rs> mich heimlich verlassen hat.</p>
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <p> Sagte ich das, so würde ich eine Lüge sagen; eine unverschämte böse Lüge. Sie könnte mir auf dem Todbette wieder einfallen, und ich alter Bösewicht müßte in Verzweiflung sterben. – Nein, Sarchen hat ihren Vater geliebt, und gewiß! gewiß! sie liebt ihn noch. Wenn Sie nur davon überzeugt sein wollen, Sir, so sehe ich sie heute noch wieder in Ihren Armen.</p>
+                <p> Sagte ich das, so würde ich eine Lüge sagen; eine unverschämte böse Lüge. <rs xml:id="eine_Lüge">Sie</rs> könnte mir auf dem Todbette wieder einfallen, und ich alter Bösewicht müßte in Verzweiflung sterben. – Nein, <name ref="#sara">Sarchen</name> hat <rs ref="#sara">ihren</rs> Vater geliebt, und gewiß! gewiß! <rs ref="#sara">sie</rs> liebt <rs ref="#sir_william">ihn</rs> noch. Wenn <rs ref="#sir_william">Sie</rs> nur davon überzeugt sein wollen, <rs ref="#sir_william">Sir</rs>, so sehe ich <rs ref="#sara">sie</rs> heute noch wieder in <rs ref="#sir_william">Ihren</rs> Armen.</p>
               </sp>
               <sp who="#sir_william">
                 <speaker>SIR WILLIAM.</speaker>
-                <p> Ja, Waitwell, nur davon verlange ich überzeugt zu sein. Ich kann sie länger nicht entbehren; sie ist die Stütze meines Alters, und wenn sie nicht den traurigen Rest meines Lebens versüßen hilft, wer soll es denn tun? Wenn sie mich noch liebt, so ist ihr Fehler vergessen. Es war der Fehler eines zärtlichen Mädchens, und ihre Flucht war die Wirkung ihrer Reue. Solche Vergehungen sind besser, als erzwungene Tugenden – Doch ich fühle es, Waitwell, ich fühle es; wenn diese Vergehungen auch wahre Verbrechen, wenn es auch vorsätzliche Laster wären: ach! ich würde ihr doch vergeben. Ich würde doch lieber von einer lasterhaften Tochter, als von keiner, geliebt sein wollen.</p>
+                <p> Ja, <name ref="#waitwell">Waitwell</name>, nur davon verlange ich überzeugt zu sein. Ich kann <rs ref="#sara">sie</rs> länger nicht entbehren; <rs ref="#sara">sie</rs> ist die Stütze meines Alters, und wenn <rs ref="#sara">sie</rs> nicht den traurigen Rest meines Lebens versüßen hilft, wer soll es denn tun? Wenn <rs ref="#sara">sie</rs> mich noch liebt, so ist <rs ref="#sara">ihr</rs> Fehler vergessen. Es war <rs ref="#der_fehler">der Fehler</rs> eines <rs ref="#sara">zärtlichen Mädchens</rs>, und <rs ref="#sara">ihre</rs> Flucht war die Wirkung <rs ref="#sara">ihrer</rs> Reue. Solche Vergehungen sind besser, als erzwungene Tugenden – Doch ich fühle es, <name ref="#waitwell">Waitwell</name>, ich fühle es; wenn <rs ref="#vergehen">diese Vergehungen</rs> auch wahre Verbrechen, wenn <rs ref="#vergehen">es</rs> auch vorsätzliche Laster wären: ach! ich würde <rs ref="#sara">ihr</rs> doch vergeben. Ich würde doch lieber von einer <rs ref="#sara">lasterhaften Tochter</rs>, als von keiner, geliebt sein wollen.</p>
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <p> Trocknen Sie Ihre Tränen ab, lieber Sir! Ich höre jemanden kommen. Es wird der Wirt sein, uns zu empfangen.</p>
+                <p> Trocknen Sie <rs ref="#sir_william">Ihre</rs> Tränen ab, <rs ref="#sir_william">lieber Sir</rs>! Ich höre jemanden kommen. Es wird <rs ref="#der_wirt">der Wirt</rs> sein, uns zu empfangen.</p>
               </sp>
             </div>
           </div>
@@ -202,24 +203,24 @@
               </stage>
               <sp who="#der_wirt">
                 <speaker>DER WIRT.</speaker>
-                <p> So früh, meine Herren, so früh? Willkommen! willkommen Waitwell! Ihr seid ohne Zweifel die Nacht gefahren? Ist das der Herr, von dem du gestern mit mir gesprochen hast?</p>
+                <p> So früh, <rs ref="#sir_william #waitwell">meine Herren</rs>, so früh? Willkommen! willkommen <name ref="#waitwell">Waitwell</name>! <rs ref="#sir_william #waitwell">Ihr</rs> seid ohne Zweifel die Nacht gefahren? Ist <rs ref="#sir_william">das</rs> <rs ref="#sir_william">der Herr</rs>, von <rs ref="#sir_william">dem</rs> <rs ref="#waitwell">du</rs> gestern mit mir gesprochen hast?</p>
                 <pb n="12"/>
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <l> Ja, er ist es, und ich hoffe, daß du abgeredeter Maßen – –</l>
+                <l> Ja, <rs ref="#sir_william">er</rs> ist <rs ref="#sir_william">es</rs>, und ich hoffe, daß <rs ref="#der_wirt">du</rs> abgeredeter Maßen – –</l>
               </sp>
               <sp who="#der_wirt">
                 <speaker>DER WIRT.</speaker>
-                <p> Gnädiger Herr, ich bin ganz zu Ihren Diensten. Was liegt mir daran, ob ich es weiß, oder nicht, was Sie für eine Ursache hierher führt, und warum Sie bei mir im Verborgnen sein wollen? Ein Wirt nimmt sein Geld, und läßt seine Gäste machen, was ihnen gut dünkt. Waitwell hat mir zwar gesagt, daß Sie den fremden Herrn, der sich seit einigen Wochen mit seinem jungen Weibchen bei mir aufhält, ein wenig beobachten wollen. Aber ich hoffe, daß Sie ihm keinen Verdruß verursachen werden. Sie würden mein Haus in einen übeln Ruf bringen, und gewisse Leute würden sich scheuen, bei mir abzutreten. Unser einer muß von allen Sorten Menschen leben. – –</p>
+                <p> <rs ref="#sir_william">Gnädiger Herr</rs>, ich bin ganz zu <rs ref="#sir_william">Ihren</rs> Diensten. Was liegt mir daran, ob ich es weiß, oder nicht, was <rs ref="#sir_william">Sie</rs> für eine Ursache hierher führt, und warum <rs ref="#sir_william">Sie</rs> bei mir im Verborgnen sein wollen? Ein Wirt nimmt <rs ref="#der_wirt">sein</rs> Geld, und läßt <rs ref="#der_wirt">seine</rs> Gäste machen, was <rs ref="#sir_william #waitwell">ihnen</rs> gut dünkt. <name ref="#waitwell">Waitwell</name> hat mir zwar gesagt, daß <rs ref="#sir_william">Sie</rs> <rs ref="#mellefont">den fremden Herrn</rs>, <rs ref="#mellefont">der</rs> <rs ref="#mellefont">sich</rs> seit einigen Wochen mit <rs ref="#mellefont">seinem</rs> <rs ref="#sara">jungen Weibchen</rs> bei mir aufhält, ein wenig beobachten wollen. Aber ich hoffe, daß <rs ref="#sir_william">Sie</rs> <rs ref="#mellefont">ihm</rs> keinen Verdruß verursachen werden. <rs ref="#sir_william">Sie</rs> würden mein Haus in einen übeln Ruf bringen, und gewisse Leute würden sich scheuen, bei mir abzutreten. Unser einer muß von allen Sorten Menschen leben. – –</p>
               </sp>
               <sp who="#sir_william">
                 <speaker>SIR WILLIAM.</speaker>
-                <p> Besorget nichts; führt mich nur in das Zimmer, das Waitwell für mich bestellt hat. Ich komme aus rechtschaffnen Absichten hierher.</p>
+                <p> Besorget nichts; führt mich nur in <rs ref="#zimmer_w">das Zimmer</rs>, <rs ref="#zimmer_w">das</rs> <name ref="#waitwell">Waitwell</name> für mich bestellt hat. Ich komme aus rechtschaffnen Absichten hierher.</p>
               </sp>
               <sp who="#der_wirt">
                 <speaker>DER WIRT.</speaker>
-                <p> Ich mag Ihre Geheimnisse nicht wissen, gnädiger Herr! Die Neugierde ist mein Fehler gar nicht. Ich hätte es, zum Exempel, längst erfahren können, wer der fremde Herr ist, auf den Sie Acht geben wollen; aber ich mag nicht. So viel habe ich wohl herausgebracht, daß er mit dem Frauenzimmer muß durchgegangen sein. Das gute Weibchen, oder was sie ist! sie bleibt den ganzen Tag in ihrer Stube eingeschlossen und weint.</p>
+                <p> Ich mag <rs ref="#sir_william">Ihre</rs> Geheimnisse nicht wissen, <rs ref="#sir_william">gnädiger Herr</rs>! Die Neugierde ist mein Fehler gar nicht. Ich hätte es, zum Exempel, längst erfahren können, wer <rs ref="#mellefont">der fremde Herr</rs> ist, auf <rs ref="#mellefont">den</rs> <rs ref="#sir_william">Sie</rs> Acht geben wollen; aber ich mag nicht. So viel habe ich wohl herausgebracht, daß <rs ref="#mellefont">er</rs> mit <rs ref="#sara">dem Frauenzimmer</rs> muß durchgegangen sein. <rs ref="#sara">Das gute Weibchen</rs>, oder was <rs ref="#sara">sie</rs> ist! <rs ref="#sara">sie</rs> bleibt den ganzen Tag in ihrer Stube eingeschlossen und weint.</p>
               </sp>
               <sp who="#sir_william">
                 <speaker>SIR WILLIAM.</speaker>
@@ -227,31 +228,31 @@
               </sp>
               <sp who="#der_wirt">
                 <speaker>DER WIRT.</speaker>
-                <p> Ja, und weint – – Aber, gnädiger Herr, warum weinen Sie? Das Frauenzimmer muß Ihnen sehr nahe gehen. Sie sind doch wohl nicht – –</p>
+                <p> Ja, und weint – – Aber, <rs ref="#sir_william">gnädiger Herr</rs>, warum weinen <rs ref="#sir_william">Sie</rs>? <rs ref="#sara">Das Frauenzimmer</rs> muß <rs ref="#sir_william">Ihnen</rs> sehr nahe gehen. <rs ref="#sir_william">Sie</rs> sind doch wohl nicht – –</p>
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <l> Halt ihn nicht länger auf.</l>
+                <l> Halt <rs ref="#sir_william">ihn</rs> nicht länger auf.</l>
               </sp>
               <sp who="#der_wirt">
                 <speaker>DER WIRT.</speaker>
-                <p> Kommen Sie. Nur eine Wand wird Sie von dem Frauenzimmer trennen, das Ihnen so nahe geht, und die vielleicht – –</p>
+                <p> Kommen <rs ref="#sir_william">Sie</rs>. Nur eine Wand wird <rs ref="#sir_william">Sie</rs> von <rs ref="#sara">dem Frauenzimmer</rs> trennen, <rs ref="#sara">das</rs> <rs ref="#sir_william">Ihnen</rs> so nahe geht, und <rs ref="#sara">die</rs> vielleicht – –</p>
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <l> Du willst es also mit aller Gewalt wissen, wer – –</l>
+                <l> <rs ref="#der_wirt">Du</rs> willst es also mit aller Gewalt wissen, <rs ref="#sara">wer</rs> – –</l>
               </sp>
               <sp who="#der_wirt">
                 <speaker>DER WIRT.</speaker>
-                <l> Nein, Waitwell, ich mag nichts wissen.</l>
+                <l> Nein, <name ref="#waitwell">Waitwell</name>, ich mag nichts wissen.</l>
               </sp>
               <sp who="#waitwell">
                 <speaker>WAITWELL.</speaker>
-                <l> Nun so mache, und bringe uns an den gehörigen Ort, ehe noch das ganze Haus wach wird.</l>
+                <l> Nun so mache, und bringe uns <rs ref="#zimmer_w">an den gehörigen Ort</rs>, ehe noch das ganze Haus wach wird.</l>
               </sp>
               <sp who="#der_wirt">
                 <speaker>DER WIRT.</speaker>
-                <l> Wollen Sie mir also folgen, gnädiger Herr? <hi>Geht ab.</hi> </l>
+                <l> Wollen <rs ref="#sir_william">Sie</rs> mir also folgen, <rs ref="#sir_william">gnädiger Herr</rs>? <hi>Geht ab.</hi> </l>
                 <pb n="13"/>
               </sp>
             </div>
@@ -280,22 +281,22 @@
                 <stage>
                   <hi>unangekleidet in einem Lehnstuhle.</hi>
                 </stage>
-                <p> Wieder eine Nacht, die ich auf der Folter nicht grausamer hätte zubringen können! – Norton! – Ich muß nur machen, daß ich Gesichter zu sehen bekomme. Bliebe ich mit meinen Gedanken länger allein: sie möchten mich zu weit führen. – He, Norton! Er schläft noch. Aber bin ich nicht grausam, daß ich den armen Teufel nicht schlafen lasse? Wie glücklich ist er! – Doch ich will nicht, daß ein Mensch um mich glücklich sei. – Norton!</p>
+                <p> Wieder eine Nacht, die ich auf der Folter nicht grausamer hätte zubringen können! – <name ref="#norton">Norton</name>! – Ich muß nur machen, daß ich Gesichter zu sehen bekomme. Bliebe ich mit meinen Gedanken länger allein: sie möchten mich zu weit führen. – He, <name ref="#norton">Norton</name>! <rs ref="#norton">Er</rs> schläft noch. Aber bin ich nicht grausam, daß ich <rs ref="#norton">den armen Teufel</rs> nicht schlafen lasse? Wie glücklich ist <rs ref="#norton">er</rs>! – Doch ich will nicht, daß <rs ref="#norton">ein Mensch</rs> um mich glücklich sei. – <name ref="#norton">Norton</name>!</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON</speaker>
                 <stage>
                   <hi>kommend.</hi>
                 </stage>
-                <l> Mein Herr!</l>
+                <l> <rs ref="#mellefont">Mein Herr</rs>!</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Kleide mich an! – O mache mir keine sauern Gesichter! Wenn ich werde länger schlafen können, so erlaube ich dir, daß du auch länger schlafen darfst. Wenn du von deiner Schuldigkeit nichts wissen willst, so habe wenigstens Mitleiden mit mir.</p>
+                <p> Kleide mich an! – O mache mir keine sauern Gesichter! Wenn ich werde länger schlafen können, so erlaube ich <rs ref="#norton">dir</rs>, daß <rs ref="#norton">du</rs> auch länger schlafen darfst. Wenn <rs ref="#norton">du</rs> von <rs ref="#norton">deiner</rs> Schuldigkeit nichts wissen willst, so habe wenigstens Mitleiden mit mir.</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> Mitleiden, mein Herr? Mitleiden mit Ihnen? Ich weiß besser, wo das Mitleiden hingehört.</l>
+                <l> Mitleiden, <rs ref="#mellefont">mein Herr</rs>? Mitleiden mit <rs ref="#mellefont">Ihnen</rs>? Ich weiß besser, <rs ref="#sara">wo</rs> das Mitleiden hingehört.</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
@@ -303,11 +304,11 @@
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> Ah, lassen Sie sich ankleiden, und fragen Sie mich nichts.</l>
+                <l> Ah, lassen <rs ref="#mellefont">Sie sich</rs> ankleiden, und fragen <rs ref="#mellefont">Sie</rs> mich nichts.</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Henker! So sollen auch deine Verweise mit meinem Gewissen aufwachen? Ich verstehe dich; ich weiß es, wer dein Mitleiden erschöpft. – Doch, ich lasse ihr und mir Gerechtigkeit widerfahren. Ganz recht; habe kein Mitleiden mit mir. Verfluche mich in deinem Herzen, aber – verfluche auch dich.</p>
+                <p> <rs ref="#norton">Henker</rs>! So sollen auch <rs ref="#norton">deine</rs> Verweise mit meinem Gewissen aufwachen? Ich verstehe <rs ref="#norton">dich</rs>; ich weiß es, <rs ref="#sara">wer</rs> <rs ref="#norton">dein</rs> Mitleiden erschöpft. – Doch, ich lasse <rs ref="#sara">ihr</rs> und mir Gerechtigkeit widerfahren. Ganz recht; habe kein Mitleiden mit mir. Verfluche mich in <rs ref="#norton">deinem</rs> Herzen, aber – verfluche auch <rs ref="#norton">dich</rs>.</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
@@ -315,24 +316,24 @@
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Ja; weil du einem Elenden dienest, den die Erde nicht tragen sollte, und weil du dich seiner Verbrechen mit teilhaft gemacht hast.</p>
+                <p> Ja; weil <rs ref="#norton">du</rs> einem Elenden dienest, den die Erde nicht tragen sollte, und weil <rs ref="#norton">du dich</rs> seiner Verbrechen mit teilhaft gemacht hast.</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> Ich mich Ihrer Verbrechen teilhaft gemacht? durch was?</l>
+                <l> Ich mich <rs ref="#mellefont">Ihrer</rs> Verbrechen teilhaft gemacht? durch was?</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Dadurch, daß du dazu geschwiegen.</l>
+                <l> Dadurch, daß <rs ref="#norton">du</rs> dazu geschwiegen.</l>
                 <pb n="14"/>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <p> Vortrefflich! in der Hitze Ihrer Leidenschaften, würde mir ein Wort den Hals gekostet haben. – Und dazu, als ich Sie kennen lernte, fand ich Sie nicht schon so arg, daß alle Hoffnung zur Beßrung vergebens war? Was für ein Leben habe ich Sie nicht, von dem ersten Augenblicke an, führen sehen! In der nichtswürdigsten Gesellschaft von Spielern und Landstreichern – ich nenne sie, was sie waren und kehre mich an ihre Titel, Ritter und dergleichen, nicht – in solcher Gesellschaft brachten Sie ein Vermögen durch, das Ihnen den Weg zu den größten Ehrenstellen hätte bahnen können. Und Ihr strafbarer Umgang mit allen Arten von Weibsbildern, besonders der bösen Marwood – –</p>
+                <p> Vortrefflich! in der Hitze <rs ref="#mellefont">Ihrer</rs> Leidenschaften, würde mir ein Wort den Hals gekostet haben. – Und dazu, als ich <rs ref="#mellefont">Sie</rs> kennen lernte, fand ich <rs ref="#mellefont">Sie</rs> nicht schon so arg, daß alle Hoffnung zur Beßrung vergebens war? Was für ein Leben habe ich <rs ref="#mellefont">Sie</rs> nicht, von dem ersten Augenblicke an, führen sehen! In der <rs xml:id="volk">nichtswürdigsten Gesellschaft von Spielern und Landstreichern</rs> – ich nenne <rs ref="#volk">sie</rs>, was <rs ref="#volk">sie</rs> waren und kehre mich an <rs ref="#volk">ihre</rs> Titel, <rs ref="#volk">Ritter</rs> und <rs ref="#volk">dergleichen</rs>, nicht – in solcher Gesellschaft brachten <rs ref="#mellefont">Sie</rs> <rs ref="#vermögen_mellefont">ein Vermögen</rs> durch, das <rs ref="#mellefont">Ihnen</rs> den Weg zu den größten Ehrenstellen hätte bahnen können. Und <rs ref="#mellefont">Ihr</rs> strafbarer Umgang mit allen Arten von <rs xml:id="frauen">Weibsbildern</rs>, besonders <name ref="#marwood">der bösen Marwood</name> – –</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Setze mich, setze mich wieder in diese Lebensart: sie war Tugend in Vergleich meiner itzigen. Ich vertat mein Vermögen; gut. Die Strafe kömmt nach, und ich werde alles, was der Mangel Hartes und Erniedrigendes hat, zeitig genug empfinden. Ich besuchte lasterhafte Weibsbilder; laß es sein. Ich ward öfter verführt, als ich verführte; und die ich selbst verführte, wollten verführt sein. – Aber – ich hatte noch keine verwahrlosete Tugend auf meiner Seele. Ich hatte noch keine Unschuld in ein unabsehliches Unglück gestürzt. Ich hatte noch keine Sara aus dem Hause eines geliebten Vaters entwendet, und sie gezwungen, einem Nichtswürdigen zu folgen, der auf keine Weise mehr sein eigen war. Ich hatte – Wer kömmt schon so früh zu mir?</p>
+                <p> Setze mich, setze mich wieder in diese Lebensart: sie war Tugend in Vergleich meiner itzigen. Ich vertat <rs ref="#vermögen_mellefont">mein Vermögen</rs>; gut. Die Strafe kömmt nach, und ich werde alles, was der Mangel Hartes und Erniedrigendes hat, zeitig genug empfinden. Ich besuchte <rs ref="#frauen">lasterhafte Weibsbilder</rs>; laß es sein. Ich ward öfter verführt, als ich verführte; und die ich selbst verführte, wollten verführt sein. – Aber – ich hatte noch keine verwahrlosete Tugend auf meiner Seele. Ich hatte noch keine Unschuld in ein unabsehliches Unglück gestürzt. Ich hatte noch keine <name ref="#sara">Sara</name> aus dem Hause <rs ref="#sir_william">eines geliebten Vaters</rs> entwendet, und <rs ref="#sara">sie</rs> gezwungen, einem Nichtswürdigen zu folgen, der auf keine Weise mehr sein eigen war. Ich hatte – <rs ref="#betty">Wer</rs> kömmt schon so früh zu mir?</p>
               </sp>
             </div>
           </div>
@@ -351,27 +352,27 @@
               </stage>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> Es ist Betty.</l>
+                <l> Es ist <name ref="#betty">Betty</name>.</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Schon auf, Betty? Was macht dein Fräulein?</l>
+                <l> Schon auf, <name ref="#betty">Betty</name>? Was macht <rs ref="#betty">dein</rs> <rs ref="#sara">Fräulein</rs>?</l>
               </sp>
               <sp who="#betty">
                 <speaker>BETTY.</speaker>
-                <p> Was macht sie? <hi>Schluchzend.</hi> Es war schon lange nach Mitternacht, da ich sie endlich bewegte, zur Ruhe zu gehen. Sie schlief einige Augenblicke, aber Gott! Gott! was muß das für ein Schlaf gewesen sein! Plötzlich fuhr sie in die Höhe, sprang auf, und fiel mir als eine Unglückliche in die <pb n="15"/> Arme, die von einem Mörder verfolgt wird. Sie zitterte, und ein kalter Schweiß floß ihr über das erblaßte Gesicht. Ich wandte alles an, sie zu beruhigen, aber sie hat mir bis an den Morgen nur mit stummen Tränen geantwortet. Endlich hat sie mich einmal über das andre an Ihre Türe geschickt, zu hören, ob Sie schon aufwären. Sie will Sie sprechen. Sie allein können sie trösten. Tun Sie es doch, liebster gnädiger Herr, tun Sie es doch. Das Herz muß mir springen, wenn sie sich so zu ängstigen fortfährt.</p>
+                <p> Was macht <rs ref="#sara">sie</rs>? <hi>Schluchzend.</hi> Es war schon lange nach Mitternacht, da ich <rs ref="#sara">sie</rs> endlich bewegte, zur Ruhe zu gehen. <rs ref="#sara">Sie</rs> schlief einige Augenblicke, aber Gott! Gott! was muß das für ein Schlaf gewesen sein! Plötzlich fuhr <rs ref="#sara">sie</rs> in die Höhe, sprang auf, und fiel mir als eine Unglückliche in die <pb n="15"/> Arme, die von einem Mörder verfolgt wird. <rs ref="#sara">Sie</rs> zitterte, und ein kalter Schweiß floß <rs ref="#sara">ihr</rs> über das erblaßte Gesicht. Ich wandte alles an, <rs ref="#sara">sie</rs> zu beruhigen, aber <rs ref="#sara">sie</rs> hat mir bis an den Morgen nur mit stummen Tränen geantwortet. Endlich hat <rs ref="#sara">sie</rs> mich einmal über das andre an <rs ref="#mellefont">Ihre</rs> Türe geschickt, zu hören, ob <rs ref="#mellefont">Sie</rs> schon aufwären. <rs ref="#sara">Sie</rs> will <rs ref="#mellefont">Sie</rs> sprechen. <rs ref="#mellefont">Sie</rs> allein können <rs ref="#sara">sie</rs> trösten. Tun <rs ref="#mellefont">Sie</rs> es doch, <rs ref="#mellefont">liebster gnädiger Herr</rs>, tun <rs ref="#mellefont">Sie</rs> es doch. Das Herz muß mir springen, wenn <rs ref="#sara">sie sich</rs> so zu ängstigen fortfährt.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Geh, Betty, sage ihr, daß ich den Augenblick bei ihr sein wolle – –</l>
+                <l> Geh, <name ref="#betty">Betty</name>, sage <rs ref="#sara">ihr</rs>, daß ich den Augenblick bei <rs ref="#sara">ihr</rs> sein wolle – –</l>
               </sp>
               <sp who="#betty">
                 <speaker>BETTY.</speaker>
-                <l> Nein, sie will selbst zu Ihnen kommen.</l>
+                <l> Nein, <rs ref="#sara">sie</rs> will <rs ref="#sara">selbst</rs>zu <rs ref="#mellefont">Ihnen</rs> kommen.</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Nun so sage ihr, daß ich sie erwarte – Ach! – – <hi>Betty geht ab.</hi> </l>
+                <l> Nun so sage <rs ref="#sara">ihr</rs>, daß ich <rs ref="#sara">sie</rs> erwarte – Ach! – – <hi>Betty geht ab.</hi> </l>
               </sp>
             </div>
           </div>
@@ -390,28 +391,28 @@
               </stage>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> Gott, die arme Miß!</l>
+                <l> Gott, <rs ref="#sara">die arme Miß</rs>!</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Wessen Gefühl willst du durch deine Ausrufung rege machen? Sieh, da läuft die erste Träne, die ich seit meiner Kindheit geweinet, die Wange herunter! – Eine schlechte Vorbereitung, eine trostsuchende Betrübte zu empfangen. Warum sucht sie ihn auch bei mir? – Doch wo soll sie ihn sonst suchen? – Ich muß mich fassen. <hi>Indem er sich die Augen abtrocknet.</hi> Wo ist die alte Standhaftigkeit, mit der ich ein schönes Auge konnte weinen sehen? Wo ist die Gabe der Verstellung hin, durch die ich sein und sagen konnte, was ich wollte? – Nun wird sie kommen, und wird unwiderstehliche Tränen weinen. Verwirrt, beschämt werde ich vor ihr stehen; als ein verurteilter Sünder werde ich vor ihr stehen. Rate mir doch, was soll ich tun? was soll ich sagen?</p>
+                <p> Wessen Gefühl willst <rs ref="#norton">du</rs> durch <rs ref="#norton">deine</rs> Ausrufung rege machen? Sieh, da läuft die erste Träne, die ich seit meiner Kindheit geweinet, die Wange herunter! – Eine schlechte Vorbereitung, <rs ref="#sara">eine trostsuchende Betrübte</rs> zu empfangen. Warum sucht <rs ref="#sara">sie</rs> <rs ref="#trost">ihn</rs> auch bei mir? – Doch wo soll <rs ref="#sara">sie</rs> <rs ref="#trost">ihn</rs> sonst suchen? – Ich muß mich fassen. <hi>Indem er sich die Augen abtrocknet.</hi> Wo ist die alte Standhaftigkeit, mit der ich ein schönes Auge konnte weinen sehen? Wo ist die Gabe der Verstellung hin, durch die ich sein und sagen konnte, was ich wollte? – Nun wird <rs ref="#sara">sie</rs> kommen, und wird unwiderstehliche Tränen weinen. Verwirrt, beschämt werde ich vor <rs ref="#sara">ihr</rs> stehen; als ein verurteilter Sünder werde ich vor <rs ref="#sara">ihr</rs> stehen. Rate mir doch, was soll ich tun? was soll ich sagen?</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> Sie sollen tun, was sie verlangen wird.</l>
+                <l> <rs ref="#mellefont">Sie</rs> sollen tun, was <rs ref="#sara">sie</rs> verlangen wird.</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> So werde ich eine neue Grausamkeit an ihr begehen. Mit Unrecht tadelt sie die Verzögerung einer Zeremonie, die itzt ohne unser äußerstes Verderben in dem Königreiche nicht vollzogen werden kann.</p>
+                <p> So werde ich eine neue Grausamkeit an <rs ref="#sara">ihr</rs> begehen. Mit Unrecht tadelt <rs ref="#sara">sie</rs> <rs ref="#verzögerung">die Verzögerung</rs> <rs ref="#ehe">einer Zeremonie</rs>, <rs ref="#ehe">die</rs> itzt ohne unser äußerstes Verderben in dem Königreiche nicht vollzogen werden kann.</p>
                 <pb n="16"/>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <p> So machen Sie denn, daß Sie es verlassen. Warum zaudern wir? Warum vergeht ein Tag, warum vergeht eine Woche nach der andern? Tragen Sie mir es doch auf. Sie sollen morgen sicher eingeschifft sein. Vielleicht, daß ihr der Kummer nicht ganz über das Meer folgt; daß sie einen Teil desselben zurückläßt, und in einem andern Lande – –</p>
+                <p> So machen <rs ref="#mellefont">Sie</rs> denn, daß <rs ref="#mellefont">Sie</rs> es verlassen. Warum zaudern wir? Warum vergeht ein Tag, warum vergeht eine Woche nach der andern? Tragen <rs ref="#mellefont">Sie</rs> mir es doch auf. <rs ref="#mellefont">Sie</rs> sollen morgen sicher eingeschifft sein. Vielleicht, daß <rs ref="#sara">ihr</rs> <rs ref="#kummer">der Kummer</rs> nicht ganz über das Meer folgt; daß <rs ref="#sara">sie</rs> einen Teil <rs ref="#kummer">desselben</rs> zurückläßt, und in einem andern Lande – –</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Alles das hoffe ich selbst – Still, sie kömmt. Wie schlägt mir das Herz – –</l>
+                <l> Alles das hoffe ich selbst – Still, <rs ref="#sara">sie</rs> kömmt. Wie schlägt mir das Herz – –</l>
               </sp>
             </div>
           </div>
@@ -433,11 +434,11 @@
                 <stage>
                   <hi>indem er ihr entgegen geht.</hi>
                 </stage>
-                <l> Sie haben eine unruhige Nacht gehabt, liebste Miß – –</l>
+                <l> <rs ref="#sara">Sie</rs> haben eine unruhige Nacht gehabt, <rs ref="#sara">liebste Miß</rs> – –</l>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <l> Ach, Mellefont, wenn es nichts als eine unruhige Nacht wäre – –</l>
+                <l> Ach, <name ref="#mellefont">Mellefont</name>, wenn es nichts als eine unruhige Nacht wäre – –</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT</speaker>
@@ -470,54 +471,54 @@
               </stage>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Sie sind schwach, liebste Miß. Sie müssen sich setzen.</l>
+                <l> <rs ref="#sara">Sie</rs> sind schwach, <rs ref="#sara">liebste Miß</rs>. <rs ref="#sara">Sie</rs> müssen <rs ref="#sara">sich</rs> setzen.</l>
               </sp>
               <sp who="#sara">
                 <speaker>SARA</speaker>
                 <stage>
                   <hi>sie setzt sich.</hi>
                 </stage>
-                <p> Ich beunruhige Sie sehr früh; und werden Sie mir es vergeben, daß ich meine Klagen wieder mit dem Morgen anfange?</p>
+                <p> Ich beunruhige <rs ref="#mellefont">Sie</rs> sehr früh; und werden <rs ref="#mellefont">Sie</rs> mir es vergeben, daß ich meine Klagen wieder mit dem Morgen anfange?</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Teuerste Miß, Sie wollen sagen, daß Sie mir es nicht vergeben können, weil schon wieder ein Morgen erschienen ist, ohne daß ich Ihren Klagen ein Ende gemacht habe.</p>
+                <p> <rs ref="#sara">Teuerste Miß</rs>, <rs ref="#sara">Sie</rs> wollen sagen, daß <rs ref="#sara">Sie</rs> mir es nicht vergeben können, weil schon wieder ein Morgen erschienen ist, ohne daß ich <rs ref="#sara">Ihren</rs> Klagen ein Ende gemacht habe.</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Was sollte ich Ihnen nicht vergeben? Sie wissen, was ich Ihnen bereits vergeben habe. Aber die neunte Woche, Mellefont, die neunte Woche fängt heut an, und dieses elende Haus <pb n="17"/> sieht mich noch immer auf eben dem Fuße, als den ersten Tag.</p>
+                <p> Was sollte ich <rs ref="#mellefont">Ihnen</rs> nicht vergeben? <rs ref="#mellefont">Sie</rs> wissen, was ich <rs ref="#mellefont">Ihnen</rs> bereits vergeben habe. Aber die neunte Woche, <name ref="#mellefont">Mellefont</name>, die neunte Woche fängt heut an, und dieses elende Haus <pb n="17"/> sieht mich noch immer auf eben dem Fuße, als den ersten Tag.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> So zweifeln Sie an meiner Liebe?</l>
+                <l> So zweifeln <rs ref="#sara">Sie</rs> an meiner Liebe?</l>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Ich, an Ihrer Liebe zweifeln? Nein, ich fühle mein Unglück zu sehr, zu sehr, als daß ich mir selbst diese letzte einzige Versüßung desselben rauben sollte.</p>
+                <p> Ich, an <rs ref="#mellefont">Ihrer</rs> Liebe zweifeln? Nein, ich fühle mein Unglück zu sehr, zu sehr, als daß ich mir selbst diese letzte einzige Versüßung desselben rauben sollte.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Wie kann also meine Miß über die Verschiebung einer Zeremonie unruhig sein?</l>
+                <l> Wie kann also <rs ref="#sara">meine Miß</rs> über <rs ref="#verzögerung">die Verschiebung</rs> <rs ref="#ehe">einer Zeremonie</rs> unruhig sein?</l>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Ach, Mellefont, warum muß ich einen andern Begriff von dieser Zeremonie haben? – Geben Sie doch immer der weiblichen Denkungsart etwas nach. Ich stelle mir vor, daß eine nähere Einwilligung des Himmels darin liegt. Umsonst habe ich es, nur wieder erst den gestrigen langen Abend, versucht, Ihre Begriffe anzunehmen, und die Zweifel aus meiner Brust zu verbannen, die Sie, itzt nicht das erstemal, für Früchte meines Mißtrauens angesehen haben. Ich stritt mit mir selbst; ich war sinnreich genug, meinen Verstand zu betäuben; aber mein Herz und ein inneres Gefühl warfen auf einmal das mühsame Gebäude von Schlüssen übern Haufen. Mitten aus dem Schlafe weckten mich strafende Stimmen, mit welchen sich meine Phantasie, mich zu quälen, verband. Was für Bilder, was für schreckliche Bilder schwärmten um mich herum! Ich wollte sie gern für Träume halten – –</p>
+                <p> Ach, <name ref="#mellefont">Mellefont</name>, warum muß ich einen andern Begriff von <rs ref="#ehe">dieser Zeremonie</rs> haben? – Geben <rs ref="#mellefont">Sie</rs> doch immer der weiblichen Denkungsart etwas nach. Ich stelle mir vor, daß eine nähere Einwilligung des Himmels darin liegt. Umsonst habe ich es, nur wieder erst den gestrigen langen Abend, versucht, <rs ref="#mellefont">Ihre</rs> Begriffe anzunehmen, und die Zweifel aus meiner Brust zu verbannen, die <rs ref="#mellefont">Sie</rs>, itzt nicht das erstemal, für Früchte meines Mißtrauens angesehen haben. Ich stritt mit mir selbst; ich war sinnreich genug, meinen Verstand zu betäuben; aber mein Herz und ein inneres Gefühl warfen auf einmal das mühsame Gebäude von Schlüssen übern Haufen. Mitten aus dem Schlafe weckten mich strafende Stimmen, mit welchen sich meine Phantasie, mich zu quälen, verband. Was für Bilder, was für schreckliche Bilder schwärmten um mich herum! Ich wollte sie gern für <rs xml:id="traum">Träume</rs> halten – –</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Wie? meine vernünftige Sara sollte sie für etwas mehr halten? Träume, liebste Miß, Träume! – Wie unglücklich ist der Mensch! Fand sein Schöpfer in dem Reiche der Wirklichkeiten nicht Qualen für ihn genug? Mußte er, sie zu vermehren, auch ein noch weiteres Reich von Einbildungen in ihm schaffen?</p>
+                <p> Wie? meine vernünftige <name ref="#sara">Sara</name> sollte sie für etwas mehr halten? <rs ref="#traum">Träume</rs>, <rs ref="#sara">liebste Miß</rs>, <rs ref="#traum">Träume</rs>! – Wie unglücklich ist der Mensch! Fand sein Schöpfer in dem Reiche der Wirklichkeiten nicht Qualen für <rs ref="#mensch">ihn</rs> genug? Mußte er, <rs ref="#qualen">sie</rs> zu vermehren, auch <rs ref="#traum">ein noch weiteres Reich von Einbildungen</rs> in <rs ref="#mensch">ihm</rs> schaffen?</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Klagen Sie den Himmel nicht an! Er hat die Einbildungen in unserer Gewalt gelassen. Sie richten sich nach unsern Taten, und wenn diese unsern Pflichten und der Tugend gemäß sind, so dienen die sie begleitenden Einbildungen zur Vermehrung unserer Ruhe und unseres Vergnügens. Eine einzige Handlung, Mellefont, ein einziger Segen, der von einem Friedensboten im Namen der ewigen Güte auf uns gelegt wird, kann meine zerrüttete Phantasie wieder heilen. Stehen Sie noch an, mir zu Liebe dasjenige einige Tage eher zu tun, was Sie doch einmal tun werden? Erbarmen Sie sich <pb n="18"/> meiner, und überlegen Sie, daß wenn Sie mich auch dadurch nur von Qualen der Einbildung befreien, diese eingebildete Qualen doch Qualen, und für die, die sie empfindet, wirkliche Qualen sind. – Ach, könnte ich Ihnen nur halb so lebhaft die Schrecken meiner vorigen Nacht erzählen, als ich sie gegefühlt habe! – Von Weinen und Klagen, meinen einzigen Beschäftigungen, ermüdet, sank ich mit halb geschlossenen Augenlidern auf das Bett zurück. Die Natur wollte sich einen Augenblick erholen, neue Tränen zu sammeln. Aber noch schlief ich nicht ganz, als ich mich auf einmal an dem schroffsten Teile des schrecklichsten Felsen sahe. Sie gingen vor mir her, und ich folgte Ihnen mit schwankenden ängstlichen Schritten, die dann und wann ein Blick stärkte, welchen Sie auf mich zurückwarfen. Schnell hörte ich hinter mir ein freundliches Rufen, welches mir still zu stehen befahl. Es war der Ton meines Vaters – Ich Elende! kann ich denn nichts von ihm vergessen? Ach! wo ihm sein Gedächtnis eben so grausame Dienste leistet; wo er auch mich nicht vergessen kann! – Doch er hat mich vergessen. Trost! grausamer Trost für seine Sara! – Hören Sie nur, Mellefont; indem ich mich nach dieser bekannten Stimme umsehen wollte, gleitete mein Fuß; ich wankte und sollte eben in den Abgrund herab stürzen, als ich mich, noch zur rechten Zeit, von einer mir ähnlichen Person zurückgehalten fühlte. Schon wollte ich ihr den feurigsten Dank abstatten, als sie einen Dolch aus dem Busen zog. Ich rettete dich, schrie sie, um dich zu verderben! Sie holte mit der bewaffneten Hand aus – und ach! ich erwachte mit dem Stiche. Wachend fühlte ich noch alles, was ein tödlicher Stich Schmerzhaftes haben kann; ohne das zu empfinden, was er Angenehmes haben muß: das Ende der Pein in dem Ende des Lebens hoffen zu dürfen.</p>
+                <p> Klagen <rs ref="#mellefont">Sie</rs> den Himmel nicht an! Er hat die Einbildungen in unserer Gewalt gelassen. Sie richten sich nach unsern Taten, und wenn diese unsern Pflichten und der Tugend gemäß sind, so dienen die sie begleitenden Einbildungen zur Vermehrung unserer Ruhe und unseres Vergnügens. Eine einzige Handlung, <name ref="#mellefont">Mellefont</name>, <rs ref="#ehe">ein einziger Segen</rs>, <rs ref="#ehe">der</rs> von einem Friedensboten im Namen der ewigen Güte auf uns gelegt wird, kann meine zerrüttete Phantasie wieder heilen. Stehen <rs ref="#mellefont">Sie</rs> noch an, mir zu Liebe <rs ref="#ehe">dasjenige</rs> einige Tage eher zu tun, was <rs ref="#mellefont">Sie</rs> doch einmal tun werden? Erbarmen <rs ref="#mellefont">Sie</rs> sich <pb n="18"/> meiner, und überlegen <rs ref="#mellefont">Sie</rs>, daß wenn <rs ref="#mellefont">Sie</rs> mich auch dadurch nur von <rs ref="#qualen">Qualen der Einbildung</rs> befreien, <rs ref="#qualen">diese eingebildete Qualen</rs> doch <rs ref="#qualen">Qualen</rs>, und für <rs ref="#sara">die</rs>, <rs ref="#sara">die</rs> <rs ref="#qualen">sie</rs> empfindet, <rs ref="#qualen">wirkliche Qualen</rs> sind. – Ach, könnte ich <rs ref="#mellefont">Ihnen</rs> nur halb so lebhaft die Schrecken meiner vorigen Nacht erzählen, als ich <rs ref="#qualen">sie</rs> gefühlt habe! – Von Weinen und Klagen, meinen einzigen Beschäftigungen, ermüdet, sank ich mit halb geschlossenen Augenlidern auf das Bett zurück. Die Natur wollte sich einen Augenblick erholen, neue Tränen zu sammeln. Aber noch schlief ich nicht ganz, als ich mich auf einmal an dem schroffsten Teile des schrecklichsten Felsen sahe. <rs ref="#mellefont">Sie</rs> gingen vor mir her, und ich folgte <rs ref="#mellefont">Ihnen</rs> mit schwankenden ängstlichen Schritten, die dann und wann ein Blick stärkte, welchen <rs ref="#mellefont">Sie</rs> auf mich zurückwarfen. Schnell hörte ich hinter mir ein freundliches Rufen, welches mir still zu stehen befahl. Es war der Ton <rs ref="#sir_william">meines Vaters</rs> – Ich Elende! kann ich denn nichts von <rs ref="#sir_william">ihm</rs> vergessen? Ach! wo <rs ref="#sir_william">ihm sein</rs> Gedächtnis eben so grausame Dienste leistet; wo <rs ref="#sir_william">er</rs> auch mich nicht vergessen kann! – Doch <rs ref="#sir_william">er</rs> hat mich vergessen. <rs ref="#trost">Trost</rs>! grausamer <rs ref="#trost">Trost</rs> für <rs ref="#sir_william">seine</rs> <name ref="#sara">Sara</name>! – Hören <rs ref="#mellefont">Sie</rs> nur, <name ref="#mellefont">Mellefont</name>; indem ich mich nach dieser bekannten Stimme umsehen wollte, gleitete mein Fuß; ich wankte und sollte eben in den Abgrund herab stürzen, als ich mich, noch zur rechten Zeit, von <rs ref="#person_sara">einer mir ähnlichen Person</rs> zurückgehalten fühlte. Schon wollte ich <rs ref="#person_sara">ihr</rs> den feurigsten Dank abstatten, als <rs ref="#person_sara">sie</rs> einen Dolch aus dem Busen zog. Ich rettete <rs ref="#sara">dich</rs>, schrie <rs ref="#person_sara">sie</rs>, um <rs ref="#sara">dich</rs> zu verderben! <rs ref="#person_sara">Sie</rs> holte mit der bewaffneten Hand aus – und ach! ich erwachte mit dem Stiche. Wachend fühlte ich noch alles, was ein tödlicher Stich Schmerzhaftes haben kann; ohne das zu empfinden, was er Angenehmes haben muß: das Ende der Pein in dem Ende des Lebens hoffen zu dürfen.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Ach! liebste Sara, ich verspreche Ihnen das Ende Ihrer Pein, ohne das Ende Ihres Lebens, welches gewiß auch das Ende des meinigen sein würde. Vergessen Sie das schreckliche Gewebe eines sinnlosen Traumes.</p>
+                <p> Ach! liebste <name ref="#sara">Sara</name>, ich verspreche <rs ref="#sara">Ihnen</rs> das Ende <rs ref="#sara">Ihrer</rs> Pein, ohne das Ende <rs ref="#sara">Ihres</rs> Lebens, <rs ref="#ende_des_lebens">welches</rs> gewiß auch das Ende des meinigen sein würde. Vergessen <rs ref="#sara">Sie</rs> das schreckliche Gewebe eines sinnlosen <rs ref="#traum">Traumes</rs>.</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Die Kraft es vergessen zu können, erwarte ich von Ihnen. Es sei Liebe oder Verführung, es sei Glück oder Unglück, das mich Ihnen in die Arme geworfen hat; ich bin in meinem Herzen <pb n="19"/> die Ihrige, und werde es ewig sein. Aber noch bin ich es nicht vor den Augen jenes Richters, der die geringsten Übertretungen seiner Ordnung zu strafen gedrohet hat – –</p>
+                <p> Die Kraft es vergessen zu können, erwarte ich von <rs ref="#mellefont">Ihnen</rs>. Es sei Liebe oder Verführung, es sei Glück oder Unglück, das mich <rs ref="#mellefont">Ihnen</rs> in die Arme geworfen hat; ich bin in meinem Herzen <pb n="19"/> <rs ref="#mellefont">die Ihrige</rs>, und werde <rs ref="#von_mellefont">es</rs> ewig sein. Aber noch bin ich <rs ref="#von_mellefont">es</rs> nicht vor den Augen jenes Richters, der die geringsten Übertretungen seiner Ordnung zu strafen gedrohet hat – –</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
@@ -525,35 +526,35 @@
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Was kann auf Sie fallen, das mich nicht treffen sollte? – – Legen Sie aber mein dringendes Anhalten nicht falsch aus. Ein andres Frauenzimmer, das durch einen gleichen Fehltritt sich ihrer Ehre verlustig gemacht hätte, würde vielleicht durch ein gesetzmäßiges Band nichts als einen Teil derselben wieder zu erlangen suchen. Ich, Mellefont, denke darauf nicht, weil ich in der Welt weiter von keiner Ehre wissen will, als von der Ehre, Sie zu lieben. Ich will mit Ihnen, nicht um der Welt Willen, ich will mit Ihnen um meiner selbst Willen verbunden sein. Und wenn ich es bin, so will ich gern die Schmach auf mich nehmen, als ob ich es nicht wäre. Sie sollen mich, wenn Sie nicht wollen, für Ihre Gattin nicht erklären dürfen; Sie sollen mich erklären können, für was Sie wollen. Ich will Ihren Namen nicht führen; Sie sollen unsere Verbindung so geheim halten, als Sie es für gut befinden; und ich will derselben ewig unwert sein, wenn ich mir in den Sinn kommen lasse, einen andern Vorteil, als die Beruhigung meines Gewissens, daraus zu ziehen.</p>
+                <p> Was kann auf <rs ref="#mellefont">Sie</rs> fallen, das mich nicht treffen sollte? – – Legen <rs ref="#mellefont">Sie</rs> aber mein dringendes Anhalten nicht falsch aus. Ein andres Frauenzimmer, das durch einen gleichen Fehltritt sich ihrer Ehre verlustig gemacht hätte, würde vielleicht durch ein gesetzmäßiges Band nichts als einen Teil derselben wieder zu erlangen suchen. Ich, <name ref="#mellefont">Mellefont</name>, denke darauf nicht, weil ich in der Welt weiter von keiner Ehre wissen will, als von der Ehre, <rs ref="#mellefont">Sie</rs> zu lieben. Ich will mit <rs ref="#mellefont">Ihnen</rs>, nicht um der Welt Willen, ich will mit <rs ref="#mellefont">Ihnen</rs> um meiner selbst Willen verbunden sein. Und wenn ich es bin, so will ich gern die Schmach auf mich nehmen, als ob ich es nicht wäre. <rs ref="#mellefont">Sie</rs> sollen mich, wenn <rs ref="#mellefont">Sie</rs> nicht wollen, für <rs ref="#mellefont">Ihre</rs> Gattin nicht erklären dürfen; <rs ref="#mellefont">Sie</rs> sollen mich erklären können, für was <rs ref="#mellefont">Sie</rs> wollen. Ich will <rs ref="#mellefont">Ihren</rs> Namen nicht führen; <rs ref="#mellefont">Sie</rs> sollen <rs ref="#ehe">unsere Verbindung</rs> so geheim halten, als <rs ref="#mellefont">Sie</rs> es für gut befinden; und ich will <rs ref="#ehe">derselben</rs> ewig unwert sein, wenn ich mir in den Sinn kommen lasse, einen andern Vorteil, als die Beruhigung meines Gewissens, daraus zu ziehen.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Halten Sie ein, Miß, oder ich muß vor Ihren Augen des Todes sein. Wie elend bin ich, daß ich nicht das Herz habe, Sie noch elender zu machen! – Bedenken Sie, daß Sie sich meiner Führung überlassen haben; bedenken Sie, daß ich schuldig bin, für uns weiter hinaus zu sehen, und daß ich itzt gegen Ihre Klagen taub sein muß, wenn ich Sie nicht, in der ganzen Folge Ihres Lebens, noch schmerzhaftere Klagen will führen hören. Haben Sie es denn vergessen, was ich Ihnen zu meiner Rechtfertigung schon oft vorgestellt?</p>
+                <p> Halten <rs ref="#sara">Sie</rs> ein, <rs ref="#sara">Miß</rs>, oder ich muß vor <rs ref="#sara">Ihren</rs> Augen des Todes sein. Wie elend bin ich, daß ich nicht das Herz habe, <rs ref="#sara">Sie</rs> noch elender zu machen! – Bedenken <rs ref="#sara">Sie</rs>, daß <rs ref="#sara">Sie sich</rs> meiner Führung überlassen haben; bedenken <rs ref="#sara">Sie</rs>, daß ich schuldig bin, für uns weiter hinaus zu sehen, und daß ich itzt gegen <rs ref="#sara">Ihre</rs> Klagen taub sein muß, wenn ich <rs ref="#sara">Sie</rs> nicht, in der ganzen Folge <rs ref="#sara">Ihres</rs> Lebens, noch schmerzhaftere Klagen will führen hören. Haben <rs ref="#sara">Sie</rs> es denn vergessen, was ich <rs ref="#sara">Ihnen</rs> zu meiner Rechtfertigung schon oft vorgestellt?</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Ich habe es nicht vergessen, Mellefont. Sie wollen vorher ein gewisses Vermächtnis retten. – Sie wollen vorher zeitliche Güter retten, und mich vielleicht ewige darüber verscherzen lassen.</p>
+                <p> Ich habe es nicht vergessen, <name ref="#mellefont">Mellefont</name>. <rs ref="#mellefont">Sie</rs> wollen vorher <rs ref="#vermächtnis">ein gewisses Vermächtnis</rs> retten. – <rs ref="#mellefont">Sie</rs> wollen vorher zeitliche Güter retten, und mich vielleicht ewig darüber verscherzen lassen.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Ach Sara, wenn Ihnen alle zeitliche Güter so gewiß wären, als Ihrer Tugend die ewigen sind – –</l>
+                <l> Ach <name ref="#sara">Sara</name>, wenn <rs ref="#sara">Ihnen</rs> alle zeitliche Güter so gewiß wären, als <rs ref="#sara">Ihrer</rs> Tugend die ewigen sind – –</l>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Meiner Tugend? Nennen Sie mir dieses Wort nicht! – <pb n="20"/> Sonst klang es mir süße, aber itzt schallt mir ein schrecklicher Donner darin!</p>
+                <p> Meiner Tugend? Nennen <rs ref="#mellefont">Sie</rs> mir dieses Wort nicht! – <pb n="20"/> Sonst klang es mir süße, aber itzt schallt mir ein schrecklicher Donner darin!</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Wie? muß der, welcher tugendhaft sein soll, keinen Fehler begangen haben? Hat ein einziger so unselige Wirkungen, daß er eine ganze Reihe unsträflicher Jahre vernichten kann: so ist kein Mensch tugendhaft; so ist die Tugend ein Gespenst, das in der Luft zerfließet, wenn man es am festesten umarmt zu haben glaubt; so hat kein weises Wesen unsere Pflichten nach unsern Kräften abgemessen; so ist die Lust, uns strafen zu können, der erste Zweck unsers Daseins; so ist – Ich erschrecke vor allen den gräßlichen Folgerungen, in welche Sie Ihre Kleinmut verwickeln muß! Nein, Miß, Sie sind noch die tugendhafte Sara, die Sie vor meiner unglücklichen Bekanntschaft waren. Wenn Sie sich selbst mit so grausamen Augen ansehen, mit was für Augen müssen Sie mich betrachten!</p>
+                <p> Wie? muß der, welcher tugendhaft sein soll, keinen Fehler begangen haben? Hat ein einziger so unselige Wirkungen, daß er eine ganze Reihe unsträflicher Jahre vernichten kann: so ist kein Mensch tugendhaft; so ist die Tugend ein Gespenst, das in der Luft zerfließet, wenn man es am festesten umarmt zu haben glaubt; so hat kein weises Wesen unsere Pflichten nach unsern Kräften abgemessen; so ist die Lust, uns strafen zu können, der erste Zweck unsers Daseins; so ist – Ich erschrecke vor allen den gräßlichen Folgerungen, in welche <rs ref="#sara">Sie</rs> <rs ref="#sara">Ihre</rs> Kleinmut verwickeln muß! Nein, <rs ref="#sara">Miß</rs>, <rs ref="#sara">Sie</rs> sind noch <name ref="#sara">die tugendhafte Sara</name>, <rs ref="#sara">die</rs> <rs ref="#sara">Sie</rs> vor meiner unglücklichen Bekanntschaft waren. Wenn <rs ref="#sara">Sie sich selbst</rs> <rs ref="#augen_sara">mit so grausamen Augen</rs> ansehen, <rs ref="#augen_sara">mit was für Augen</rs> müssen <rs ref="#sara">Sie</rs> mich betrachten!</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <l> Mit den Augen der Liebe, Mellefont.</l>
+                <l> <rs ref="#augen_sara">Mit den Augen der Liebe</rs>, <name ref="#mellefont">Mellefont</name>.</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> So bitte ich Sie denn um dieser Liebe, um dieser großmütigen, alle meine Unwürdigkeit übersehenden Liebe Willen, zu Ihren Füßen bitte ich Sie: beruhigen Sie sich. Haben Sie nur noch einige Tage Geduld.</p>
+                <p> So bitte ich <rs ref="#sara">Sie</rs> denn um dieser Liebe, um dieser großmütigen, alle meine Unwürdigkeit übersehenden Liebe Willen, zu <rs ref="#sara">Ihren</rs> Füßen bitte ich <rs ref="#sara">Sie</rs>: beruhigen <rs ref="#sara">Sie sich</rs>. Haben <rs ref="#sara">Sie</rs> nur noch einige Tage Geduld.</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
@@ -561,28 +562,28 @@
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Verwünschtes Vermächtnis! Verdammter Unsinn eines sterbenden Vetters, der mir sein Vermögen nur mit der Bedingung lassen wollte, einer Anverwandtin die Hand zu geben, die mich eben so sehr haßt, als ich sie! Euch, unmenschliche Tyrannen unserer freien Neigungen, euch werde alle das Unglück, alle die Sünde zugerechnet, zu welchen uns euer Zwang bringet! – Und wenn ich ihrer nur entübriget sein könnte, dieser schimpflichen Erbschaft! So lange mein väterliches Vermögen zu meiner Unterhaltung hinreichte, habe ich sie allezeit verschmähet, und sie nicht einmal gewürdiget, mich darüber zu erklären. Aber itzt, itzt, da ich alle Schätze der Welt nur darum besitzen möchte, um sie zu den Füßen meiner Sara legen zu können, itzt da ich wenigstens darauf denken muß, sie ihrem Stande gemäß in der Welt erscheinen zu lassen, itzt muß ich meine Zuflucht dahin nehmen.</p>
+                <p> <rs ref="#vermächtnis">Verwünschtes Vermächtnis</rs>! Verdammter Unsinn <rs xml:id="vetter">eines sterbenden Vetters</rs>, <rs ref="#vetter">der</rs> mir <rs ref="#vetter">sein</rs> <rs ref="#vermächtnis">vermögen</rs> nur mit der Bedingung lassen wollte, <rs xml:id="anverwandtin">einer Anverwandtin</rs> die Hand zu geben, <rs ref="#anverwandtin">die</rs> mich eben so sehr haßt, als ich <rs ref="#anverwandtin">sie</rs>! <rs ref="#vetter_tyrannen">Euch</rs>, <rs xml:id="vetter_tyrannen">unmenschliche Tyrannen</rs> unserer freien Neigungen, <rs ref="#vetter_tyrannen">euch</rs> werde alle das Unglück, alle die Sünde zugerechnet, zu welchen uns <rs ref="#vetter_tyrannen">euer</rs> Zwang bringet! – Und wenn ich ihrer nur entübriget sein könnte, <rs ref="#vermächtnis">dieser schimpflichen Erbschaft</rs>! So lange mein <rs ref="#vermögen_mellefont">väterliches Vermögen</rs> zu meiner Unterhaltung hinreichte, habe ich sie allezeit verschmähet, und sie nicht einmal gewürdiget, mich darüber zu erklären. Aber itzt, itzt, da ich alle Schätze der Welt nur darum besitzen möchte, um sie zu den Füßen meiner <name ref="#sara">Sara</name> legen zu können, itzt da ich wenigstens darauf denken muß, sie ihrem Stande gemäß in der Welt erscheinen zu lassen, itzt muß ich meine Zuflucht dahin nehmen.</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <l> Mit der es Ihnen zuletzt doch wohl noch fehl schlägt.</l>
+                <l> Mit der es <rs ref="#mellefont">Ihnen</rs> zuletzt doch wohl noch fehl schlägt.</l>
                 <pb n="21"/>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Sie vermuten immer das Schlimmste. – Nein; das Frauenzimmer, die es mit betrifft, ist nicht ungeneigt, eine Art von Vergleich einzugehen. Das Vermögen soll geteilt werden; und da sie es nicht ganz mit mir genießen kann, so ist sie es zufrieden, daß ich mit der Hälfte meine Freiheit von ihr erkaufen darf. Ich erwarte alle Stunden die letzten Nachrichten in dieser Sache, deren Verzögerung allein unsern hiesigen Aufenthalt so langwierig gemacht hat. So bald ich sie bekommen habe, wollen wir keinen Augenblick länger hier verweilen. Wir wollen sogleich, liebste Miß, nach Frankreich übergehen, wo Sie neue Freunde finden sollen, die sich itzt schon auf das Vergnügen, Sie zu sehen und Sie zu lieben, freuen. Und diese neuen Freunde sollen die Zeugen unserer Verbindung sein – –</p>
+                <p> <rs ref="#sara">Sie</rs> vermuten immer das Schlimmste. – Nein; <rs ref="#anverwandtin">das Frauenzimmer</rs>, <rs ref="#anverwandtin">die</rs> es mit betrifft, ist nicht ungeneigt, eine Art von Vergleich einzugehen. <rs ref="#vermächtnis">Das Vermögen</rs> soll geteilt werden; und da <rs ref="#anverwandtin">sie</rs> es nicht ganz mit mir genießen kann, so ist <rs ref="#anverwandtin">sie</rs> es zufrieden, daß ich mit der Hälfte meine Freiheit von <rs ref="#anverwandtin">ihr</rs> erkaufen darf. Ich erwarte alle Stunden die letzten Nachrichten <rs ref="#vermächtnis">in dieser Sache</rs>, <rs ref="#vermächtnis">deren</rs> <rs ref="#verzögerung">Verzögerung</rs> allein unsern hiesigen Aufenthalt so langwierig gemacht hat. So bald ich <rs ref="#nachricht">sie</rs> bekommen habe, wollen wir keinen Augenblick länger hier verweilen. Wir wollen sogleich, <rs ref="#sara">liebste Miß</rs>, nach Frankreich übergehen, wo <rs ref="#sara">Sie</rs> <rs xml:id="freunde_frankreich">neue Freunde</rs> finden sollen, <rs ref="#freunde_frankreich">die sich</rs> itzt schon auf das Vergnügen, <rs ref="#sara">Sie</rs> zu sehen und <rs ref="#sara">Sie</rs> zu lieben, freuen. Und <rs ref="#freunde_frankreich">diese neuen Freunde</rs> sollen <rs ref="#freunde_frankreich">die Zeugen</rs> <rs ref="#ehe">unserer Verbindung</rs> sein – –</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Diese sollen die Zeugen unserer Verbindung sein? – Grausamer! so soll diese Verbindung nicht in meinem Vaterlande geschehen? So soll ich mein Vaterland als eine Verbrecherin verlassen? Und als eine solche, glauben Sie, würde ich Mut genug haben, mich der See zu vertrauen? Dessen Herz muß ruhiger oder muß ruchloser sein, als meines, welcher nur einen Augenblick zwischen sich und dem Verderben mit Gleichgültigkeit nichts, als ein schwankendes Brett, sehen kann. In jeder Welle, die an unser Schiff schlüge, würde mir der Tod entgegenrauschen; jeder Wind würde mir von den väterlichen Küsten Verwünschungen nachbrausen, und der kleinste Sturm würde mich ein Blutgericht über mein Haupt zu sein, dünken. – Nein, Mellefont, so ein Barbar können Sie gegen mich nicht sein. Wenn ich noch das Ende Ihres Vergleichs erlebe, so muß es Ihnen auf einen Tag nicht ankommen, den wir hier länger zubringen. Es muß dieses der Tag sein, an dem Sie mich die Martern aller hier verweinten Tage vergessen lehren. Es muß dieses der heilige Tag sein – Ach! welcher wird es denn endlich sein?</p>
+                <p> <rs ref="#freunde_frankreich">Diese</rs> sollen <rs ref="#freunde_frankreich">die Zeugen</rs> <rs ref="#ehe">unserer Verbindung</rs> sein? – <rs ref="#mellefont">Grausamer</rs>! so soll <rs ref="#ehe">diese Verbindung</rs> nicht in meinem Vaterlande geschehen? So soll ich mein Vaterland als eine Verbrecherin verlassen? Und als eine solche, glauben <rs ref="#mellefont">Sie</rs>, würde ich Mut genug haben, mich der See zu vertrauen? Dessen Herz muß ruhiger oder muß ruchloser sein, als meines, welcher nur einen Augenblick zwischen sich und dem Verderben mit Gleichgültigkeit nichts, als ein schwankendes Brett, sehen kann. In jeder Welle, die an unser Schiff schlüge, würde mir der Tod entgegenrauschen; jeder Wind würde mir von den väterlichen Küsten Verwünschungen nachbrausen, und der kleinste Sturm würde mich ein Blutgericht über mein Haupt zu sein, dünken. – Nein, <name ref="#mellefont">Mellefont</name>, so ein Barbar können <rs ref="#mellefont">Sie</rs> gegen mich nicht sein. Wenn ich noch das Ende <rs ref="#mellefont">Ihres</rs> Vergleichs erlebe, so muß es <rs ref="#mellefont">Ihnen</rs> auf einen Tag nicht ankommen, den wir hier länger zubringen. <rs ref="#ehe">Es</rs> muß dieses der Tag sein, an dem <rs ref="#mellefont">Sie</rs> mich die Martern aller hier verweinten Tage vergessen lehren. Es muß <rs ref="#ehe">dieses</rs> der heilige Tag sein – Ach! welcher wird <rs ref="#ehe">es</rs> denn endlich sein?</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Aber überlegen Sie denn nicht, Miß, daß unserer Verbindung hier diejenige Feier fehlen würde, die wir ihr zu geben schuldig sind?</p>
+                <p> Aber überlegen <rs ref="#sara">Sie</rs> denn nicht, <rs ref="#sara">Miß</rs>, daß <rs ref="#ehe">unserer Verbindung</rs> hier diejenige Feier fehlen würde, die wir <rs ref="#ehe">ihr</rs> zu geben schuldig sind?</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <l> Eine heilige Handlung wird durch das Feierliche nicht kräftiger.</l>
+                <l> <rs ref="#ehe">Eine heilige Handlung</rs> wird durch das Feierliche nicht kräftiger.</l>
                 <pb n="22"/>
               </sp>
               <sp who="#mellefont">
@@ -591,15 +592,15 @@
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Ich erstaune. Sie wollen doch wohl nicht auf einem so nichtigen Vorwande bestehen? O Mellefont, Mellefont! wenn ich mir es nicht zum unverbrüchlichsten Gesetze gemacht hätte, niemals an der Aufrichtigkeit Ihrer Liebe zu zweifeln, so würde mir dieser Umstand – – Doch schon zu viel; es möchte scheinen, als hätte ich eben itzt daran gezweifelt.</p>
+                <p> Ich erstaune. <rs ref="#mellefont">Sie</rs> wollen doch wohl nicht auf einem so nichtigen Vorwande bestehen? O <name ref="#mellefont">Mellefont</name>, <name ref="#mellefont">Mellefont</name>! wenn ich mir es nicht zum unverbrüchlichsten Gesetze gemacht hätte, niemals an der Aufrichtigkeit <rs ref="#mellefont">Ihrer</rs> Liebe zu zweifeln, so würde mir dieser Umstand – – Doch schon zu viel; es möchte scheinen, als hätte ich eben itzt daran gezweifelt.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Der erste Augenblick Ihres Zweifels müsse der letzte meines Lebens sein! Ach, Sara, womit habe ich es verdient, daß Sie mir auch nur die Möglichkeit desselben voraus sehen lassen? Es ist wahr, die Geständnisse, die ich Ihnen von meinen ehemaligen Ausschweifungen abzulegen, kein Bedenken getragen habe, können mir keine Ehre machen: aber Vertrauen sollten sie mir doch erwecken. Eine buhlerische Marwood führte mich in ihren Stricken, weil ich das für sie empfand, was so oft für Liebe gehalten wird, und es doch so selten ist. Ich würde noch ihre schimpflichen Fesseln tragen, hätte sich nicht der Himmel meiner erbarmt, der vielleicht mein Herz nicht für ganz unwürdig erkannte, von bessern Flammen zu brennen. Sie, liebste Sara, sehen, und alle Marwoods vergessen, war eins. Aber wie teuer kam es Ihnen zu stehen, mich aus solchen Händen zu erhalten! Ich war mit dem Laster zu vertraut geworden, und Sie kannten es zu wenig – –</p>
+                <p> Der erste Augenblick <rs ref="#sara">Ihres</rs> Zweifels müsse der letzte meines Lebens sein! Ach, <name ref="#sara">Sara</name>, womit habe ich es verdient, daß <rs ref="#sara">Sie</rs> mir auch nur die Möglichkeit <rs ref="#zweifel">desselben</rs> voraus sehen lassen? Es ist wahr, die Geständnisse, <rs ref="#geständnis">die</rs> ich <rs ref="#sara">Ihnen</rs> von meinen ehemaligen Ausschweifungen abzulegen, kein Bedenken getragen habe, können mir keine Ehre machen: aber Vertrauen sollten sie mir doch erwecken. <name ref="#marwood">Eine buhlerische Marwood</name> führte mich in <rs ref="#marwood">ihren</rs> Stricken, weil ich das für <rs ref="#marwood">sie</rs> empfand, was so oft für Liebe gehalten wird, und es doch so selten ist. Ich würde noch <rs ref="#marwood">Ihre</rs> schimpflichen Fesseln tragen, hätte sich nicht der Himmel meiner erbarmt, der vielleicht mein Herz nicht für ganz unwürdig erkannte, von bessern Flammen zu brennen. <rs ref="#sara">Sie</rs>, <name ref="#sara">liebste Sara</name>, sehen, und <name ref="#frauen #marwood">alle Marwoods</name> vergessen, war eins. Aber wie teuer kam es <rs ref="#sara">Ihnen</rs> zu stehen, mich <rs ref="#frauen #marwood">aus solchen Händen</rs> zu erhalten! Ich war mit dem Laster zu vertraut geworden, und <rs ref="#sara">Sie</rs> kannten <rs ref="#laster">es</rs> zu wenig – –</p>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <l> Lassen Sie uns nicht mehr daran gedenken – –</l>
+                <l> Lassen <rs ref="#mellefont">Sie</rs> uns nicht mehr <rs ref="#laster">daran</rs> gedenken – –</l>
               </sp>
             </div>
           </div>
@@ -618,11 +619,11 @@
               </stage>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Was willst du?</l>
+                <l> Was willst <rs ref="#norton">du</rs>?</l>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <p> Ich stand eben vor dem Hause, als mir ein Bedienter diesen Brief in die Hand gab. Die Aufschrift ist an Sie, mein Herr.</p>
+                <p> Ich stand eben vor dem Hause, als mir ein Bedienter diesen Brief in die Hand gab. Die Aufschrift ist an <rs ref="#mellefont">Sie</rs>, <rs ref="#mellefont">mein Herr</rs>.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
@@ -630,39 +631,39 @@
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <l> Sie erschrecken?</l>
+                <l> <rs ref="#mellefont">Sie</rs> erschrecken?</l>
                 <pb n="23"/>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Aber ohne Ursache, Miß; wie ich nun wohl sehe. Ich irrte mich in der Hand.</l>
+                <l> Aber ohne Ursache, <rs ref="#sara">Miß</rs>; wie ich nun wohl sehe. Ich irrte mich in der Hand.</l>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <l> Möchte doch der Inhalt Ihnen so angenehm sein, als Sie es wünschen können.</l>
+                <l> Möchte doch <rs ref="#brief">der Inhalt</rs> <rs ref="#mellefont">Ihnen</rs> so angenehm sein, als <rs ref="#mellefont">Sie</rs> es wünschen können.</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Ich vermute, daß er sehr gleichgültig sein wird.</l>
+                <l> Ich vermute, daß <rs ref="#brief">er</rs> sehr gleichgültig sein wird.</l>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <p> Man braucht sich weniger Zwang anzutun, wenn man allein ist. Erlauben Sie, daß ich mich wieder in mein Zimmer begebe.</p>
+                <p> Man braucht sich weniger Zwang anzutun, wenn man allein ist. Erlauben <rs ref="#mellefont">Sie</rs>, daß ich mich wieder in <rs ref="#zimmer_s">mein Zimmer</rs> begebe.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Sie machen sich also wohl Gedanken?</l>
+                <l> <rs ref="#sara">Sie</rs> machen sich also wohl Gedanken?</l>
               </sp>
               <sp who="#sara">
                 <speaker>SARA.</speaker>
-                <l> Ich mache mir keine, Mellefont.</l>
+                <l> Ich mache mir keine, <name ref="#mellefont">Mellefont</name>.</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT</speaker>
                 <stage>
                   <hi>indem er sie bis an die Szene begleitet.</hi>
                 </stage>
-                <l> Ich werde den Augenblick bei Ihnen sein, liebste Miß.</l>
+                <l> Ich werde den Augenblick bei <rs ref="#sara">Ihnen</rs> sein, <rs ref="#sara">liebste Miß</rs>.</l>
               </sp>
             </div>
           </div>
@@ -688,41 +689,41 @@
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> Weh Ihnen, wenn er nichts, als gerecht ist!</l>
+                <l> Weh <rs ref="#mellefont">Ihnen</rs>, wenn <rs ref="#brief">er</rs> nichts, als gerecht ist!</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Kann es möglich sein? Ich sehe diese verruchte Hand wieder, und erstarre nicht vor Schrecken? Ist sies? Ist sie es nicht? Was zweifle ich noch? Sie ists! Ah, Freund, ein Brief von der Marwood! Welche Furie, welcher Satan hat ihr meinen Aufenthalt verraten? Was will sie noch von mir? – Geh, mache so gleich Anstalt, daß wir von hier wegkommen. – Doch verzieh! Vielleicht ist es nicht nötig; vielleicht haben meine verächtlichen Abschiedsbriefe die Marwood nur aufgebracht, mir mit gleicher Verachtung zu begegnen. Hier! erbrich den Brief; lies ihn. Ich zittere, es selbst zu tun.</p>
+                <p> Kann es möglich sein? Ich sehe <rs ref="#marwood">diese verruchte Hand</rs> wieder, und erstarre nicht vor Schrecken? Ist <rs ref="#marwood">sies</rs>? Ist <rs ref="#marwood">sie es</rs> nicht? Was zweifle ich noch? <rs ref="#marwood">sie</rs> ists! Ah, <rs ref="#norton">Freund</rs>, <rs ref="#brief">ein Brief</rs> von der <name ref="#marwood">Marwood</name>! Welche Furie, welcher Satan hat <rs ref="#marwood">ihr</rs> meinen Aufenthalt verraten? Was will <rs ref="#marwood">sie</rs> noch von mir? – Geh, mache so gleich Anstalt, daß wir von hier wegkommen. – Doch verzieh! Vielleicht ist es nicht nötig; vielleicht haben meine verächtlichen Abschiedsbriefe <name ref="#marwood">die Marwood</name> nur aufgebracht, mir mit gleicher Verachtung zu begegnen. Hier! erbrich <rs ref="#brief">den Brief</rs>; lies <rs ref="#brief">ihn</rs>. Ich zittere, es selbst zu tun.</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON</speaker>
                 <stage>
                   <hi>er liest.</hi>
                 </stage>
-                <p> »Es wird so gut sein, als ob ich Ihnen den längsten Brief geschrieben hätte, Mellefont, wenn Sie den Namen, den Sie am Ende der Seite finden werden, nur einer kleinen Betrachtung würdigen wollen – –«</p>
+                <p> »Es wird so gut sein, als ob ich <rs ref="#mellefont">Ihnen</rs> <rs ref="#brief">den längsten Brief</rs> geschrieben hätte, <name ref="#mellefont">Mellefont</name>, wenn <rs ref="#mellefont">Sie</rs> den Namen, den <rs ref="#mellefont">Sie</rs> <rs ref="#brief">am Ende der Seite</rs> finden werden, nur einer kleinen Betrachtung würdigen wollen – –«</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Verflucht sei ihr Name! Daß ich ihn nie gehört hätte! Daß er aus dem Buche der Lebendigen vertilgt würde!</p>
+                <p> Verflucht sei <rs ref="#marwood">ihr</rs> Name! Daß ich <rs ref="#marwood">ihn</rs> nie gehört hätte! Daß <rs ref="#marwood">er</rs> aus dem Buche der Lebendigen vertilgt würde!</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON</speaker>
                 <stage>
                   <hi>liest weiter.</hi>
                 </stage>
-                <l> »Die Mühe Sie auszuforschen, hat mir die Liebe, welche mir forschen half, versüßt.«</l>
+                <l> »Die Mühe <rs ref="#mellefont">Sie</rs> auszuforschen, hat mir die Liebe, welche mir forschen half, versüßt.«</l>
                 <pb n="24"/>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <l> Die Liebe? Frevlerin! Du entheiligest Namen, die nur der Tugend geweiht sind!</l>
+                <l> Die Liebe? <rs ref="#marwood">Frevlerin</rs>! <rs ref="#marwood">Du</rs> entheiligest Namen, die nur der Tugend geweiht sind!</l>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON</speaker>
                 <stage>
                   <hi>fährt fort.</hi>
                 </stage>
-                <l> »Sie hat noch mehr getan; – –«</l>
+                <l> »<rs ref="#mühe">Sie</rs> hat noch mehr getan; – –«</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
@@ -730,27 +731,27 @@
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> »Sie hat mich Ihnen nachgebracht. – –«</l>
+                <l> »<rs ref="#mühe">Sie</rs> hat mich <rs ref="#mellefont">Ihnen</rs> nachgebracht. – –«</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Verräter, was liest du? <hi>Er reißt ihm den Brief aus der Hand und liest selbst.</hi> »Sie hat mich Ihnen – nachgebracht. – Ich bin hier; und es stehet bei Ihnen, – ob Sie meinen Besuch erwarten, – oder mir mit dem Ihrigen – zuvorkommen wollen. Marwood.« – Was für ein Donnerschlag! Sie ist hier? – Wo ist sie? Diese Frechheit soll sie mit dem Leben büßen.</p>
+                <p> <rs ref="#norton">Verräter</rs>, was liest <rs ref="#norton">du</rs>? <hi>Er reißt ihm den Brief aus der Hand und liest selbst.</hi> »<rs ref="#mühe">Sie</rs> hat mich <rs ref="#mellefont">Ihnen</rs> – nachgebracht. – Ich bin hier; und es stehet <rs ref="#mellefont">bei Ihnen</rs>, – ob <rs ref="#mellefont">Sie</rs> meinen Besuch erwarten, – oder mir mit dem Ihrigen – zuvorkommen wollen. Marwood.« – Was für ein Donnerschlag! <rs ref="#marwood">Sie</rs> ist hier? – Wo ist <rs ref="#marwood">sie</rs>? Diese Frechheit soll <rs ref="#marwood">sie</rs> mit dem Leben büßen.</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <p> Mit dem Leben? Es wird ihr einen Blick kosten, und Sie liegen wieder zu ihren Füßen. Bedenken Sie was Sie tun! Sie müssen sie nicht sprechen, oder das Unglück Ihrer armen Miß ist vollkommen.</p>
+                <p> Mit dem Leben? Es wird <rs ref="#marwood">ihr</rs> einen Blick kosten, und <rs ref="#mellefont">Sie</rs> liegen wieder zu <rs ref="#marwood">ihren</rs> Füßen. Bedenken <rs ref="#mellefont">Sie</rs> was <rs ref="#mellefont">Sie</rs> tun! <rs ref="#mellefont">Sie</rs> müssen <rs ref="#marwood">sie</rs> nicht sprechen, oder das Unglück <rs ref="#mellefont #sara">Ihrer armen Miß</rs> ist vollkommen.</p>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Ich Unglücklicher! – Nein, ich muß sie sprechen. Sie würde mich bis in das Zimmer der Sara suchen, und alle ihre Wut gegen diese Unschuldige auslassen.</p>
+                <p> Ich Unglücklicher! – Nein, ich muß <rs ref="#marwood">sie</rs> sprechen. <rs ref="#marwood">Sie</rs> würde mich bis in <rs ref="#zimmer_s #sara">das Zimmer der Sara</rs> suchen, und alle ihre Wut gegen <rs ref="#sara">diese Unschuldige</rs> auslassen.</p>
               </sp>
               <sp who="#norton">
                 <speaker>NORTON.</speaker>
-                <l> Aber, mein Herr – –</l>
+                <l> Aber, <rs ref="#mellefont">mein Herr</rs> – –</l>
               </sp>
               <sp who="#mellefont">
                 <speaker>MELLEFONT.</speaker>
-                <p> Sage nichts! – Laß sehen, <hi>Indem er in den Brief sieht.</hi> ob sie ihre Wohnung angezeigt hat. Hier ist sie. Komm, führe mich. <hi>Sie gehen ab.</hi> </p>
+                <p> Sage nichts! – Laß sehen, <hi>Indem er in den Brief sieht.</hi> ob <rs ref="#marwood #wohnung">sie ihre Wohnung</rs> angezeigt hat. Hier ist <rs ref="#marwood #wohnung">sie</rs>. Komm, führe mich. <hi>Sie gehen ab.</hi> </p>
                 <p>Ende des ersten Aufzugs.</p>
                 <pb n="25"/>
               </sp>
