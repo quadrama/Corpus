@@ -12,10 +12,10 @@
 		<xsd:complexType mixed="false">
 			<xsd:sequence>
 				<xsd:element name="teiHeader" maxOccurs="1"
-					minOccurs="0" xml:type="teiHeaderType">
+					minOccurs="0" type="tei:teiHeaderType">
 				</xsd:element>
 				<xsd:element name="text" maxOccurs="1" minOccurs="1"
-					xml:type="textType">
+					type="tei:textType">
 				</xsd:element>
 			</xsd:sequence>
 			<xsd:attribute ref="xml:id"/>
@@ -23,70 +23,150 @@
 		</xsd:complexType>
 	</xsd:element>
 
+	<xsd:element name="idno">
+		<xsd:complexType mixed="true">
+			<xsd:attribute name="type" type="xsd:string" />
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="head">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute ref="xml:id"/>
+			<xsd:attribute name="type" type="xsd:string" />
+			<xsd:attribute name="rend" type="xsd:string" />
+		</xsd:complexType>
+	</xsd:element>
+	
 	<xsd:complexType name="textType" mixed="false">
 		<xsd:sequence>
+			<xsd:element name="front" maxOccurs="unbounded" minOccurs="0"
+				type="tei:frontType">
+			</xsd:element>
+			<xsd:element name="body" maxOccurs="unbounded" minOccurs="1"
+				type="tei:bodyType">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="frontType" mixed="false">
+		<xsd:sequence>
 			<xsd:element name="div" maxOccurs="unbounded" minOccurs="0"
-				xml:type="divType">
-
+				type="tei:divType">
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 
-	<xsd:complexType name="divType">
+
+	<xsd:element name="person">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute ref="xml:id" use="required"/>
+			<xsd:anyAttribute processContents="lax"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="bodyType" mixed="false">
 		<xsd:sequence>
-			<xsd:element name="head" type="xsd:string" maxOccurs="1"
-				minOccurs="0">
+			<xsd:element name="div" maxOccurs="unbounded" minOccurs="0"
+				type="tei:divType">
 			</xsd:element>
-			<xsd:choice maxOccurs="unbounded" minOccurs="0"><xsd:element name="div" xml:type="divType"></xsd:element><xsd:element name="sp" xml:type="spType"></xsd:element></xsd:choice>
 		</xsd:sequence>
-		<xsd:attribute ref="tei:type"></xsd:attribute>
 	</xsd:complexType>
 
-	<xsd:complexType name="spType" mixed="false">
+	<xsd:complexType name="divType" mixed="true">
 		<xsd:sequence>
-			<xsd:element name="speaker" xml:type="xsd:string" maxOccurs="1"
-				minOccurs="1">
-			</xsd:element>
-			<xsd:choice>
-				<xsd:element name="stage" type="xsd:string"></xsd:element>
-				<xsd:element name="p">
-					<xsd:complexType mixed="true">
-						<xsd:sequence>
-							<xsd:element name="stage"
-								type="xsd:string" maxOccurs="unbounded" minOccurs="0">
-							</xsd:element>
-						</xsd:sequence>
-					</xsd:complexType></xsd:element>
+			<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:choice maxOccurs="unbounded" minOccurs="0">
+				<xsd:element name="div" xml:type="divType"></xsd:element>
+				<xsd:element name="sp" xml:type="spType"></xsd:element>
 			</xsd:choice>
+			<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
-		<xsd:attribute name="who" type="xsd:string"></xsd:attribute>
+		<xsd:attribute name="type" type="xsd:string" />
+		<xsd:attribute name="subtype" type="xsd:string" />
+		<xsd:attribute name="n" type="xsd:string"/>
+		<xsd:attribute ref="xml:id"/>
 	</xsd:complexType>
+
+	<xsd:element name="l">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="p">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="stage">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="sp">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute name="who" type="xsd:string" use="required" />
+		</xsd:complexType>
+	</xsd:element>
 
 	<xsd:complexType name="teiHeaderType">
 		<xsd:sequence>
-			<xsd:element name="fileDesc" xml:type="fileDescType" maxOccurs="1" minOccurs="0"></xsd:element>
+			<xsd:element name="fileDesc" type="tei:fileDescType" maxOccurs="1" minOccurs="0" ></xsd:element>
+			<xsd:element name="profileDesc" type="tei:profileDescType" maxOccurs="1" minOccurs="0" />
+			<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 
-	<xsd:complexType name="fileDescType">
+	<xsd:complexType name="profileDescType">
 		<xsd:sequence>
-			<xsd:element name="titleStmt" xml:type="xsd:string" maxOccurs="1" minOccurs="0"></xsd:element>
-			<xsd:element name="publicationStmt" xml:type="publicationStmtType" maxOccurs="1" minOccurs="0">
-			</xsd:element>
+			<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
+
+	<xsd:complexType name="fileDescType" mixed="true">
+		<xsd:sequence>
+			<xsd:any maxOccurs="unbounded" minOccurs="0" processContents="lax"/>
+			<!--<xsd:element name="titleStmt" type="xsd:any" maxOccurs="1" minOccurs="0"></xsd:element>
+			<xsd:element name="publicationStmt" type="tei:publicationStmtType" maxOccurs="1" minOccurs="0">
+			</xsd:element>-->
+		</xsd:sequence>
+	</xsd:complexType>
+	
 	<xsd:complexType name="publicationStmtType">
 		<xsd:sequence>
-			<xsd:element name="idno" maxOccurs="unbounded" minOccurs="0">
-				<xsd:complexType>
-					<xsd:simpleContent>
-						<xsd:extension base="xsd:string">
-							<xsd:attribute name="type" xml:type="xsd:string"></xsd:attribute>
-						</xsd:extension>
-					</xsd:simpleContent>
+			<xsd:any maxOccurs="unbounded" minOccurs="0" processContents="lax"/>
+			<xsd:element name="idno" maxOccurs="unbounded" minOccurs="1">
+				<xsd:complexType mixed="false">
+				<xsd:simpleContent>
+					<xsd:extension base="xsd:string">
+						<xsd:attribute name="type" type="xsd:string" />
+					</xsd:extension>
+				</xsd:simpleContent>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:any maxOccurs="unbounded" minOccurs="0" processContents="lax"/>
 		</xsd:sequence>
 	</xsd:complexType>
+	
 	<xsd:attribute name="type" type="xsd:string"></xsd:attribute>
 </xsd:schema>
