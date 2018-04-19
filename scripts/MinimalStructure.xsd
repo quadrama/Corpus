@@ -5,6 +5,9 @@
 	xmlns:xml="http://www.w3.org/XML/1998/namespace" 
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	xmlns="http://www.w3.org/2001/XMLSchema">
+	<xsd:import namespace="http://www.w3.org/XML/1998/namespace" 
+		schemaLocation="http://www.w3.org/2001/xml.xsd" />
+	
 	<xsd:element name="TEI">
 		<xsd:complexType mixed="false">
 			<xsd:sequence>
@@ -13,9 +16,10 @@
 				</xsd:element>
 				<xsd:element name="text" maxOccurs="1" minOccurs="1"
 					xml:type="textType">
-
 				</xsd:element>
 			</xsd:sequence>
+			<xsd:attribute ref="xml:id"/>
+			<xsd:attribute name="n" type="xsd:string"/>
 		</xsd:complexType>
 	</xsd:element>
 
