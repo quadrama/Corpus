@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://textgrid.info/namespaces/metadata/core/2010" xmlns:tgl="http://textgrid.info/namespaces/metadata/language/2010" xmlns:tgs="http://textgrid.info/namespaces/metadata/script/2010" xmlns:tgr="http://textgrid.info/namespaces/metadata/agent/2010" xml:id="tg4" n="/Literatur/M/Jacoby, Wilhelm/Drama/Pension Schöller">
+   <teiHeader xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:a="http://www.textgrid.info/namespace/digibib/authors">
+      <fileDesc>
+         <titleStmt>
+            <title>Pension Schöller</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="handle">hdl:11858/00-1734-0000-0003-8BE2-6</idno><idno type="TextGridUri">textgrid:qm9d.0</idno><availability>
+               
+               <p> Der annotierte Datenbestand der Digitalen Bibliothek inklusive Metadaten sowie
+                                   davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von
+                                   www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons
+                                   Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid) veröffentlicht. Die
+                                   Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden
+                                   allgemeinfreien Texte (Siehe auch Punkt 2 der Lizenzbestimmungen). </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+               </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/"> Eine vereinfachte
+                                   Zusammenfassung des rechtsverbindlichen Lizenzvertrages in
+                                   allgemeinverständlicher Sprache </ref>
+               </p>
+               <p>
+                  <ref target="http://www.textgrid.de/Digitale-Bibliothek">Hinweise zur Lizenz und zur Digitalen Bibliothek</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+                              Erstdruck: Berlin (Bloch), 1898.
+                           </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Carl Laufs: Pension Schöller. Nach einer Idee von W. Jacoby, elfte Auflage, Berlin: Eduard Bloch Theaterverlag, [o.J.].</title>
+                  <author key="pnd:117049239">Jacoby, Wilhelm</author>
+               </titleStmt>
+               <extent>-</extent>
+               <publicationStmt>
+                  <date/>
+                  <pubPlace>Berlin</pubPlace>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="1855" notAfter="1925"/>
+         </creation>
+         <textClass>
+            <keywords scheme="http://textgrid.info/namespaces/metadata/core/2010#genre">
+               <term>drama</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+            <text>
+               <body>
+                     
+                        
+                     
+                     
+                     
+                     <div type="text" xml:id="tg4.3">
+                        <milestone unit="sigel" n="Laufs-Schöller" xml:id="tg4.3.1"/>
+                        
+
+
+
+                        <head type="h4" xml:id="tg4.3.3">Carl Laufs / Wilhelm Jacoby</head>
+
+
+                        <head type="h2" xml:id="tg4.3.4">
+                           <ref cRef="/Literatur/M/Laufs, Carl/Drama/Pension Schöller" xml:id="tg4.3.4.1">Pension Schöller</ref>
+                        </head>
+
+                        <head type="h4" xml:id="tg4.3.5">Posse in drei Aufzügen</head>
+                     </div>
+                  </body>
+            </text>
+         </TEI>
