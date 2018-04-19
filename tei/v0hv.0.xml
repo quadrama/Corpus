@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://textgrid.info/namespaces/metadata/core/2010" xmlns:tgl="http://textgrid.info/namespaces/metadata/language/2010" xmlns:tgs="http://textgrid.info/namespaces/metadata/script/2010" xmlns:tgr="http://textgrid.info/namespaces/metadata/agent/2010" xml:id="tg1340" n="/Literatur/M/Schiller, Friedrich/Dramen/Wallenstein/Prolog">
+               <teiHeader xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:a="http://www.textgrid.info/namespace/digibib/authors">
+      <fileDesc>
+         <titleStmt>
+            <title>Prolog</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="handle">hdl:11858/00-1734-0000-0004-CECA-D</idno><idno type="TextGridUri">textgrid:v0hv.0</idno><availability>
+               
+               <p> Der annotierte Datenbestand der Digitalen Bibliothek inklusive Metadaten sowie
+                                   davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von
+                                   www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons
+                                   Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid) veröffentlicht. Die
+                                   Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden
+                                   allgemeinfreien Texte (Siehe auch Punkt 2 der Lizenzbestimmungen). </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+               </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/"> Eine vereinfachte
+                                   Zusammenfassung des rechtsverbindlichen Lizenzvertrages in
+                                   allgemeinverständlicher Sprache </ref>
+               </p>
+               <p>
+                  <ref target="http://www.textgrid.de/Digitale-Bibliothek">Hinweise zur Lizenz und zur Digitalen Bibliothek</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+                                 Entstanden 1798, Uraufführung am 12.10.1798 in Weimar.
+                              </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Friedrich Schiller: Sämtliche Werke, Auf Grund der Originaldrucke herausgegeben von Gerhard Fricke und Herbert G. Göpfert in Verbindung mit Herbert Stubenrauch, Band 1–5, 3. Auflage, München: Hanser, 1962.</title>
+                  <author key="pnd:118607626">Schiller, Friedrich</author>
+               </titleStmt>
+               <extent>270-</extent>
+               <publicationStmt>
+                  <date>1962</date>
+                  <pubPlace>München</pubPlace>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1798"/>
+         </creation>
+         <textClass>
+            <keywords scheme="http://textgrid.info/namespaces/metadata/core/2010#genre">
+               <term>drama</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+               <text>
+                  <front>
+                     <div type="front">
+                        
+
+
+
+                        <head type="h3" xml:id="tg1339.3.2">Friedrich Schiller</head>
+
+
+                        <head type="h2" xml:id="tg1339.3.3">Wallenstein</head>
+
+                        <head type="h4" xml:id="tg1339.3.4">Ein dramatisches Gedicht</head>
+
+                        <milestone unit="sigel" n="Schiller-SW Bd. 2" xml:id="tg1339.3.5"/>
+                     </div>
+                  </front>
+                  <body>
+                        
+                           
+                        
+                        
+                        <div type="text" xml:id="tg1340.2">
+                           <div type="h4">
+                              <head type="h4" xml:id="tg1340.2.1">
+                                 <pb type="start" n="270" xml:id="tg1340.2.1.1"/>
+Prolog</head>
+
+                              <p rend="zenoPC" xml:id="tg1340.2.2">Gesprochen bei Wiedereröffnung der Schaubühne in Weimar im Oktober 1798</p>
+                              <lb xml:id="tg1340.2.3"/>
+                              <p xml:id="tg1340.2.4">Der scherzenden, der ernsten Maske Spiel,</p>
+                              <p xml:id="tg1340.2.5">Dem ihr so oft ein willig Ohr und Auge</p>
+                              <p xml:id="tg1340.2.6">Geliehn, die weiche Seele hingegeben,</p>
+                              <p xml:id="tg1340.2.7">Vereinigt uns aufs neu in diesem Saal</p>
+                              <p xml:id="tg1340.2.8">Und sieh! er hat sich neu verjüngt, ihn hat</p>
+                              <p xml:id="tg1340.2.9">Die Kunst zum heitern Tempel ausgeschmückt,</p>
+                              <p xml:id="tg1340.2.10">Und ein harmonisch hoher Geist spricht uns</p>
+                              <p xml:id="tg1340.2.11">Aus dieser edeln Säulenordnung an,</p>
+                              <p xml:id="tg1340.2.12">Und regt den Sinn zu festlichen Gefühlen.</p>
+                              <lb xml:id="tg1340.2.13"/>
+                              <p xml:id="tg1340.2.14">Und doch ist dies der alte Schauplatz noch,</p>
+                              <p xml:id="tg1340.2.15">Die Wiege mancher jugendlichen Kräfte,</p>
+                              <p xml:id="tg1340.2.16">Die Laufbahn manches wachsenden Talents.</p>
+                              <p xml:id="tg1340.2.17">Wir sind die Alten noch, die sich vor euch</p>
+                              <p xml:id="tg1340.2.18">Mit warmem Trieb und Eifer ausgebildet.</p>
+                              <p xml:id="tg1340.2.19">Ein edler Meister stand auf diesem Platz,</p>
+                              <p xml:id="tg1340.2.20">Euch in die heitern Höhen seiner Kunst</p>
+                              <p xml:id="tg1340.2.21">Durch seinen Schöpfergenius entzückend.</p>
+                              <p xml:id="tg1340.2.22">O! möge dieses Raumes neue Würde</p>
+                              <p xml:id="tg1340.2.23">Die Würdigsten in unsre Mitte ziehn,</p>
+                              <p xml:id="tg1340.2.24">Und eine Hoffnung, die wir lang gehegt,</p>
+                              <p xml:id="tg1340.2.25">Sich uns in glänzender Erfüllung zeigen.</p>
+                              <p xml:id="tg1340.2.26">Ein großes Muster weckt Nacheiferung</p>
+                              <p xml:id="tg1340.2.27">Und gibt dem Urteil höhere Gesetze.</p>
+                              <p xml:id="tg1340.2.28">So stehe dieser Kreis, die neue Bühne</p>
+                              <p xml:id="tg1340.2.29">Als Zeugen des vollendeten Talents.</p>
+                              <pb n="270" xml:id="tg1340.2.30"/>
+                              <p xml:id="tg1340.2.31">Wo möcht es auch die Kräfte lieber prüfen,</p>
+                              <p xml:id="tg1340.2.32">Den alten Ruhm erfrischen und verjüngen,</p>
+                              <p xml:id="tg1340.2.33">Als hier vor einem auserlesnen Kreis,</p>
+                              <p xml:id="tg1340.2.34">Der rührbar jedem Zauberschlag der Kunst,</p>
+                              <p xml:id="tg1340.2.35">Mit leisbeweglichem Gefühl den Geist</p>
+                              <p xml:id="tg1340.2.36">In seiner flüchtigsten Erscheinung hascht?</p>
+                              <lb xml:id="tg1340.2.37"/>
+                              <p xml:id="tg1340.2.38">Denn schnell und spurlos geht des Mimen Kunst,</p>
+                              <p xml:id="tg1340.2.39">Die wunderbare, an dem Sinn vorüber,</p>
+                              <p xml:id="tg1340.2.40">Wenn das Gebild des Meißels, der Gesang</p>
+                              <p xml:id="tg1340.2.41">Des Dichters nach Jahrtausenden noch leben.</p>
+                              <p xml:id="tg1340.2.42">Hier stirbt der Zauber mit dem Künstler ab,</p>
+                              <p xml:id="tg1340.2.43">Und wie der Klang verhallet in dem Ohr,</p>
+                              <p xml:id="tg1340.2.44">Verrauscht des Augenblicks geschwinde Schöpfung,</p>
+                              <p xml:id="tg1340.2.45">Und ihren Ruhm bewahrt kein daurend Werk.</p>
+                              <p xml:id="tg1340.2.46">Schwer ist <hi rend="spaced" xml:id="tg1340.2.46.1">die</hi> Kunst, vergänglich ist ihr Preis,</p>
+                              <p xml:id="tg1340.2.47">Dem Mimen flicht die Nachwelt keine Kränze,</p>
+                              <p xml:id="tg1340.2.48">Drum muß er geizen mit der Gegenwart,</p>
+                              <p xml:id="tg1340.2.49">Den Augenblick, der sein ist, ganz erfüllen,</p>
+                              <p xml:id="tg1340.2.50">Muß seiner Mitwelt mächtig sich versichern,</p>
+                              <p xml:id="tg1340.2.51">Und im Gefühl der Würdigsten und Besten</p>
+                              <p xml:id="tg1340.2.52">Ein lebend Denkmal sich erbaun – So nimmt er</p>
+                              <p xml:id="tg1340.2.53">Sich seines Namens Ewigkeit voraus,</p>
+                              <p xml:id="tg1340.2.54">Denn wer den Besten seiner Zeit genug</p>
+                              <p xml:id="tg1340.2.55">Getan, der hat gelebt für alle Zeiten.</p>
+                              <lb xml:id="tg1340.2.56"/>
+                              <p xml:id="tg1340.2.57">Die neue Ära, die der Kunst Thaliens</p>
+                              <p xml:id="tg1340.2.58">Auf dieser Bühne heut beginnt, macht auch</p>
+                              <p xml:id="tg1340.2.59">Den Dichter kühn, die alte Bahn verlassend,</p>
+                              <p xml:id="tg1340.2.60">Euch aus des Bürgerlebens engem Kreis</p>
+                              <p xml:id="tg1340.2.61">Auf einen höhern Schauplatz zu versetzen,</p>
+                              <p xml:id="tg1340.2.62">Nicht unwert des erhabenen Moments</p>
+                              <p xml:id="tg1340.2.63">Der Zeit, in dem wir strebend uns bewegen.</p>
+                              <p xml:id="tg1340.2.64">Denn nur der große Gegenstand vermag</p>
+                              <p xml:id="tg1340.2.65">Den tiefen Grund der Menschheit aufzuregen,</p>
+                              <p xml:id="tg1340.2.66">Im engen Kreis verengert sich der Sinn,</p>
+                              <p xml:id="tg1340.2.67">Es wächst der Mensch mit seinen größern Zwecken.</p>
+                              <lb xml:id="tg1340.2.68"/>
+                              <pb n="271" xml:id="tg1340.2.69"/>
+                              <p xml:id="tg1340.2.70">Und jetzt an des Jahrhunderts ernstem Ende,</p>
+                              <p xml:id="tg1340.2.71">Wo selbst die Wirklichkeit zur Dichtung wird,</p>
+                              <p xml:id="tg1340.2.72">Wo wir den Kampf gewaltiger Naturen</p>
+                              <p xml:id="tg1340.2.73">Und ein bedeutend Ziel vor Augen sehn,</p>
+                              <p xml:id="tg1340.2.74">Und um der Menschheit große Gegenstände,</p>
+                              <p xml:id="tg1340.2.75">Um Herrschaft und um Freiheit wird gerungen,</p>
+                              <p xml:id="tg1340.2.76">Jetzt darf die Kunst auf ihrer Schattenbühne</p>
+                              <p xml:id="tg1340.2.77">Auch höhern Flug versuchen, ja sie muß,</p>
+                              <p xml:id="tg1340.2.78">Soll nicht des Lebens Bühne sie beschämen.</p>
+                              <lb xml:id="tg1340.2.79"/>
+                              <p xml:id="tg1340.2.80">Zerfallen sehen wir in diesen Tagen</p>
+                              <p xml:id="tg1340.2.81">Die alte feste Form, die einst vor hundert</p>
+                              <p xml:id="tg1340.2.82">Und funfzig Jahren ein willkommner Friede</p>
+                              <p xml:id="tg1340.2.83">Europens Reichen gab, die teure Frucht</p>
+                              <p xml:id="tg1340.2.84">Von dreißig jammervollen Kriegesjahren.</p>
+                              <p xml:id="tg1340.2.85">Noch einmal laßt des Dichters Phantasie</p>
+                              <p xml:id="tg1340.2.86">Die düstre Zeit an euch vorüberführen,</p>
+                              <p xml:id="tg1340.2.87">Und blicket froher in die Gegenwart</p>
+                              <p xml:id="tg1340.2.88">Und in der Zukunft hoffnungsreiche Ferne.</p>
+                              <lb xml:id="tg1340.2.89"/>
+                              <p xml:id="tg1340.2.90">In jenes Krieges Mitte stellt euch jetzt</p>
+                              <p xml:id="tg1340.2.91">Der Dichter. Sechzehn Jahre der Verwüstung,</p>
+                              <p xml:id="tg1340.2.92">Des Raubs, des Elends sind dahingeflohn,</p>
+                              <p xml:id="tg1340.2.93">In trüben Massen gäret noch die Welt,</p>
+                              <p xml:id="tg1340.2.94">Und keine Friedenshoffnung strahlt von fern.</p>
+                              <p xml:id="tg1340.2.95">Ein Tummelplatz von Waffen ist das Reich,</p>
+                              <p xml:id="tg1340.2.96">Verödet sind die Städte, Magdeburg</p>
+                              <p xml:id="tg1340.2.97">Ist Schutt, Gewerb und Kunstfleiß liegen nieder,</p>
+                              <p xml:id="tg1340.2.98">Der Bürger gilt nichts mehr, der Krieger alles,</p>
+                              <p xml:id="tg1340.2.99">Straflose Frechheit spricht den Sitten Hohn,</p>
+                              <p xml:id="tg1340.2.100">Und rohe Horden lagern sich, verwildert</p>
+                              <p xml:id="tg1340.2.101">Im langen Krieg, auf dem verheerten Boden.</p>
+                              <lb xml:id="tg1340.2.102"/>
+                              <p xml:id="tg1340.2.103">Auf diesem finstern Zeitgrund malet sich</p>
+                              <p xml:id="tg1340.2.104">Ein Unternehmen kühnen Übermuts</p>
+                              <p xml:id="tg1340.2.105">Und ein verwegener Charakter ab.</p>
+                              <p xml:id="tg1340.2.106">Ihr kennet ihn – den Schöpfer kühner Heere,</p>
+                              <pb n="272" xml:id="tg1340.2.107"/>
+                              <p xml:id="tg1340.2.108">Des Lagers Abgott und der Länder Geißel,</p>
+                              <p xml:id="tg1340.2.109">Die Stütze und den Schrecken seines Kaisers,</p>
+                              <p xml:id="tg1340.2.110">Des Glückes abenteuerlichen Sohn,</p>
+                              <p xml:id="tg1340.2.111">Der von der Zeiten Gunst emporgetragen,</p>
+                              <p xml:id="tg1340.2.112">Da Ehre höchste Staffeln rasch erstieg,</p>
+                              <p xml:id="tg1340.2.113">Und ungesättigt immer weiter strebend,</p>
+                              <p xml:id="tg1340.2.114">Der unbezähmten Ehrsucht Opfer fiel.</p>
+                              <p xml:id="tg1340.2.115">Von der Parteien Gunst und Haß verwirrt</p>
+                              <p xml:id="tg1340.2.116">Schwankt sein Charakterbild in der Geschichte,</p>
+                              <p xml:id="tg1340.2.117">Doch euren Augen soll ihn jetzt die Kunst,</p>
+                              <p xml:id="tg1340.2.118">Auch eurem Herzen, menschlich näherbringen.</p>
+                              <p xml:id="tg1340.2.119">Denn jedes Äußerste führt <hi rend="spaced" xml:id="tg1340.2.119.1">sie,</hi> die alles</p>
+                              <p xml:id="tg1340.2.120">Begrenzt und bindet, zur Natur zurück,</p>
+                              <p xml:id="tg1340.2.121">Sie sieht den Menschen in des Lebens Drang</p>
+                              <p xml:id="tg1340.2.122">Und wälzt die größre Hälfte seiner Schuld</p>
+                              <p xml:id="tg1340.2.123">Den unglückseligen Gestirnen zu.</p>
+                              <lb xml:id="tg1340.2.124"/>
+                              <p xml:id="tg1340.2.125">Nicht <hi rend="spaced" xml:id="tg1340.2.125.1">er</hi> ists, der auf dieser Bühne heut</p>
+                              <p xml:id="tg1340.2.126">Erscheinen wird. Doch in den kühnen Scharen,</p>
+                              <p xml:id="tg1340.2.127">Die sein Befehl gewaltig lenkt, sein Geist</p>
+                              <p xml:id="tg1340.2.128">Beseelt, wird euch sein Schattenbild begegnen,</p>
+                              <p xml:id="tg1340.2.129">Bis ihn die scheue Muse selbst vor euch</p>
+                              <p xml:id="tg1340.2.130">Zu stellen wagt in lebender Gestalt,</p>
+                              <p xml:id="tg1340.2.131">Denn seine Macht ists, die sein Herz verführt,</p>
+                              <p xml:id="tg1340.2.132">Sein Lager nur erkläret sein Verbrechen.</p>
+                              <lb xml:id="tg1340.2.133"/>
+                              <p xml:id="tg1340.2.134">Darum verzeiht dem Dichter, wenn er euch</p>
+                              <p xml:id="tg1340.2.135">Nicht raschen Schritts mit <hi rend="spaced" xml:id="tg1340.2.135.1">einem</hi> Mal ans Ziel</p>
+                              <p xml:id="tg1340.2.136">Der Handlung reißt, den großen Gegenstand</p>
+                              <p xml:id="tg1340.2.137">In einer Reihe von Gemälden nur</p>
+                              <p xml:id="tg1340.2.138">Vor euren Augen abzurollen wagt.</p>
+                              <p xml:id="tg1340.2.139">Das heutge Spiel gewinne euer Ohr</p>
+                              <p xml:id="tg1340.2.140">Und euer Herz den ungewohnten Tönen,</p>
+                              <p xml:id="tg1340.2.141">In jenen Zeitraum führ es euch zurück,</p>
+                              <p xml:id="tg1340.2.142">Auf jene fremde kriegerische Bühne,</p>
+                              <p xml:id="tg1340.2.143">Die unser Held mit seinen Taten bald</p>
+                              <p xml:id="tg1340.2.144">Erfüllen wird.</p>
+                              <pb n="273" xml:id="tg1340.2.145"/>
+                              <p xml:id="tg1340.2.146">Und wenn die Muse heut,</p>
+                              <p xml:id="tg1340.2.147">Des Tanzes freie Göttin und Gesangs,</p>
+                              <p xml:id="tg1340.2.148">Ihr altes deutsches Recht, des Reimes Spiel,</p>
+                              <p xml:id="tg1340.2.149">Bescheiden wieder fordert – tadelts nicht!</p>
+                              <p xml:id="tg1340.2.150">Ja danket ihrs, daß sie das düstre Bild</p>
+                              <p xml:id="tg1340.2.151">Der Wahrheit in das heitre Reich der Kunst</p>
+                              <p xml:id="tg1340.2.152">Hinüberspielt, die Täuschung, die sie schafft,</p>
+                              <p xml:id="tg1340.2.153">Aufrichtig selbst zerstört und ihren Schein</p>
+                              <p xml:id="tg1340.2.154">Der Wahrheit nicht betrüglich unterschiebt,</p>
+                              <p xml:id="tg1340.2.155">Ernst ist das Leben, heiter ist die Kunst.</p>
+                              <pb n="274" xml:id="tg1340.2.156"/>
+                           </div>
+                        </div>
+                     </body>
+               </text>
+            </TEI>
