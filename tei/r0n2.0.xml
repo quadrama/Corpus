@@ -95,6 +95,9 @@
             <persName>DIE AMAZONEN</persName>
             <persName xml:id="das_heer_der_amazonen">DAS HEER DER AMAZONEN</persName>
           </person>
+          <person xml:id="die_drei_amazonen">
+            <persName>DIE DREI AMAZONEN</persName>
+          </person>
           <person xml:id="penthesilea">
             <persName>PENTHESILEA</persName>
           </person>
