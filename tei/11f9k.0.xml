@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title>Johann Wolfgang von Goethe: Berliner Ausgabe. Herausgegeben von Siegfried Seidel: Poetische Werke [Band 1–16]; Kunsttheoretische Schriften und Übersetzungen [Band 17–22], Berlin: Aufbau, 1960 ff.</title>
-            <date type="print" when="1793"/>
-            <date type="premiere" when "1793"/>
-            <date type="written" when "1793"/>
+            <date type="print" when="1793">1793</date>
+            <date type="premiere" when="1793">1793</date>
+            <date type="written" when="1793">1793</date>
           </bibl>
         </bibl>
       </sourceDesc>
