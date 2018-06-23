@@ -8,6 +8,7 @@
         <author>Hafner, Philipp</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">pgpm.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">2</idno>

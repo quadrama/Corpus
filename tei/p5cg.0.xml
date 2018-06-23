@@ -8,6 +8,7 @@
         <author key="pnd:118543830">Gutzkow, Karl</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">p5cg.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">42</idno>

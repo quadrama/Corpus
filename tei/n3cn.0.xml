@@ -8,6 +8,7 @@
         <author key="pnd:118537490">Ganghofer, Ludwig</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">n3cn.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">376</idno>

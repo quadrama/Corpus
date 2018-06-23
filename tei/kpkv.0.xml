@@ -8,6 +8,7 @@
         <author key="pnd:100428428">Borkenstein, Hinrich</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">kpkv.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">347</idno>

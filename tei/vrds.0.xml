@@ -8,6 +8,7 @@
         <author key="pnd:119545799">Stephanie, Johann Gottlieb (der Jüngere)</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">vrds.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">133</idno>

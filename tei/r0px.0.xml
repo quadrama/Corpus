@@ -8,6 +8,7 @@
         <author key="pnd:118563076">Kleist, Heinrich von</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">r0px.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">49</idno>

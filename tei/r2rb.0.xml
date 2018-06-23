@@ -8,6 +8,7 @@
         <author key="pnd:118778080">Krüger, Johann Christian</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">r2rb.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">173</idno>

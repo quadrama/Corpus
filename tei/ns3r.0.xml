@@ -8,6 +8,7 @@
         <author key="pnd:118542192">Grillparzer, Franz</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">ns3r.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">170</idno>

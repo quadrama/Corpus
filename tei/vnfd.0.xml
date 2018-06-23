@@ -8,6 +8,7 @@
         <editor key="pnd:118607960" role="translator">Schlegel, August Wilhelm</editor>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">vnfd.0</idno>
         <idno type="handle">hdl:11858/00-1734-0000-0005-0CEE-A</idno>
         <idno type="TextGridUri">textgrid:vnfd.0</idno>
         <idno type="URL">http://www.textgridrep.org/textgrid:vnfd.0</idno>

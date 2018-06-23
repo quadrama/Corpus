@@ -8,6 +8,7 @@
         <author key="pnd:118725602">Kurz, Joseph von</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">rdgt.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">144</idno>
