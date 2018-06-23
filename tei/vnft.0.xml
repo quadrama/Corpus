@@ -10,6 +10,7 @@
       <publicationStmt>
         <idno type="handle">hdl:11858/00-1734-0000-0005-0CFA-E</idno>
         <idno type="TextGridUri">textgrid:vnft.0</idno>
+        <idno type="URL">http://www.textgridrep.org/textgrid:vnft.0</idno>
         <availability>
           <p> Der annotierte Datenbestand der Digitalen Bibliothek inklusive Metadaten sowie
                                    davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von
