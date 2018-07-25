@@ -43,7 +43,7 @@
                   <date when="1960"/>
                   <pubPlace>Berlin</pubPlace>
                </publicationStmt>
-<date type="print" when="1776">1776</date>
+               <date type="print" when="1776">1776</date>
 <date type="premiere" when="1795">1795</date>
 <date type="written"/>
             </biblFull>
