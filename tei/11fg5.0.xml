@@ -43,8 +43,8 @@
                   <date when="1948"/>
                   <pubPlace>Hamburg</pubPlace>
                </publicationStmt>
-               <date type="print" when="1810">1810</date>
-            <date type="premiere"/date>
+            <date type="print" when="1810">1810</date>
+            <date type="premiere"/>
             <date type="written" when="1808">1808</date>
             </biblFull>
          </sourceDesc>
