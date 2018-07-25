@@ -33,6 +33,9 @@
                            </note>
          </notesStmt>
          <sourceDesc>
+<date type="print" when="1887">1887</date>
+	            <date type="premiere"/date>
+	            < date type="written" when="1775">zwischen 1772 und 1775</date>
             <biblFull>
                <titleStmt>
                   <title>Goethes Werke. Hamburger Ausgabe in 14 Bänden. Textkritisch durchgesehen und mit Anmerkungen versehen von Erich Trunz, Hamburg: Christian Wegener, 1948 ff. [Seitenkonkordanz zu einer Mischauflage aus den Jahren 1959 und 1960.]</title>
@@ -43,6 +46,7 @@
                   <date when="1948"/>
                   <pubPlace>Hamburg</pubPlace>
                </publicationStmt>
+               
             </biblFull>
          </sourceDesc>
       </fileDesc>
