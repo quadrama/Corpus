@@ -32,7 +32,7 @@
             <title>Richard Strauss: Salome. Drama in einem Aufzuge, nach Oskar Wilde’s gleichnamiger Dichtung, dt. v. Hedwig Lachmann, Berlin: Adolph Fürstner, 1905.</title>
             <date type="print"/>
             <date type="premiere" when="1905"/>
-            <date type="written"/>
+            <date type="written" when="1901">1901</date> 
           </bibl>
         </bibl>
       </sourceDesc>
