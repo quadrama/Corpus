@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title>Carl Hauptmann: Panspiele. München: Verlag von Georg D.W. Callwey, 1909.</title>
-            <date type="print" when="1909"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1909">1909</date>
+            <date type="premiere" when="1909">1909</date>
+            <date type="written" />
           </bibl>
         </bibl>
       </sourceDesc>
