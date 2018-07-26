@@ -43,6 +43,9 @@
                   <date when="1960"/>
                   <pubPlace>Emsdetten</pubPlace>
                </publicationStmt>
+               <date type="print" when="1875">1875</date>
+               <date type="premiere" />
+               <date type="written" when="1829">1829</date>
             </biblFull>
          </sourceDesc>
       </fileDesc>
