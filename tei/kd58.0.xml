@@ -43,6 +43,9 @@
                   <date/>
                   <pubPlace>Leipzig</pubPlace>
                </publicationStmt>
+            <date type="print" when="1778">1778</date>
+            <date type="premiere" when="1784">1784</date>
+            <date type="written" />
             </biblFull>
          </sourceDesc>
       </fileDesc>
