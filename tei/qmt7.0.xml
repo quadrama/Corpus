@@ -43,6 +43,9 @@
                   <date/>
                   <pubPlace>Berlin</pubPlace>
                </publicationStmt>
+               <date type="print" when="1898">1898</date> 
+               <date type="premiere" when="1898">1898</date> 
+               <date type="written" /> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
