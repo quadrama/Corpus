@@ -43,6 +43,9 @@
                   <date when="1919"/>
                   <pubPlace>Wien und Leipzig</pubPlace>
                </publicationStmt>
+               <date type="print" when="1818">1919</date>
+               <date type="premiere" />
+               <date type="written" />
             </biblFull>
          </sourceDesc>
       </fileDesc>
