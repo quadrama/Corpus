@@ -43,6 +43,9 @@
                   <date when="1945"/>
                   <pubPlace>Leipzig</pubPlace>
                </publicationStmt>
+               <date type="print" when="1637">1637</date>
+               <date type="premiere" when="1637">1637</date>
+               <date type="written" when="1636">1636</date>
             </biblFull>
          </sourceDesc>
       </fileDesc>
