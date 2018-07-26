@@ -30,7 +30,7 @@
           </availability>
           <bibl type="originalSource">
             <title>Bruno Ertler: Dramatische Werke. Herausgegeben von Prof. Dr. Emil Noack unter Mithilfe von Fini Haus-Ertler, Wien: Europäischer Verlag, 1957.</title>
-            <date type="print"/>
+            <date type="print" when="1929">1929</date>
             <date type="premiere" when="1923">1923</date>
             <date type="written" when="1922">1922</date>
           </bibl>
