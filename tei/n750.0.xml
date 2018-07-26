@@ -31,7 +31,7 @@
           <bibl type="originalSource">
             <title>Christian Fürchtegott Gellert: Werke, Band 1 und 2. Herausgegeben von Gottfried Honnefelder, Frankfurt a.M.: Insel, 1979.</title>
             <date type="print" when="1747">1747</date>
-            <date type="premiere"/>
+            <date type="premiere" when="1749">1749</date>
             <date type="written"/>
           </bibl>
         </bibl>
