@@ -43,9 +43,9 @@
                   <date when="1932"/>
                   <pubPlace>Berlin</pubPlace>
                </publicationStmt>
-            <date type="print" when="1931">1931</date>
-            <date type="premiere" />
-            <date type="written" />
+               <date type="print" when="1931">1931</date>
+               <date type="premiere" />
+               <date type="written" />
             </biblFull>
          </sourceDesc>
       </fileDesc>
