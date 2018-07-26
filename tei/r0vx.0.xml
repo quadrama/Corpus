@@ -43,6 +43,9 @@
                   <date when="1978"/>
                   <pubPlace>Berlin und Weimar</pubPlace>
                </publicationStmt>
+               <date type="print" when="1901">1901</date> 
+               <date type="premiere" when="1808">1808</date> 
+               <date type="written" when="1808">zwischen 1802 und 1808</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
