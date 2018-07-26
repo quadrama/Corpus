@@ -43,6 +43,9 @@
                   <date when="1948"/>
                   <pubPlace>Hamburg</pubPlace>
                </publicationStmt>
+            <date type="print" when="1830">11830</date>
+            <date type="premiere" when="1807">1807</date>
+            <date type="written" when="1774">1774</date>
             </biblFull>
          </sourceDesc>
       </fileDesc>
