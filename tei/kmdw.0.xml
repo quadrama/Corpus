@@ -30,7 +30,7 @@
           </availability>
           <bibl type="originalSource">
             <title>Charlotte Birch-Pfeiffer: Pfeffer-Rösel oder Die Frankfurter Messe im Jahr 1297. Schauspiel in fünf Aufzügen, Wien: J. B. Wallishausser, 1833.</title>
-            <date type="print"/>
+            <date type="print" when="1833">1833</date>
             <date type="premiere" when="1829">1829</date>
             <date type="written"/>
           </bibl>
