@@ -32,7 +32,7 @@
             <title>Hugo von Hofmannsthal: Gesammelte Werke in zehn Einzelbänden. Band 1: Gedichte, Dramen, Band 2–5: Dramen, Herausgegeben von Bernd Schoeller in Beratung mit Rudolf Hirsch, Frankfurt a.M.: S. Fischer, 1979.</title>
             <date type="print" when="1928"/>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1928">zwischen 1927 und 1928</date> 
           </bibl>
         </bibl>
       </sourceDesc>
