@@ -31,8 +31,8 @@
           <bibl type="originalSource">
             <title>Klabund: Der himmlische Vagant. Eine Auswahl aus dem Werk. Herausgegeben und mit einem Vorwort von Marianne Kesting, Köln: Kiepenheuer &amp; Witsch, 1968.</title>
             <date type="print" when="1925"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="premiere" when="1925">1925</date> 
+            <date type="written" /> 
           </bibl>
         </bibl>
       </sourceDesc>
