@@ -32,7 +32,7 @@
             <title>Friedrich Hebbel: Werke. Herausgegeben von Gerhard Fricke, Werner Keller und Karl Pörnbacher, Band 1–5, München: Hanser, 1963.</title>
             <date type="print" when="1862"/>
             <date type="premiere" when="1861"/>
-            <date type="written"/>
+            <date type="written" when="1860">zwischen 1850 und 1860</date> 
           </bibl>
         </bibl>
       </sourceDesc>
