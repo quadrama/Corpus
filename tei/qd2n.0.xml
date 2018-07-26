@@ -43,6 +43,9 @@
                   <date when="1979"/>
                   <pubPlace>Frankfurt a.M.</pubPlace>
                </publicationStmt>
+               <date type="print" when="1927">1927</date> 
+               <date type="premiere" when="1928">1928</date> 
+               <date type="written" when="1927">zwischen 1926 und 1927</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
