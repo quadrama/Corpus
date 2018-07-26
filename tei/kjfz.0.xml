@@ -31,7 +31,7 @@
           <bibl type="originalSource">
             <title>Roderich Benedix: Haustheater. Zweite vermehrte Auflage, Leipzig: Verlagsbuchhandlung von J.J. Weber, 1865.</title>
             <date type="print" when="1862"/>
-            <date type="premiere"/>
+            <date type="premiere" when="1823">1823</date>
             <date type="written"/>
           </bibl>
         </bibl>
