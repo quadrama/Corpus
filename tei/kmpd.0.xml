@@ -43,6 +43,9 @@
                   <date when="1911"/>
                   <pubPlace>Berlin</pubPlace>
                </publicationStmt>
+            <date type="print" when="1883">1883</date>
+            <date type="premiere" />
+            <date type="written" />
             </biblFull>
          </sourceDesc>
       </fileDesc>
