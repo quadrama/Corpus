@@ -31,7 +31,8 @@
           <bibl type="originalSource">
             <title>Adolph L’Arronge: Gesamt-Ausgabe der dramatischen Werke. Berlin: Verlag von Georg Stilke, 1908.</title>
             <date type="print" when="1879"/>
-            <date type="premiere"/>
+            <date type="premiere" when="1877">1877</date> 
+            <date type="written" /> 
             <date type="written"/>
           </bibl>
         </bibl>
