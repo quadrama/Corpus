@@ -43,6 +43,9 @@
                   <date when="1802"/>
                   <pubPlace>Gotha</pubPlace>
                </publicationStmt>
+               <date type="print" />
+               <date type="premiere" />
+               <date type="written" />
             </biblFull>
          </sourceDesc>
       </fileDesc>
