@@ -31,7 +31,7 @@
           <bibl type="originalSource">
             <title>Bäuerle, Adolf: Doctor Faust's Mantel. Ein Zauberspiel mit Gesang in zwey Acten. Wien: Verlag Leopold Grund, 1819.</title>
             <date type="print" when="1819">1819</date>
-            <date type="premiere"/>
+            <date type="premiere" when="1817">1817</date>
             <date type="written"/>
           </bibl>
         </bibl>
