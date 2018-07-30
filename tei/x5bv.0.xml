@@ -31,8 +31,8 @@
           <bibl type="originalSource">
             <title>Das Schicksalsdrama. Herausgegeben von Jakob Minor, Berlin und Stuttgart: Spemann, [o.J.] [Deutsche National-Literatur, Band 151].</title>
             <date type="print" when="1815">1815</date>
-            <date type="premiere" when="1809">1809</date>
-            <date type="written"/>
+            <date type="premiere" when="1810">1810</date>
+            <date type="written" when="1808">1808</date>
           </bibl>
         </bibl>
       </sourceDesc>
