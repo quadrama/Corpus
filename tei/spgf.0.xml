@@ -43,6 +43,9 @@
                   <date when="1971"/>
                   <pubPlace>München</pubPlace>
                </publicationStmt>
+               <date type="print" when="1778">1778</date> 
+               <date type="premiere" /> 
+               <date type="written" when="1778">Zwischen 1776 und 1778</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
