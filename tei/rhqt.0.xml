@@ -43,6 +43,9 @@
                   <date when="1965"/>
                   <pubPlace>Stuttgart</pubPlace>
                </publicationStmt>
+               <date type="print" when="1819">1819</date> 
+               <date type="premiere" /> 
+               <date type="written" when="1775">1775</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
