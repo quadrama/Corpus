@@ -43,6 +43,9 @@
                   <date when="1876"/>
                   <pubPlace>Wien</pubPlace>
                </publicationStmt>
+               <date type="print" when="1820">1820</date> 
+               <date type="premiere" /> 
+               <date type="written" when="1819">Zwischen 1818 und 1819</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
