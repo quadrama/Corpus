@@ -32,7 +32,7 @@
             <title>Engelbert Humperdinck: Hänsel und Gretel. Märchenspiel in drei Bildern, von Adelheid Wette, hg. v. Wolfram Humperdinck, Stuttgart: Reclam, 1981.</title>
             <date type="print"/>
             <date type="premiere" when="1893"/>
-            <date type="written"/>
+            <date type="written" when="1890">1890</date>
           </bibl>
         </bibl>
       </sourceDesc>
