@@ -32,7 +32,7 @@
             <title>Gotthold Ephraim Lessing: Werke. Herausgegeben von Herbert G. Göpfert in Zusammenarbeit mit Karl Eibl, Helmut Göbel, Karl S. Guthke, Gerd Hillen, Albert von Schirmding und Jörg Schönert, Band 1–8, München: Hanser, 1970 ff.</title>
             <date type="print" when="1754">1754</date>
             <date type="premiere" when="1749">1749</date>
-            <date type="written"/>
+            <date type="written" when="1749">1749</date> 
           </bibl>
         </bibl>
       </sourceDesc>
