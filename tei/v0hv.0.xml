@@ -43,6 +43,9 @@
                   <date>1962</date>
                   <pubPlace>München</pubPlace>
                </publicationStmt>
+              <date type="print" /> 
+              <date type="premiere" when="1778">1778</date> 
+              <date type="written" when="1778">1778</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
