@@ -43,6 +43,9 @@
                   <date when="1970"/>
                   <pubPlace>München</pubPlace>
                </publicationStmt>
+               <date type="print" when="1759">Teildruck 1759</date> 
+               <date type="premiere" /> 
+               <date type="written" when="1775">Zwischen 1755 und 1775</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
