@@ -31,8 +31,8 @@
           <bibl type="originalSource">
             <title>Friederike Caroline Neuber: Ein Deutsches Vorspiel verfertiget von Friederica Carolina Neuberin (1734). Zur Feier ihres 200jährigen Geburtstages 9. März 1897 mit einem Verzeichnis ihrer Dichtungen herausgegeben von Arthur Richter, Leipzig: G. J. Göschen’sche Verlagshandlung, 1897 [Deutsche Litteraturdenkmale des 18. und 19. Jahrhunderts, herausgegeben von August Sauer, No. 63, N. F. No. 13].</title>
             <date type="print" when="1734"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="premiere"/> 
+            <date type="written" when="1734">1734</date> 
           </bibl>
         </bibl>
       </sourceDesc>
