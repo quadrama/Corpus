@@ -43,6 +43,9 @@
                   <date when="1964"/>
                   <pubPlace>Nürnberg</pubPlace>
                </publicationStmt>
+               <date type="print" when="1912">1912</date> 
+               <date type="premiere" when="1917">1917</date> 
+               <date type="written" /> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
