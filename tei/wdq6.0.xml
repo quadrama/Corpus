@@ -31,8 +31,8 @@
           <bibl type="originalSource">
             <title>Ludwig Tieck: Werke in vier Bänden. Nach dem Text der »Schriften« von 1828–1854, unter Berücksichtigung der Erstdrucke. Herausgegeben von Marianne Thalmann, Band 1–4, München: Winkler, 1963.</title>
             <date type="print" when="1800"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="premiere" when="1925">1925</date>
+            <date type="written" when="1798">1798</date>
           </bibl>
         </bibl>
       </sourceDesc>
