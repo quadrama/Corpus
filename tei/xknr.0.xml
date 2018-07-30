@@ -32,7 +32,7 @@
             <title>Heinrich Zschokke: Gesammelte Schriften. Zweite vermehrte Ausgabe, Aarau: H.R. Sauerländer, 1865.</title>
             <date type="print" when="1795"/>
             <date type="premiere" when="1795"/>
-            <date type="written"/>
+            <date type="written" when="1793">1793</date>
           </bibl>
         </bibl>
       </sourceDesc>
