@@ -30,7 +30,7 @@
           </availability>
           <bibl type="originalSource">
             <title>Karl Ditters von Dittersdorf: Die Liebe im Narrenhause. Eine komische Oper in zwey Aufzügen, in Musik gesetzt von Hrn. Ditters von Dittersdorf, Liegnitz: [o. V.], 1792, S. 255–350.</title>
-            <date type="print"/>
+            <date type="print" when="1788">1788</date> 
             <date type="premiere" when="1787"/>
             <date type="written"/>
           </bibl>
