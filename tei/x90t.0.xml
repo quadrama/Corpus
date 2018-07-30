@@ -32,7 +32,7 @@
             <title>Anton Wildgans: Gesammelte Werke. Leipzig: L. Staackmann Verlag, 1930.</title>
             <date type="print" when="1912"/>
             <date type="premiere" when="1913"/>
-            <date type="written"/>
+            <date type="written" when="1912">1912</date>
           </bibl>
         </bibl>
       </sourceDesc>
