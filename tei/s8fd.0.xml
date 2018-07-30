@@ -43,6 +43,9 @@
                   <date when="1914"/>
                   <pubPlace>Leipzig</pubPlace>
                </publicationStmt>
+               <date type="print" when="1594">1594</date> 
+               <date type="premiere" /> 
+               <date type="written" when="1594">Zwischen 1593 und 1594</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
