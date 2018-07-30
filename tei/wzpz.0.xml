@@ -33,6 +33,9 @@
             <date type="print"/>
             <date type="premiere" when="1850">1850</date>
             <date type="written"/>
+            <date type="print" when="1850">1850</date>
+            <date type="premiere" when="1850">1850</date>
+            <date type="written" when="1846">Zwischen 1845 und 1846</date>
           </bibl>
         </bibl>
       </sourceDesc>
