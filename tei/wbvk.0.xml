@@ -32,7 +32,7 @@
             <title>Ludwig Thoma: Gesammelte Werke in sechs Bänden. Erweiterte Neuausgabe. Textredaktion: Albrecht Knaus, München: Piper, 1968.</title>
             <date type="print" when="1902">1902</date>
             <date type="premiere" when="1902">1902</date>
-            <date type="written"/>
+            <date type="written" when="1902">1902</date>
           </bibl>
         </bibl>
       </sourceDesc>
