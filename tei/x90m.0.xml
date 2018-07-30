@@ -32,7 +32,7 @@
             <title>Dichtung aus Österreich. Anthologie in drei Bänden und einem Ergänzungsband, herausgegeben von Prof. Dr. Heinz Kindermann u.a., Wien und München: Österreichischer Bundesverlag für Unterricht, Wissenschaft und Kunst, 1966.</title>
             <date type="print" when="1919"/>
             <date type="premiere" when="1915"/>
-            <date type="written"/>
+            <date type="written" when="1914">1914</date>
           </bibl>
         </bibl>
       </sourceDesc>
