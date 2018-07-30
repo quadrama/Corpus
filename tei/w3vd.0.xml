@@ -43,9 +43,9 @@
                   <date when="1963"/>
                   <pubPlace>Wiesbaden</pubPlace>
                </publicationStmt>
-               <date type="print" when="1915">1915</date> 
-               <date type="premiere" /> 
-               <date type="written" when="1914">1914</date> 
+                <date type="print" when="1915">1915</date> 
+                <date type="premiere" /> 
+                <date type="written" when="1914">1914</date> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
