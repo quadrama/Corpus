@@ -32,7 +32,7 @@
             <title>Der deutsche Michel, Revolutionskomödien der Achtundvierziger. Herausgegeben von Horst Denkler, Stuttgart: Philipp Reclam jun., 1971 [Universal-Bibliothek Nr. 9300 [6]].</title>
             <date type="print" when="1845"/>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1845">1845</date> 
           </bibl>
         </bibl>
       </sourceDesc>
