@@ -32,7 +32,7 @@
             <title>Richard Wagner: Die Musikdramen. Mit einem Vorwort von Joachim Kaiser, Hamburg: Hoffmann und Campe, 1971.</title>
             <date type="print"/>
             <date type="premiere" when="1850"/>
-            <date type="written"/>
+            <date type="written" when="1850">Zwischen 1847 und 1850</date> 
           </bibl>
         </bibl>
       </sourceDesc>
