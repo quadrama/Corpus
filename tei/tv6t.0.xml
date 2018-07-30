@@ -38,6 +38,9 @@
                   <date when="1977"/>
                   <pubPlace>München</pubPlace>
                </publicationStmt>
+               <date type="print" when="1904">1904</date> 
+               <date type="premiere" /> 
+               <date type="written" /> 
             </biblFull>
          </sourceDesc>
       </fileDesc>
