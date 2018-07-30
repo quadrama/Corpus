@@ -31,8 +31,8 @@
           <bibl type="originalSource">
             <title>Sturm und Drang. Dichtungen und theoretische Texte in zwei Bänden. Ausgewählt und mit einem Nachwort versehen von Heinz Nicolai, München: Winkler, 1971</title>
             <date type="print" when="1776"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="premiere" when="1777">1777</date>
+            <date type="written" when="1776">1776</date>
           </bibl>
         </bibl>
       </sourceDesc>
