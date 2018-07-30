@@ -31,7 +31,7 @@
           <bibl type="originalSource">
             <title>Das Drama der klassischen Periode. Herausgegeben von Dr. Adolf Hauffen, Stuttgart: Union Deutsche Verlagsgesellschaft, [o.J.] [Deutsche National-Litteratur, herausgegeben von Joseph Kürschner, 138. Bd.].</title>
             <date type="print" when="1780"/>
-            <date type="premiere"/>
+            <date type="premiere" when="1781">1781</date>
             <date type="written" when="1780"/>
           </bibl>
         </bibl>
