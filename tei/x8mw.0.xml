@@ -31,7 +31,7 @@
           <bibl type="originalSource">
             <title>Adolf Wilbrandt: Gracchus der Volkstribun. Berlin: Eduard Bloch, [1872].</title>
             <date type="print" when="1872"/>
-            <date type="premiere"/>
+            <date type="premiere" when="1872">1872</date>
             <date type="written"/>
           </bibl>
         </bibl>
