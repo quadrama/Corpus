@@ -71,7 +71,7 @@ The following relations have been annotated:
 | `spouses` | undirected | Characters in marriage (or engaged) |
 | `friends` | undirected | Characters marked as being friends |
 
-All relations are marked in XML in a `<listRelation>` element in the `<listPerson>` element. Directed relations are encoded with an `active` and `passive` attribute, where the active part is always the one in front of the relation, if expressed as a sentence. E.g., *Odoardo is parent of Emilia* translates two a relation
+All relations are marked in XML in a `<listRelation>` element in the `<listPerson>` element. Directed relations are encoded with an `active` and `passive` attribute, where the active part is always the one in front of the relation, if expressed as a sentence. E.g., *Odoardo is parent of Emilia* translates to a relation
 	
 	<relation name="parent_of" active="#odoardo_galotti" passive="#emilia" />
 
