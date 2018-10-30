@@ -1,0 +1,2133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://textgrid.info/namespaces/metadata/core/2010" xmlns:tgl="http://textgrid.info/namespaces/metadata/language/2010" xmlns:tgs="http://textgrid.info/namespaces/metadata/script/2010" xmlns:tgr="http://textgrid.info/namespaces/metadata/agent/2010">
+  <teiHeader xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:a="http://www.textgrid.info/namespace/digibib/authors">
+    <fileDesc>
+      <titleStmt>
+        <title>Die Eumeniden</title>
+        <author key="pnd:118500856">Aischylos</author>
+        <editor key="pnd:188028331" role="translator">Droysen, Johann Gustav</editor>
+      </titleStmt>
+      <publicationStmt>
+        <idno type="QUADRAMA-ID">jkj1.1</idno>
+        <idno type="handle">hdl:11858/00-1734-0000-0001-D814-D</idno>
+        <idno type="TextGridUri">textgrid:jkj1.0</idno>
+        <idno type="URL">http://www.textgridrep.org/textgrid:jkj1.0</idno>
+        <availability>
+          <p> Der annotierte Datenbestand der Digitalen Bibliothek inklusive Metadaten sowie
+                                   davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von
+                                   www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons
+                                   Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid) veröffentlicht. Die
+                                   Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden
+                                   allgemeinfreien Texte (Siehe auch Punkt 2 der Lizenzbestimmungen). </p>
+          <p>
+            <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+          </p>
+          <p>
+            <ref target="http://creativecommons.org/licenses/by/3.0/de/"> Eine vereinfachte
+                                   Zusammenfassung des rechtsverbindlichen Lizenzvertrages in
+                                   allgemeinverständlicher Sprache </ref>
+          </p>
+          <p>
+            <ref target="http://www.textgrid.de/Digitale-Bibliothek">Hinweise zur Lizenz und zur Digitalen Bibliothek</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>
+                              Die »Orestie« mit ihren drei Teilen »Agamemnon«, »Die Grabesspenderinnen« und »Die Eumeniden« wurde im Jahre 458 v. Chr. aufgeführt. Der Text folgt der Übersetzung von Johann Gustav Droysen.
+                           </note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Griechische Tragiker: Aischylos, Sophokles, Euripides. Hg. v. Wolf Hartmut Friedrich, übers. v. J. G. Droysen (Aischylos), K. W. F. Solger (Sophokles), J. A. Hartung (Euripides), München: Winkler, 1958.</title>
+            <author key="pnd:118500856">Aischylos</author>
+            <editor key="pnd:188028331" role="translator">Droysen, Johann Gustav</editor>
+          </titleStmt>
+          <extent>112-</extent>
+          <publicationStmt>
+            <date when="1958"/>
+            <pubPlace>München</pubPlace>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="apollon">
+            <persName>APOLLON</persName>
+          </person>
+          <person xml:id="athene">
+            <persName>ATHENE</persName>
+          </person>
+          <person xml:id="chor">
+            <persName>CHOR</persName>
+          </person>
+          <person xml:id="chorführer">
+            <persName>CHORFÜHRER</persName>
+          </person>
+          <person xml:id="chorführerin">
+            <persName>CHORFÜHRERIN</persName>
+          </person>
+          <person xml:id="klytaimestra">
+            <persName>KLYTAIMESTRA</persName>
+          </person>
+          <person xml:id="orestes">
+            <persName>ORESTES</persName>
+          </person>
+          <person xml:id="seherin">
+            <persName>SEHERIN</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <creation>
+        <date notBefore="-0525" notAfter="-0456"/>
+      </creation>
+      <textClass>
+        <keywords scheme="http://textgrid.info/namespaces/metadata/core/2010#genre">
+          <term>drama</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="front">
+        <head type="h3">Aischylos</head>
+        <head type="h2">Die Eumeniden</head>
+        <div type="h4">
+          <head type="h4">(Eumenides)</head>
+        </div>
+        <div type="h4">
+          <head type="h4"><pb type="start" n="200"/>
+Personen.</head>
+          <p rend="zenoPLm0n4" who="#seherin">Die pythische Seherin</p>
+          <lb/>
+          <p rend="zenoPLm0n4" who="#apollon">Apollon</p>
+          <lb/>
+          <p rend="zenoPLm0n4" who="#orestes">Orestes</p>
+          <lb/>
+          <p rend="zenoPLm0n4" who="#klytaimestra">Klytaimestras Schatten</p>
+          <lb/>
+          <p rend="zenoPLm0n4" who="#chor">Chor der Eumeniden</p>
+          <lb/>
+          <p rend="zenoPLm0n4" who="#athene">Athene</p>
+          <lb/>
+          <p rend="zenoPLm0n4">Geleitende Schar</p>
+          <lb/>
+          <pb n="200"/>
+          <lb/>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div subtype="work:no">
+        <div>
+          <desc>
+            <title>Die Eumeniden</title>
+          </desc>
+        </div>
+        <div type="text">
+          <stage rend="zenoPC">
+            <hi rend="italic">Tempel des Apollon zu Delphi; aus den Hallen tritt die pythische Seherin zum Frühgebet.</hi>
+          </stage>
+          <lb/>
+          <sp who="#seherin">
+            <speaker>SEHERIN.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Mit erstem Anruf ehr ich aus der Götter Zahl</l>
+              <l rend="zenoPLm4n4">Die Urprophetin Gaia; Themis dann, ihr Kind,</l>
+              <l rend="zenoPLm4n4">Die nach den Sagen hier am Seherherde saß,</l>
+              <l rend="zenoPLm4n4">Die zweite nach der Mutter; dann zum dritten ward</l>
+              <l rend="zenoPLm4n4">Mit ihrem Willen, nicht von fremder Macht bestimmt,</l>
+              <l rend="zenoPLm4n4">Ein andres Kind der Gaia Herrin dieses Orts,</l>
+              <l rend="zenoPLm4n4">Titanis Phoibe. Zum Geburtsgeschenke gab</l>
+              <l rend="zenoPLm4n4">Die ihn dem Phoibos, der sich drum nach Phoibe nennt.</l>
+              <l rend="zenoPLm4n4">Das Klippeneiland Delos ließ er und die See,</l>
+              <l rend="zenoPLm4n4">Zu Pallas' meerfahrtoffnem Strande zog er dann</l>
+              <l rend="zenoPLm4n4">Und kam in dies Land zu des Parnassos Heiligtum;</l>
+              <l rend="zenoPLm4n4">Und ihn geleiten, frommen Dienstes ehren ihn</l>
+              <l rend="zenoPLm4n4">Als Wegebahner des Hephaistos Kinder, die</l>
+              <l rend="zenoPLm4n4">Des Landes Wildnis seinem Zug entwilderten.</l>
+              <l rend="zenoPLm4n4">Drauf als er einzog, festlich wallt' entgegen ihm</l>
+              <l rend="zenoPLm4n4">Das Volk und Delphos, dieser Gegend hehrer Fürst;</l>
+              <l rend="zenoPLm4n4">Zeus aber gab ihm ewgen Rates Wissenschaft,</l>
+              <l rend="zenoPLm4n4">Den vierten Seher, setzt' er ihn auf diesen Thron,</l>
+              <l rend="zenoPLm4n4">Und seines Vaters Zeus Prophet ist Loxias.</l>
+              <l rend="zenoPLm4n4">Zu diesen Göttern bitt und bet ich feierlich! –</l>
+              <l rend="zenoPLm4n4">Dem <hi rend="italic">Gruß</hi> die erste mag Pronaia Pallas sein,</l>
+              <l rend="zenoPLm4n4">Gruß auch den Nymphen drüben, wo Korykis' Fels,</l>
+              <l rend="zenoPLm4n4">Hohl, vogelheimisch und der Götter Ruheplatz;</l>
+              <l rend="zenoPLm4n4">'s ist Bromios jener Gegend Herr, des denk ich wohl,</l>
+              <l rend="zenoPLm4n4">Seitdem die Bakchen siegend hergeführt der Gott</l>
+              <l rend="zenoPLm4n4">Und Tod dem Pentheus einem Häslein gleich gewirkt,</l>
+              <l rend="zenoPLm4n4">Auch Pleistos' Quellen grüß ich und die heilge Kraft</l>
+              <l rend="zenoPLm4n4">Poseidons und zum letzten dich, allhöchster Zeus!</l>
+              <l rend="zenoPLm4n4">Nun setz ich mich Prophetin auf den heilgen Thron;</l>
+              <l rend="zenoPLm4n4">Huldreich gesegnen mögen sie vor jedem je</l>
+              <l rend="zenoPLm4n4">Mir diesen Eingang. Sind Hellenen hier zur Stund,</l>
+              <l rend="zenoPLm4n4"><pb n="201"/>
+So nahn sie nach den Losen altem Brauch gemäß;</l>
+              <l rend="zenoPLm4n4">Denn ich verkünde, wie der Gott es mir gebeut!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Sie öffnet den Tempel und geht hinein; nach kurzer Pause wankt sie entsetzt zurück.</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Graunvoll zu nennen, anzuschauen grausenvoll!</l>
+              <l rend="zenoPLm4n4">Mich jagt es rückwärts aus dem Tempel Loxias',</l>
+              <l rend="zenoPLm4n4">So daß die Sohle kaum mich trägt, sich kaum bewegt;</l>
+              <l rend="zenoPLm4n4">Die Hände laufen, nicht des Fußes nichtge Hast!</l>
+              <l rend="zenoPLm4n4">Ohnmächtig bin ich zitternd Weib, gleich einem Kind!</l>
+              <l rend="zenoPLm4n4">Zum vielbekränzten Heiligtume ging ich ein,</l>
+              <l rend="zenoPLm4n4">Und sitzen seh ich einen gottverfluchten Mann</l>
+              <l rend="zenoPLm4n4">Am Erdennabel, schutzgewärtig, frisch von Blut</l>
+              <l rend="zenoPLm4n4">Die Hände triefend, noch das entblößte Schwert zur Hand,</l>
+              <l rend="zenoPLm4n4">Zugleich des Ölbaums einen hochentsproßnen Zweig</l>
+              <l rend="zenoPLm4n4">Mit breitgewundner Flocke rings sorgsam bekränzt</l>
+              <l rend="zenoPLm4n4">Der weißen Wolle; so genau sprech ich es aus.</l>
+              <l rend="zenoPLm4n4">Um diesen Mann her eine wunderbare Schar</l>
+              <l rend="zenoPLm4n4">Von Weibern schlafend auf die Sessel hingestreckt;</l>
+              <l rend="zenoPLm4n4">Doch nicht von Weibern – nein, Gorgonen nenn ich sie,</l>
+              <l rend="zenoPLm4n4">Und wieder nicht den Bildern der Gorgonen gleich;</l>
+              <l rend="zenoPLm4n4">Einst sah ich die gemalet, wie sie mit Phineus' Mahl</l>
+              <l rend="zenoPLm4n4">Von dannen fliegen; aber ungeflügelt sind</l>
+              <l rend="zenoPLm4n4">Die dort und schwarz und gar entsetzlich anzuschaun;</l>
+              <l rend="zenoPLm4n4">Sie schnarchen unnahbaren Odems lauten Hauch,</l>
+              <l rend="zenoPLm4n4">Aus ihren Augen trieft es, quillt es grausenhaft,</l>
+              <l rend="zenoPLm4n4">Ihr Putz, zu scheußlich ist er, um den Göttern je,</l>
+              <l rend="zenoPLm4n4">Der Menschen Wohnung traulich jemals sich zu nahn.</l>
+              <l rend="zenoPLm4n4">Nie hab ich solch Gelage solcher Schar gesehn,</l>
+              <l rend="zenoPLm4n4">Noch rühmt sich jemals irgendein Land, dies Geschlecht</l>
+              <l rend="zenoPLm4n4">Gramlos zu nähren, ohn es schwer zu büßen einst.</l>
+              <l rend="zenoPLm4n4">Das weitre sei dem Herren dieses Heiligtums,</l>
+              <l rend="zenoPLm4n4">Dem Loxias, befohlen, dem großmächtigen;</l>
+              <l rend="zenoPLm4n4">Denn Seherheiland ist er, Zeichenkündiger,</l>
+              <l rend="zenoPLm4n4">Und allem Hause jeder Schuld Entsündiger.</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Ab in die Halle; aus dem Tempel treten Apollon und Hermes; zwischen beiden Orestes.</hi>
+            </stage>
+            <lb/>
+            <pb n="202"/>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Dich werd ich nicht verraten; allzeit Hüter dir,</l>
+              <l rend="zenoPLm4n4">Ob ich dir nah bin oder weit von dir entfernt,</l>
+              <l rend="zenoPLm4n4">Nie werd ich deinen Feinden freund und gnädig sein!</l>
+              <l rend="zenoPLm4n4">Also gefangen siehst du diese Dirnen jetzt,</l>
+              <l rend="zenoPLm4n4">Vom Schlaf bewältigt, eine gottverhaßte Brut,</l>
+              <l rend="zenoPLm4n4">Ergraute Mädchen, greise Kinder, welche nie</l>
+              <l rend="zenoPLm4n4">Der Götter einer, nie ein Mensch noch Tier umarmt;</l>
+              <l rend="zenoPLm4n4">Des Bösen wegen sind sie da, sie hausen drum</l>
+              <l rend="zenoPLm4n4">Im bösen Dunkel unten tief im Tartaros,</l>
+              <l rend="zenoPLm4n4">Der Menschen Abscheu und der Götter im Olymp.</l>
+              <l rend="zenoPLm4n4">Dennoch entflieh du und vergiß der lieben Ruh;</l>
+              <l rend="zenoPLm4n4">Dann jagen durch das weite Festland dir sie nach,</l>
+              <l rend="zenoPLm4n4">Solang du hineilst über irrdurchflüchtet Land,</l>
+              <l rend="zenoPLm4n4">Dir über Meer und meerumrauschte Inseln nach.</l>
+              <l rend="zenoPLm4n4">Und nicht zu früh ermüde, weit umhergescheucht</l>
+              <l rend="zenoPLm4n4">In solcher Mühsal. Ziehe dann gen Pallas' Stadt,</l>
+              <l rend="zenoPLm4n4">Setz an ihr altes Bild dich und umschling es fromm.</l>
+              <l rend="zenoPLm4n4">Und dort, wo Richter solcher Schuld und sühnend Wort</l>
+              <l rend="zenoPLm4n4">Für uns bereit sind, werden Wege wir erspähn,</l>
+              <l rend="zenoPLm4n4">Daß frei und los du werdest aller dieser Mühn;</l>
+              <l rend="zenoPLm4n4">Denn ich gebot's, daß deine Mutter du erschlugst!</l>
+            </lg>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Du weißt, o Fürst Apollon, Unrecht nie zu tun;</l>
+              <l rend="zenoPLm4n4">Unrecht mich leiden nicht zu lassen wisse jetzt;</l>
+              <l rend="zenoPLm4n4">Daß du's betätgen kannst, verbürgt mir deine Kraft!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Vertrau, damit nicht Furcht bewältge deinen Geist! –</l>
+              <l rend="zenoPLm4n4">Du meines Blutes Bruder, Gleichgezeugter mir,</l>
+              <l rend="zenoPLm4n4">Hermes, behüt ihn, deinem eignen Namen treu,</l>
+              <l rend="zenoPLm4n4">Sei sein Geleiter, führe wie ein treuer Hirt</l>
+              <l rend="zenoPLm4n4">Mir meinen Schützling – ehrt doch Zeus selbst diese Pflicht,</l>
+              <l rend="zenoPLm4n4">Wenn froher Wandrung Zeichen er den Menschen schickt.</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Hermes und Orestes ab, Apollon geht in den Tempel zurück.</hi>
+            </stage>
+            <stage rend="zenoPC">
+              <hi rend="italic">Das Innere des Tempels wird sichtbar. Man erblickt die schlafenden Erinnyen; der Schatten Klytaimestras steigt empor.</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#klytaimestra">
+            <speaker>KLYTAIMESTRA.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ihr schlafet? Ho! auf! Was bedarf's der Schlafenden?</l>
+              <l rend="zenoPLm4n4">Und ich, die also vor den andern Toten all</l>
+              <l rend="zenoPLm4n4">Mißachtet ganz von euch bin, weil ich mordete</l>
+              <l rend="zenoPLm4n4">Und solcher Vorwurf nimmer stirbt im Totenreich,</l>
+              <l rend="zenoPLm4n4"><pb n="203"/>
+Umirr ich schmachvoll! Aber wißt, ich sag es euch,</l>
+              <l rend="zenoPLm4n4">Die größte Ursach hab ich wider jene doch;</l>
+              <l rend="zenoPLm4n4">Denn ich, die so Furchtbares von den Liebsten litt,</l>
+              <l rend="zenoPLm4n4">Von allen Göttern keiner ist für mich erzürnt,</l>
+              <l rend="zenoPLm4n4">Da Muttermörders Hände mich doch umgebracht!</l>
+              <l rend="zenoPLm4n4">Da, seht im Herzen diese meine Wunden an!</l>
+              <l rend="zenoPLm4n4">Denn Schlaf im Auge, bleibt der Sinn euch hell und wach,</l>
+              <l rend="zenoPLm4n4">Doch über Tag ist Menschenjagen euer Los!</l>
+              <l rend="zenoPLm4n4">Habt ihr bereits doch vieles schon von mir empfahn,</l>
+              <l rend="zenoPLm4n4">Weinlose Spenden, nüchtren, hilfeflehnden Gruß</l>
+              <l rend="zenoPLm4n4">Und mitternächtig stilles Mahl am Herd der Glut</l>
+              <l rend="zenoPLm4n4">In eurer Stunde, keinem Gott mit euch gemein.</l>
+              <l rend="zenoPLm4n4">Das alles, seh ich, schnöd in den Staub getreten wird's –</l>
+              <l rend="zenoPLm4n4">Und er entrinnt euch, flüchtig, einer Hindin gleich,</l>
+              <l rend="zenoPLm4n4">Und gar aus eures Garnes Mitten ist er leicht</l>
+              <l rend="zenoPLm4n4">Entsprungen, blickt hohnlachend nun auf euch zurück!</l>
+              <l rend="zenoPLm4n4">Vernehmt, was ich von meinem Geist zu euch gesagt,</l>
+              <l rend="zenoPLm4n4">Bedenkt es wohl, Göttinnen ihr des Totenreichs!</l>
+              <l rend="zenoPLm4n4">Es ist das Traumbild Klytaimestra, die euch ruft!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Stöhnen des Chors.</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Wohl stöhnt ihr; euch entflieht er fern und ferner schon,</l>
+              <l rend="zenoPLm4n4">Mir Mißgesinnten, schutzgewärtig geht er hin!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Stöhnen des Chors.</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Du schläfst so fest noch, dich erbarmt nicht meine Qual,</l>
+              <l rend="zenoPLm4n4">Und mein, der Mutter, Mörder Orestes, er entkommt!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Geheul des Chors.</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Du heulst? du schläfst noch? Raffst dich eilig nicht empor?</l>
+              <l rend="zenoPLm4n4">Was sonst ist dein Amt, wenn du Jammer nicht verhängst?</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Geheul des Chors.</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Schlafsucht und Mühsal, schnöde Bundverschworene,</l>
+              <l rend="zenoPLm4n4">Euch grausen Drachen haben sie die Kraft gelähmt?</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Faß ihn! Faß ihn! Faß ihn! Faß ihn! Hetz!</l>
+          </sp>
+          <sp who="#klytaimestra">
+            <speaker>KLYTAIMESTRA.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Im Traum verfolgst du dein Gewild, schlägst wie ein Hund</l>
+              <l rend="zenoPLm4n4">Laut an, der niemals seines Dienstes Sorge läßt!</l>
+              <l rend="zenoPLm4n4">Du säumst? Empor spring! Mühe mach dich nimmer feig;</l>
+              <l rend="zenoPLm4n4">Auch das vergiß nicht, welchen Schaden Schlaf dir schafft!</l>
+              <l rend="zenoPLm4n4"><pb n="204"/>
+Mit gerechter Reue geißle deine Nieren wund,</l>
+              <l rend="zenoPLm4n4">In heißem Antrieb stachle selbst dich wieder auf!</l>
+              <l rend="zenoPLm4n4">Auf! Deines Mundes jähen Bluthauch stürm ihm nach,</l>
+              <l rend="zenoPLm4n4">Hindörr in Glut ihn, in der Eingeweide Brand,</l>
+              <l rend="zenoPLm4n4">Nach jag ihm, hetz in wiederholter Jagd ihn tot!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Verschwindet.</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR</speaker>
+            <stage>
+              <hi rend="italic">wild durcheinander.</hi>
+            </stage>
+            <lg>
+              <l rend="zenoPLm4n4">Erweck, erwecke diese du, ich wieder dich.</l>
+              <l rend="zenoPLm4n4">Schläfst du? Erheb dich! Stoß den Schlaf von dir hinweg!</l>
+              <l rend="zenoPLm4n4">Nachsehen laßt uns, ob ihr Reden uns betrog!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Sie stürzen aus dem Tempel hervor.</hi>
+            </stage>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Hohu! wehe! ho! Müssen es leiden, o!</l>
+              <l rend="zenoPLm4n4">Und vieles schon erlitt ich, und ich litt umsonst!</l>
+              <l rend="zenoPLm4n4">Müssen erleiden hie Schmähliches! Leiden o</l>
+              <l rend="zenoPLm4n4">Ein unsäglich Weh.</l>
+              <l rend="zenoPLm4n4">Aus sichrem Garn entsprungen, flieht mein Wild hinweg!</l>
+              <l rend="zenoPLm4n4">Vom Schlaf erdrückt, büß ich ein meinen Fang!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Hohu! Sohn des Zeus! Bist ein verschmitzter Dieb!</l>
+              <l rend="zenoPLm4n4">Uns greise Götter überrennst du, junger Gott!</l>
+              <l rend="zenoPLm4n4">Daß du den Flüchtling ehrst, Schuldigen! Ihn beschützt,</l>
+              <l rend="zenoPLm4n4">Den schamlosen Sohn!</l>
+              <l rend="zenoPLm4n4">Den Muttermörder stahlst du uns, und bist ein Gott!</l>
+              <l rend="zenoPLm4n4">Wer sagte, das sei gerecht je getan?</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Es hat der Vorwurf, den der Traum ins Ohr mir schrie,</l>
+              <l rend="zenoPLm4n4">Dem Roßlenker gleich mich aufgepeitscht,</l>
+              <l rend="zenoPLm4n4">Blutigen Geißelhieb in Herz und Mark gepeitscht!</l>
+              <l rend="zenoPLm4n4">Der Marterknecht meiner Reu,</l>
+              <l rend="zenoPLm4n4">Wie er mich trifft, wie er mich stäupt,</l>
+              <l rend="zenoPLm4n4">Durchschauert mich Grausen, entsetzliches, mich!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic"><pb n="205"/>
+Zweite Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Und das bereiten jene neuen Götter uns,</l>
+              <l rend="zenoPLm4n4">Die Macht üben über alles Recht!</l>
+              <l rend="zenoPLm4n4">Mordesbespritzter Sitz, zu Haupt und Fuß bespritzt</l>
+              <l rend="zenoPLm4n4">Ist jetzt der Erdnabel dort;</l>
+              <l rend="zenoPLm4n4">Blutige Schuld, schuldiges Blut –</l>
+              <l rend="zenoPLm4n4">Das verruchteste nahm ja beschützend er auf!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Dritte Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Mit solchem Blutgreul, Seher du, an deinem Herd</l>
+              <l rend="zenoPLm4n4">Schändest dein Haus du selbstwilligend, selbstberufend,</l>
+              <l rend="zenoPLm4n4">Weil du die Menschen ehrst wider der Götter Recht,</l>
+              <l rend="zenoPLm4n4">Der Moiren Macht, der uralten, brichst!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Dritte Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Mir wirst verhaßt du und erlösest den doch nie!</l>
+              <l rend="zenoPLm4n4">Flöh er zum Hades auch, nimmer doch wird er uns los!</l>
+              <l rend="zenoPLm4n4">Wie er den Mord beging, also dem Rächer auch</l>
+              <l rend="zenoPLm4n4">Fällt er mit seinem Haupt dort anheim!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON</speaker>
+            <stage>
+              <hi rend="italic">aus dem Tempel tretend.</hi>
+            </stage>
+            <lg>
+              <l rend="zenoPLm4n4">Hinaus! befehl ich; dieses Tempelhaus verlaßt</l>
+              <l rend="zenoPLm4n4">Sogleich, hinwegzieht aus des Sehers Heiligtum,</l>
+              <l rend="zenoPLm4n4">Eh diese zischende schnellbeschwingte Schlange dich</l>
+              <l rend="zenoPLm4n4">Von meines Bogens goldgeflochtner Senne trifft,</l>
+              <l rend="zenoPLm4n4">Vor Schmerz du ausströmst schwarzen menschentsognen Schaum,</l>
+              <l rend="zenoPLm4n4">Geronnen Blut ausspeiest, das du bei Mord geleckt!</l>
+              <l rend="zenoPLm4n4">Fort! Meiner Wohnung dürfet ihr nicht nahe sein!</l>
+              <l rend="zenoPLm4n4">Nein, da, wo mörderköpfendes, augauswühlendes</l>
+              <l rend="zenoPLm4n4">Gericht, wo Totschlag, wo der Knab in geiler Lust</l>
+              <l rend="zenoPLm4n4">Verspritzt den eitlen Samen, wo Entmannete,</l>
+              <l rend="zenoPLm4n4">Steintodverdammte, unter qualvoll wildem Schmerz</l>
+              <l rend="zenoPLm4n4">Rückgratdurchspießte jammern! Habt ihr nun gehört,</l>
+              <l rend="zenoPLm4n4">Um welche Festlust, dran ihr euch ergötzt, verhaßt</l>
+              <l rend="zenoPLm4n4">Den Göttern ihr seid? Gleiches zeigt auch euer Leib;</l>
+              <l rend="zenoPLm4n4">Denn solche Scheusal' müssen in des blutleckenden</l>
+              <l rend="zenoPLm4n4">Leun Höhle hausen, nicht in diesem Heiligtum</l>
+              <l rend="zenoPLm4n4">Der Gottorakel weilen, solch entweihend Greul!</l>
+              <l rend="zenoPLm4n4"><pb n="206"/>
+So zieht hinaus, weitschwärmend, hirtenlos zerstreut;</l>
+              <l rend="zenoPLm4n4">Denn solcher Herd' ist keiner hold der Himmlischen.</l>
+            </lg>
+          </sp>
+          <sp who="#chorführerin">
+            <speaker>CHORFÜHRERIN.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Du, Fürst Apollon, höre nun auch wieder mich!</l>
+              <l rend="zenoPLm4n4">Wohl bist du nicht zu nennen als Mitschuldiger,</l>
+              <l rend="zenoPLm4n4">Nein, du allein tatst alles, du Allschuldiger!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <l rend="zenoPLm4n4">Wie das? So lang noch sei zu reden dir vergönnt!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Du allein gebotst dem Fremdling seiner Mutter Mord!</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <l rend="zenoPLm4n4">Ich gebot ihm seines Vaters Rache. Weiter dann!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Die frische Blutschuld wieder nahmst du über dich!</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <l rend="zenoPLm4n4">In meines Tempels Schutz zu fliehn, befahl ich ihm.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Und uns verschmähst du, die ja doch ihn geleiteten!</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <l rend="zenoPLm4n4">Euch kommt es nicht zu, meiner Wohnung euch zu nahn.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Und dennoch aufgetragen ward uns diese Pflicht.</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <l rend="zenoPLm4n4">Welch eine Pflicht denn? Rühme doch dein schönes Amt!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Den Muttermörder treiben wir aus Haus und Hof!</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <l rend="zenoPLm4n4">Auch den des Weibes, die den Gatten umgebracht?</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Nicht soll der ruchlos blutverwandte Mord geschehn!</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">So ganz mißehrt wird und geringgeschätzt von dir</l>
+              <l rend="zenoPLm4n4">Der großen Hera und des Zeus eidheilger Bund,</l>
+              <l rend="zenoPLm4n4">Mißehrt auch Kypris und beschimpft mit solchem Wort,</l>
+              <l rend="zenoPLm4n4">Von der doch alles Liebste kommt den Sterblichen!</l>
+              <l rend="zenoPLm4n4">Geeint vom Schicksal wird des Mann und Weibes Bund</l>
+              <l rend="zenoPLm4n4">Von diesem Rechte heilger, als durch Schwur bewacht.</l>
+              <l rend="zenoPLm4n4">Wenn nun du mild bist jenen Wechselmordenden,</l>
+              <l rend="zenoPLm4n4">Nicht ihnen nachjagst, nicht sie suchst mit wildem Zorn,</l>
+              <l rend="zenoPLm4n4">So sag ich, nicht treibst du gerecht Orestes fort:</l>
+              <l rend="zenoPLm4n4">Dies eine, weiß ich, willst du und verlangst du ganz,</l>
+              <l rend="zenoPLm4n4">Des andren denkst du offenbar saumseliger.</l>
+              <l rend="zenoPLm4n4">Pallas Athene wird erforschen beider Recht.</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Von jenem Mörder laß ich nun und nimmermehr!</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <l rend="zenoPLm4n4">Magst ihn verfolgen, dir zu mehren deine Müh!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Nicht kränk an meinen Ehren mich mit solchem Wort!</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <l rend="zenoPLm4n4">Böt man sie mir, als Schande wies' ich sie zurück!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ein Mächtger freilich wirst an Zeus' Thron du genannt!</l>
+              <l rend="zenoPLm4n4">Ich aber – forttreibt Mutterblut mich, zum Gericht</l>
+              <l rend="zenoPLm4n4">Nacheil ich ihm, nachspür ich seinem fliehnden Fuß!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Der Chor ab.</hi>
+            </stage>
+            <lb/>
+            <pb n="207"/>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ich aber will ihm Retter und Beschützer sein;</l>
+              <l rend="zenoPLm4n4">Denn vielgewaltig ist bei Mensch und Gott der Zorn</l>
+              <l rend="zenoPLm4n4">Des Schutzbefohlnen, wenn ich treulos ihn verriet. –</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Ab in den Tempel.</hi>
+            </stage>
+            <stage rend="zenoPC">
+              <hi rend="italic">Tempel der Pallas Athene zu Athen; vor demselben ein Altar mit dem Bilde der Göttin. Orestes kommt ohne Hermes, setzt sich an den Altar der Göttin und umfaßt ihr Bild.</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Herrin Athene, auf des Loxias Geheiß</l>
+              <l rend="zenoPLm4n4">Komm ich; so nimm du gnädig auf mich Schuldigen,</l>
+              <l rend="zenoPLm4n4">Nicht mordbefleckt mehr, nicht mit ungesühnter Hand,</l>
+              <l rend="zenoPLm4n4">Nein, abgestumpft schon, weit umhergetrieben schon</l>
+              <l rend="zenoPLm4n4">Auf allen Wegen und in fremder Menschen Haus.</l>
+              <l rend="zenoPLm4n4">So über Land hin, über See umhergeflohn,</l>
+              <l rend="zenoPLm4n4">Folgsam der Weisung, die mir Loxias beschied,</l>
+              <l rend="zenoPLm4n4">Komm ich in dein Haus, Göttin, und zu deinem Bild;</l>
+              <l rend="zenoPLm4n4">Hier will ich weilen, warten auf des Gerichtes Schluß!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Der Chor tritt auf, zerstreut, suchend.</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chorführerin">
+            <speaker>CHORFÜHRERIN.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Nur weiter! Dies ist seine Fährte offenbar;</l>
+              <l rend="zenoPLm4n4">Nachspürt dem stummen Rate der Verrätrin Spur!</l>
+              <l rend="zenoPLm4n4">Ja, wie der Spürhund einem angeschoßnen Reh,</l>
+              <l rend="zenoPLm4n4">So wittern, seinem Schweiß und Blut nach, wir ihn aus!</l>
+              <l rend="zenoPLm4n4">Mir keucht die Brust von diesen menschenpirschenden Mühn;</l>
+              <l rend="zenoPLm4n4">Denn abgetrieben ist der Erde ganz Revier!</l>
+              <l rend="zenoPLm4n4">Und über Meer hin setzt ich flügellosen Flugs</l>
+              <l rend="zenoPLm4n4">Ihm nach, und nach blieb hinter mir ein segelnd Schiff!</l>
+              <l rend="zenoPLm4n4">Jetzt muß er hier gesetzt sich haben irgendwo;</l>
+              <l rend="zenoPLm4n4">Der Duft von frischem Menschenblute lacht mich an!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">So such ihn, such ihn nur!</l>
+              <l rend="zenoPLm4n4">Spürt genau alles durch, daß nicht heimlich noch</l>
+              <l rend="zenoPLm4n4">Der Muttermörder entkommt!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Da schau! Da sitzt er wieder unter gutem Schutz!</l>
+              <l rend="zenoPLm4n4">Der Göttin Bild dicht umfaßt,</l>
+              <l rend="zenoPLm4n4">Will er erwarten seiner Blutschuld Gericht!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4"><pb n="208"/>
+Niemals geschieht das! Mutterblut, zur Erde rann's!</l>
+              <l rend="zenoPLm4n4">Unwiederrettbares Blut,</l>
+              <l rend="zenoPLm4n4">Lebend hinabgeströmt, tot in den toten Staub!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Du sollst es jetzt lebendig abbüßen!</l>
+              <l rend="zenoPLm4n4">Ich saug dir aus den Adern das rote Geblüt!</l>
+              <l rend="zenoPLm4n4">Satt mich von dir zu schlürfen, lechz ich, blutgen Mißtrunkes satt!</l>
+              <l rend="zenoPLm4n4">Abzehr ich dich, den Lebendgen, jag dich so hinab!</l>
+              <l rend="zenoPLm4n4">Sollst mir im Jammer abbüßen den Muttermord!</l>
+              <l rend="zenoPLm4n4">Sollst schauen dort, wer andrem Menschen mißgetan,</l>
+              <l rend="zenoPLm4n4">Frevel geübt an Gott oder Gast,</l>
+              <l rend="zenoPLm4n4">Frevel am Elternhaupt –</l>
+              <l rend="zenoPLm4n4">Jedweden, wie ihm verdienter Lohn gerichtet ward!</l>
+              <l rend="zenoPLm4n4">Denn aller Menschen Richter ist der große Tod,</l>
+              <l rend="zenoPLm4n4">Unter der Erde tief!</l>
+              <l rend="zenoPLm4n4">Alles erkennt er in des Gedächtnisses Schrift!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ich weiß, in meiner Leiden Übermaß belehrt,</l>
+              <l rend="zenoPLm4n4">Von vieler Sühnung, weiß auch, wo zu reden recht</l>
+              <l rend="zenoPLm4n4">Und wo zu schweigen. Aber wie sich jetzt es fügt,</l>
+              <l rend="zenoPLm4n4">Zu sprechen trug mir da ein weiser Lehrer auf;</l>
+              <l rend="zenoPLm4n4">Nun schläft die Blutschuld meiner Hand und trocknet auf;</l>
+              <l rend="zenoPLm4n4">Hinweggewaschen ist des Muttermordes Greul;</l>
+              <l rend="zenoPLm4n4">Auf Phoibos' Altar ward das Blut, noch war es frisch,</l>
+              <l rend="zenoPLm4n4">Von mir genommen durch der Opferferkel Blut.</l>
+              <l rend="zenoPLm4n4">Viel Worte braucht ich, wenn ich alle nennete,</l>
+              <l rend="zenoPLm4n4">Die mir Gemeinschaft unbeschadet schon gegönnt;</l>
+              <l rend="zenoPLm4n4">Es macht die Zeit mitalternd uns von allem rein.</l>
+              <l rend="zenoPLm4n4">Nun aber ruf ich lautren, freudigen Mundes an</l>
+              <l rend="zenoPLm4n4">Die Herrin dieses Landes Athenaia; sie</l>
+              <l rend="zenoPLm4n4">Nah mir zum Beistand, und sie wird dann sonder Kampf</l>
+              <l rend="zenoPLm4n4">Zu Freunden, kampfverbundnen, treu bewähreten,</l>
+              <l rend="zenoPLm4n4">Mich selbst gewinnen, meine Stadt und Argos' Volk.</l>
+              <l rend="zenoPLm4n4">Drum ob im fernen Uferlande Libyas</l>
+              <l rend="zenoPLm4n4">Am Busen Tritons, ihrer väterlichen Flut,</l>
+              <l rend="zenoPLm4n4">Den Fuß sie beuget oder hochhinschreitend eilt</l>
+              <l rend="zenoPLm4n4">Zum Schirm der Ihren oder ob sie Phlegras Feld</l>
+              <l rend="zenoPLm4n4"><pb n="209"/>
+Gleich rüstgem Feldherrn scharenordnend überschaut,</l>
+              <l rend="zenoPLm4n4">Sie komme – fern auch hört mich doch der Göttin Huld –,</l>
+              <l rend="zenoPLm4n4">Auf daß sie von mir nehme diese letzte Schuld!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Nicht kann Apollon, nicht Athenes heilge Kraft</l>
+              <l rend="zenoPLm4n4">Dich schützen, daß du nicht, von meiner Wut verfolgt,</l>
+              <l rend="zenoPLm4n4">Verkommst, vergissest, wo im Herzen Freude weilt –</l>
+              <l rend="zenoPLm4n4">Du meine Weide, Blutes leer, ein Schatten du!</l>
+              <l rend="zenoPLm4n4">Nichts widersprichst du, du verabscheust alles Wort,</l>
+              <l rend="zenoPLm4n4">Der mir du gefüttert, mir anheimgefallen bist?</l>
+              <l rend="zenoPLm4n4">Lebendig mußt du mich laben, nicht geopfert erst!</l>
+              <l rend="zenoPLm4n4">Hör unsren Reigen, dich zu fesseln und zu fahn!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">So beginnet und schlinget den Reigen um ihn;</l>
+              <l rend="zenoPLm4n4">Denn es ist an der Zeit,</l>
+              <l rend="zenoPLm4n4">Ihm den grausen Gesang zu erheben!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Zu verkünden den Teil in der Menschen Geschick,</l>
+              <l rend="zenoPLm4n4">Den unsere Schar austeilt und bewacht,</l>
+              <l rend="zenoPLm4n4">Und gerecht zu entscheiden erfreut uns!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Denn welcher die Hand schuldrein sich bewahrt,</l>
+              <l rend="zenoPLm4n4">Auf den niemals stürzt unsere Wut;</l>
+              <l rend="zenoPLm4n4">Gramlos durchwallt er sein Leben.</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Wer aber, wie der dort, frevelbewußt</l>
+              <l rend="zenoPLm4n4">Die blutige Hand uns sucht zu entziehn,</l>
+              <l rend="zenoPLm4n4">Da treten wir laut als Zeugen der Schuld</l>
+              <l rend="zenoPLm4n4">Den Erschlagenen auf und erweisen ihm uns</l>
+              <l rend="zenoPLm4n4">Graunvoll als Rächer der Blutschuld!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Strophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Mutter, die du mich gebarst, Nacht du,</l>
+              <l rend="zenoPLm4n4">Mutter der Qualen dem Blinden, Sehnden, oh! hör uns!</l>
+              <l rend="zenoPLm4n4">Sieh, es schuf Letos Sohn Spott und Hohn, Schimpf und Schmach uns,</l>
+              <l rend="zenoPLm4n4">Raubet uns unsren Fang,</l>
+              <l rend="zenoPLm4n4">Muttermordschuldig Wild, das mit Blut gemarket ist!</l>
+              <l rend="zenoPLm4n4"><pb n="210"/>
+Drum um den Mordtriefenden dort schlingt den Gesang,</l>
+              <l rend="zenoPLm4n4">Taumelbetört, grausenverstört bis zum Wahnsinn!</l>
+              <l rend="zenoPLm4n4">Schlingt Erinnyenfestgesang,</l>
+              <l rend="zenoPLm4n4">Harfenlos, den Sinn zu fahn, welk zu dörren Menschenkraft!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Solches Los hat mir die grausame</l>
+              <l rend="zenoPLm4n4">Moira gesponnen, daß ich es treu stets wahre:</l>
+              <l rend="zenoPLm4n4">Wessen Haupt selbst sich gottlosen Blutfrevel auflud,</l>
+              <l rend="zenoPLm4n4">Solchem nach jagen wir,</l>
+              <l rend="zenoPLm4n4">Bis ihn Nacht birgt, und frei laß ich auch im Tod ihn nicht!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Drum um den Mordtriefenden dort schlingt den Gesang,</l>
+              <l rend="zenoPLm4n4">Taumelbetört, grausenverstört bis zum Wahnsinn!</l>
+              <l rend="zenoPLm4n4">Schlingt Erinnyenfestgesang,</l>
+              <l rend="zenoPLm4n4">Harfenlos, den Sinn zu fahn, welk zu dörren Menschenkraft!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Als wir geboren, da wurde befohlen uns dies Amt,</l>
+              <l rend="zenoPLm4n4">Aber zugleich, den Unsterblichen nimmer zu nahen.</l>
+              <l rend="zenoPLm4n4">Ihr Mahl teilen wir niemals;</l>
+              <l rend="zenoPLm4n4">Und weißglänzend Gewand,</l>
+              <l rend="zenoPLm4n4">Mir ist es versaget, gemißgönnt!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Untergang gehöret mein,</l>
+              <l rend="zenoPLm4n4">Wenn im Geschlecht, das ihn genährt,</l>
+              <l rend="zenoPLm4n4">Ares dahinmordet den Freund;</l>
+              <l rend="zenoPLm4n4">Hinter ihm her fliegen wir schwer;</l>
+              <l rend="zenoPLm4n4">Wie er in Kraft auch blüht, wir vertilgen ihn blutig.</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Aber es sehnt mich, daß einer mir endige dies Amt,</l>
+              <l rend="zenoPLm4n4">Rechte der Seligen meinem Verlangen gewähre,</l>
+              <l rend="zenoPLm4n4">Eh ich muß zu Gericht gehn!</l>
+              <l rend="zenoPLm4n4">Denn uns blutige Schar,</l>
+              <l rend="zenoPLm4n4">Uns scheußliche, bannete Zeus, fern</l>
+              <l rend="zenoPLm4n4">Seiner Nähe stets zu sein!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4"><pb n="211"/>
+(Untergang gehöret mein,</l>
+              <l rend="zenoPLm4n4">Wenn im Geschlecht, das ihn genährt,</l>
+              <l rend="zenoPLm4n4">Ares dahinmordet den Freund;</l>
+              <l rend="zenoPLm4n4">Hinter ihm her fliegen wir schwer;</l>
+              <l rend="zenoPLm4n4">Wie er in Kraft auch blüht, wir vertilgen ihn blutig!)</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Dritte Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Menschenruhm, wie herrlich man droben ihn preise,</l>
+              <l rend="zenoPLm4n4">Bis in die Gruft hin verkümmert, verödet er elend</l>
+              <l rend="zenoPLm4n4">Unserer schattengewandigen Beutegier,</l>
+              <l rend="zenoPLm4n4">Unsrer Sohle neideswildem Tanz!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Wieder darum jag ich hinab</l>
+              <l rend="zenoPLm4n4">Stürmenden Sprungs, nieder zum Staub</l>
+              <l rend="zenoPLm4n4">Reiß ich den schwerstürzenden Fuß,</l>
+              <l rend="zenoPLm4n4">Daß er die Flucht versagt – unaussprechliches Elend!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Dritte Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Stürzt er dann, nicht sieht er's in blinder Zerrüttung;</l>
+              <l rend="zenoPLm4n4">Also im Dunkel umschwärmt ihn ein gieriges Hassen;</l>
+              <l rend="zenoPLm4n4">Und unermeßlichen Nebel, umnachtenden,</l>
+              <l rend="zenoPLm4n4">Gießt vielschreinder Schmerz um sein Geschlecht!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">(Wieder darum jag ich hinab</l>
+              <l rend="zenoPLm4n4">Stürmenden Sprungs, wieder zum Staub</l>
+              <l rend="zenoPLm4n4">Reiß ich den schwerstürzenden Fuß,</l>
+              <l rend="zenoPLm4n4">Daß er die Flucht versagt – unaussprechliches Elend!)</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Vierte Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Er weilt! Doch wir, listenreich und endesstark, eingedenk der Schuld, wir Graunvollen,</l>
+              <l rend="zenoPLm4n4">Den Menschen unerbittlich, unerfreuliches Geschäft</l>
+              <l rend="zenoPLm4n4">Lieget uns ob, ein ehrlos gottverwiesnes, sonnenlichtfliehndes,</l>
+              <l rend="zenoPLm4n4">Schwer zu erklimmen mit sehenden Augen,</l>
+              <l rend="zenoPLm4n4">Gar dem blöden Blicke schwer!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic"><pb n="212"/>
+Vierte Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Wo ist ein Mensch, welcher nicht entsetzte, nicht bangte, wann er mein Gesetz anhört?</l>
+              <l rend="zenoPLm4n4">Das, gottbeschieden, Moira mir zu endigen gebot;</l>
+              <l rend="zenoPLm4n4">Doch es gehören alte Würden mein, ich gelte nicht ehrlos,</l>
+              <l rend="zenoPLm4n4">Ward mir auch unter der Erden die Heimat,</l>
+              <l rend="zenoPLm4n4">Tief in sonnenleerer Nacht!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Athene kommt durch die Luft daher mit Schild und Lanze.</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Fernher vernommen hab ich einer Stimme Ruf,</l>
+              <l rend="zenoPLm4n4">Da ich Besitz nahm von Skamandros' Uferland,</l>
+              <l rend="zenoPLm4n4">Das dort die Fürsten der Achaier und Mächtige</l>
+              <l rend="zenoPLm4n4">Mit ihrer Speere Beuten einem reichen Teil,</l>
+              <l rend="zenoPLm4n4">Mit Baum und Grashalm mir geweiht auf immerdar,</l>
+              <l rend="zenoPLm4n4">Den Kindern Theseus' zum erlesenen Eigentum.</l>
+              <l rend="zenoPLm4n4">Von dort mit nimmermüdem Fuße flog ich her</l>
+              <l rend="zenoPLm4n4">Ohn Flügel, meiner Ägis Schoß weit aufgesaust,</l>
+              <l rend="zenoPLm4n4">Jungkräftge Rosse diesem Wagen vorgeschirrt.</l>
+              <l rend="zenoPLm4n4">Doch nun, da den Besuch ich seh in meiner Stadt,</l>
+              <l rend="zenoPLm4n4">So macht's mich bang nicht, aber wundernimmt's den Blick.</l>
+              <l rend="zenoPLm4n4">Wer seid ihr? Beide red ich euch mit einem an,</l>
+              <l rend="zenoPLm4n4">Dich, fremder Flüchtling, der du sitzt an meinem Bild,</l>
+              <l rend="zenoPLm4n4">Und euch, Gebornen keines seienden Stammes gleich,</l>
+              <l rend="zenoPLm4n4">Göttinnen weder, wie des Gottes Blick sie schaut,</l>
+              <l rend="zenoPLm4n4">Noch auch vergleichbar mit der Gestalt der Sterblichen.</l>
+              <l rend="zenoPLm4n4">Doch Schmähn des Nächsten wegen Mißgestalt, es ist</l>
+              <l rend="zenoPLm4n4">Gerechtem Sinn fremd und der guten Sitte fern.</l>
+            </lg>
+          </sp>
+          <sp who="#chorführerin">
+            <speaker>CHORFÜHRERIN.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Erfahre du, Zeus' Tochter, alles kurzgedrängt:</l>
+              <l rend="zenoPLm4n4">Wir sind die Kinder der geheimnisvollen Nacht,</l>
+              <l rend="zenoPLm4n4">Die Flüche heißt man unten uns im Schattenreich.</l>
+            </lg>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Ich kenne deines Namens Sinn und dein Geschlecht.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Von meinen Ehren auch vernimm und meinem Amt!</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">So laß mich hören und erklär es deutlich mir.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Die Menschenmörder treiben wir aus Haus und Hof.</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Und wo erreicht der Mörder seiner Flucht ein Ziel?</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Wo keine Stätte keiner Freude wird gegönnt!</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Und gleiche Flucht schreist heisren Rufs du diesem nach?</l>
+            <pb n="213"/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Ja, seiner Mutter Mörder wählte der zu sein!</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">War keine Pflicht sonst, deren Zorn er fürchtete?</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Wo ist ein Stachel, mächtig bis zum Muttermord?</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Zwei sind zu hören; deinen Teil vernahm ich jetzt.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Doch keinen Eid ablegen wird er noch empfahn!</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Gerecht genannt sein willst du lieber als es sein?</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Wie das? Belehr mich; denn an Weisheit bist du reich.</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Durch Eide sieget nimmermehr, was nicht gerecht.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">So forsche selbst nach und gerecht entscheide dann.</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Mir übergeben also ist des Streites Spruch?</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Jawohl, ich ehre würdig dich mit Würdigem.</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Was willst du, Fremdling, dem erwidern deinerseits?</l>
+              <l rend="zenoPLm4n4">Nenn deine Heimat, dein Geschlecht, dein Mißgeschick,</l>
+              <l rend="zenoPLm4n4">Sodann entferne solcher Schuld Vorwurf von dir,</l>
+              <l rend="zenoPLm4n4">Und ob vertrauend deinem Recht an meinem Bild</l>
+              <l rend="zenoPLm4n4">Du sitzt und wachest meinem heilgen Herde nah</l>
+              <l rend="zenoPLm4n4">Als Schutzgewärtger, heilig, wie Ixion einst.</l>
+              <l rend="zenoPLm4n4">So gib mir Antwort und erklär es deutlich mir!</l>
+            </lg>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Herrin Athene, aus dem letzten, was du sprachst,</l>
+              <l rend="zenoPLm4n4">Laß mich zuerst fortwischen eine große Sorg.</l>
+              <l rend="zenoPLm4n4">Nicht schuldbefleckt mehr sitz ich hier, nicht haftet Blut</l>
+              <l rend="zenoPLm4n4">An dieser Hand mehr, die an deinem Bilde lehnt;</l>
+              <l rend="zenoPLm4n4">Ein großes Zeugnis dessen will ich kund dir tun:</l>
+              <l rend="zenoPLm4n4">Brauch ist's, daß stumm bleibt, wer die Hand in Blut getaucht,</l>
+              <l rend="zenoPLm4n4">Bis daß ein andrer, ihn der Schuld zu reinigen,</l>
+              <l rend="zenoPLm4n4">Ein saugend Tier ihm opfertötend bluten läßt;</l>
+              <l rend="zenoPLm4n4">Und so gesühnet ward in fremden Häusern ich</l>
+              <l rend="zenoPLm4n4">Bereits mit blutgem Opfer und mit heilgem Guß.</l>
+              <l rend="zenoPLm4n4">So scheuch ich diese Frage fort aus deinem Sinn.</l>
+              <l rend="zenoPLm4n4">Nun meine Heimat höre noch und mein Geschlecht:</l>
+              <l rend="zenoPLm4n4">Aus Argos bin ich, meinen Vater kennst du wohl,</l>
+              <l rend="zenoPLm4n4">Agamemnon, jener Seegeschwader König einst,</l>
+              <l rend="zenoPLm4n4">Mit dem du Trojas stolze Feste niederwarfst;</l>
+              <l rend="zenoPLm4n4">Bei seiner Heimkehr aber kam er traurig um,</l>
+              <l rend="zenoPLm4n4">Denn meine Mutter, die verderbensinnende,</l>
+              <l rend="zenoPLm4n4">Hat ihn erschlagen unter buntgewirktem Netz,</l>
+              <l rend="zenoPLm4n4">Drin sie ihn einfing; Mordes Zeuge war das Bad.</l>
+              <l rend="zenoPLm4n4"><pb n="214"/>
+Drauf als ich heimkam, denn zuvor war ich verbannt,</l>
+              <l rend="zenoPLm4n4">Erschlug ich, die mich geboren, leugnen will ich's nicht,</l>
+              <l rend="zenoPLm4n4">Des teuren Vaters Mord mit Mord zu züchtigen.</l>
+              <l rend="zenoPLm4n4">Und alles dessen trägt Apollon mit die Schuld,</l>
+              <l rend="zenoPLm4n4">Der herzzergeißelnd Leiden mir verkündete,</l>
+              <l rend="zenoPLm4n4">Wenn ich es nicht vollbrächte an den Schuldigen.</l>
+              <l rend="zenoPLm4n4">Du woll entscheiden, ob gerecht ich oder nicht;</l>
+              <l rend="zenoPLm4n4">In deine Hand geb ich mich ganz; du richte mich!</l>
+            </lg>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Das Urteil ist zu schwierig, daß es könnt ein Mensch</l>
+              <l rend="zenoPLm4n4">Zu fällen meinen; nicht einmal mir steht es zu,</l>
+              <l rend="zenoPLm4n4">Zu schlichten dieses zornempörten Mordes Streit,</l>
+              <l rend="zenoPLm4n4">Zumal da du mir, ob du schon die Tat begingst,</l>
+              <l rend="zenoPLm4n4">Als Flehnder nahst, schon rein, gefahrlos meinem Haus.</l>
+              <l rend="zenoPLm4n4">Doch jene wurden schwer entfernbar einst gezeugt,</l>
+              <l rend="zenoPLm4n4">Und wenn der Richtspruch ihnen nicht Sieg zuerkennt,</l>
+              <l rend="zenoPLm4n4">So bringt der Giftschaum, den ihr Haß zu Boden trieft,</l>
+              <l rend="zenoPLm4n4">Einst unsrer Landschaft unerträglich grause Pest.</l>
+              <l rend="zenoPLm4n4">Und doch, dich Tadellosen wähl ich meiner Stadt.</l>
+              <l rend="zenoPLm4n4">So mag es denn geschehen – blieben beide hier!</l>
+              <l rend="zenoPLm4n4">Doch ihn hinwegzuweisen, mir unmöglich fällt's! –</l>
+              <l rend="zenoPLm4n4">Da nun sich hierher eure Sache hat gedrängt,</l>
+              <l rend="zenoPLm4n4">So wähl ich Richter über Mord, eidpflichtige,</l>
+              <l rend="zenoPLm4n4">Und diese Satzung gelte fort in aller Zeit;</l>
+              <l rend="zenoPLm4n4">Ihr aber schafft euch Zeugen und Beweis herbei</l>
+              <l rend="zenoPLm4n4">Zu eurem Beistand, und die Schwüre eures Rechts.</l>
+              <l rend="zenoPLm4n4">Ich geh, zu küren meiner Bürger edelste,</l>
+              <l rend="zenoPLm4n4">Und kehre dann, wahrhaft zu enden diesen Streit</l>
+              <l rend="zenoPLm4n4">Nach streng bewahrtem Eide und dem Recht getreu.</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Ab.</hi>
+            </stage>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Strophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Alles niederstürzen wird neuer Brauch,</l>
+              <l rend="zenoPLm4n4">Wenn des gottlosen Muttermörders Schuld</l>
+              <l rend="zenoPLm4n4">Vor Gericht siegen darf!</l>
+              <l rend="zenoPLm4n4">Allzumal stimmt die Menschen dieser Tat leichtes Spiel zu gleicher Tat,</l>
+              <l rend="zenoPLm4n4">Wahrlich, und es bedroht die Eltern</l>
+              <l rend="zenoPLm4n4"><pb n="215"/>
+Von den Erzeugten Gram und Tod, Mord dann um Mord von Kind zu Kind!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Wird doch fürder meine Wut nimmermehr</l>
+              <l rend="zenoPLm4n4">Menschenschuldspähend solchem Frevel nahn;</l>
+              <l rend="zenoPLm4n4">Allen Mord laß ich frei!</l>
+              <l rend="zenoPLm4n4">Hören wird's jeder jeden Orts, voraussagen seines Nächsten Weh;</l>
+              <l rend="zenoPLm4n4">Kümmerlich der Gefahr zu wehren,</l>
+              <l rend="zenoPLm4n4">Sich zu behüten wird der Gramkundige lehren, doch umsonst!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Jammernd rufe keiner mehr, schwergetroffen schweren Wehs,</l>
+              <l rend="zenoPLm4n4">Fürder keiner solchen Ruf:</l>
+              <l rend="zenoPLm4n4">»O Gericht! o Erinnyen, heilge Schar!«</l>
+              <l rend="zenoPLm4n4">Also wird ein Vater bald,</l>
+              <l rend="zenoPLm4n4">Eine Mutter, der von dem Sohn</l>
+              <l rend="zenoPLm4n4">Leid geschehn ist, jammernd schrein, weil zerbricht der Herd des Rechts!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Sonst geschah's, daß unsre Furcht tief im Herzen hütend saß</l>
+              <l rend="zenoPLm4n4">Und zum Frommen ängstigte!</l>
+              <l rend="zenoPLm4n4">Wohl ist's gut, ernst und fromm in Tränen sein!</l>
+              <l rend="zenoPLm4n4">Aber wer, der keine Furcht</l>
+              <l rend="zenoPLm4n4">Nährt im sonnenheitren Gemüt,</l>
+              <l rend="zenoPLm4n4">Welcher Mensch noch, welche Stadt wird das Heilge fürder scheun?</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Dritte Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Weder drum unbeherrscht,</l>
+              <l rend="zenoPLm4n4">Noch gewaltgeknechtet sein</l>
+              <l rend="zenoPLm4n4">Lobe du!</l>
+              <l rend="zenoPLm4n4">Jeglicher Mitte beschieden die Himmlischen Herrlichkeit; jedes hütet des andren;</l>
+              <l rend="zenoPLm4n4">Und so sag ich gleichen Spruch:</l>
+              <l rend="zenoPLm4n4">Frevler Sinn zeuget empörenden Stolz in der Tat,</l>
+              <l rend="zenoPLm4n4">Doch der Gesinnung</l>
+              <l rend="zenoPLm4n4">Reinheit den allteuren, allsehnlich erflehten Segen!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic"><pb n="216"/>
+Dritte Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Doch zumeist rühm ich dies:</l>
+              <l rend="zenoPLm4n4">Scheu den Altar stets des Rechts!</l>
+              <l rend="zenoPLm4n4">Nimmermehr</l>
+              <l rend="zenoPLm4n4">Tritt ihn, Gewinn zu erspähen, mit frevelndem Fuß! Denn Poina erfaßt dich,</l>
+              <l rend="zenoPLm4n4">Sichres Ende wartet dein.</l>
+              <l rend="zenoPLm4n4">Jeglicher ehre die Eltern mit heiliger Scheu,</l>
+              <l rend="zenoPLm4n4">Und die Gemeinschaft</l>
+              <l rend="zenoPLm4n4">Am Tisch des Gastfreundes sei jeglichem hoch und heilig!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Vierte Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Und welcher so sonder Zwang gerecht sich zeigt,</l>
+              <l rend="zenoPLm4n4">Des wird reicher Lohn sein;</l>
+              <l rend="zenoPLm4n4">Zugrunde gehn soll er nun und nimmer!</l>
+              <l rend="zenoPLm4n4">Doch sag ich laut: Übertreter, Trotzes frech,</l>
+              <l rend="zenoPLm4n4">Die alles wild vermischen sonder Fug und Recht,</l>
+              <l rend="zenoPLm4n4">Gewaltsam werden die versinken</l>
+              <l rend="zenoPLm4n4">Einst, wenn die Segel Bruch und Sturz</l>
+              <l rend="zenoPLm4n4">Faßt der zerschellten Masten!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Vierte Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Er ruft und fleht, aber keiner höret ihn</l>
+              <l rend="zenoPLm4n4">Tief im wilden Strudel;</l>
+              <l rend="zenoPLm4n4">Und sein, des Trotzglühnden, lacht die Gottheit,</l>
+              <l rend="zenoPLm4n4">Ihn so zu sehn, der sich rühmte, nimmer sei</l>
+              <l rend="zenoPLm4n4">Gefahr ein Zwang, noch (nie) das hohe Meer befuhr;</l>
+              <l rend="zenoPLm4n4">Doch spät jetzt strandet er mit allem Gut</l>
+              <l rend="zenoPLm4n4">Gegen das Felsenriff des Rechts;</l>
+              <l rend="zenoPLm4n4">Keiner beweint, vermißt ihn!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Aus der Stadt kommt, von einem Herold geführt, ein Zug athenischer Greise; Athene tritt aus ihrem Tempel.</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Verkünde, Herold, daß du Ruhe schaffst im Volk!</l>
+              <l rend="zenoPLm4n4">Laß durch den Himmel schmetternd die tyrrhenische</l>
+              <l rend="zenoPLm4n4">Trompete, deines tiefgeschöpften Hauches voll,</l>
+              <l rend="zenoPLm4n4">Mit übertönendem Rufe strahlen durch das Volk!</l>
+              <l rend="zenoPLm4n4"><pb n="217"/>
+Denn da bereits sich füllet dieses Tribunal,</l>
+              <l rend="zenoPLm4n4">So muß es still sein, daß für alle ferne Zeit</l>
+              <l rend="zenoPLm4n4">Jetzt mein Gesetz vernehmen mag die ganze Stadt</l>
+              <l rend="zenoPLm4n4">Und ihr, damit das Urteil werde recht gefällt!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Heroldsruf; Apollon tritt an Orestes' Seite.</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chorführerin">
+            <speaker>CHORFÜHRERIN.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Du, Fürst Apollon, was dein eigen ist, versieh!</l>
+              <l rend="zenoPLm4n4">Doch welchen Anteil hast an diesem Streit du? Sprich!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Sowohl zu zeugen kam ich her – denn dieser Mann</l>
+              <l rend="zenoPLm4n4">Ist meines Tempels Schützling, meines Tempels Herd-</l>
+              <l rend="zenoPLm4n4">Genosse; ich hab seines Mordes ihn entsühnt –,</l>
+              <l rend="zenoPLm4n4">Dann selber mitzurechten, denn ich habe Schuld</l>
+              <l rend="zenoPLm4n4">Am Morde seiner Mutter. Doch du leit es ein,</l>
+              <l rend="zenoPLm4n4">Wie du es weißest, zu entscheiden diesen Streit!</l>
+            </lg>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Das Wort ist euer – also leit ich ein den Streit.</l>
+              <l rend="zenoPLm4n4">Der Kläger also, dem zuerst das Wort gebührt,</l>
+              <l rend="zenoPLm4n4">Mag uns den Hergang schlecht und recht zu wissen tun.</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Zwar viele sind wir, doch berichten wir gedrängt.</l>
+              <l rend="zenoPLm4n4">Du gib die Antwort deines Teils uns Wort um Wort!</l>
+              <l rend="zenoPLm4n4">Sag denn zum ersten, ob du die Mutter umgebracht?</l>
+            </lg>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Umbracht ich meine Mutter, und ich leugne's nicht.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Das wäre <hi rend="italic">ein</hi> Kampf von den drei'n der Siegenden!</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Doch fiel ich nicht schon, daß du also prahlen darfst!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Angeben mußt du weiter, <hi rend="italic">wie</hi> du umgebracht.</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Ich sag's: den Nacken schnitt ich durch mit meinem Schwert.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Von wem veranlaßt warst du und durch wessen Rat?</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Durch dieses Gottes heilgen Spruch; er selbst bezeugt's.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Dich hat der Seher angeführt zum Muttermord?</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Und noch bis jetzt nicht schalt ich über mein Geschick.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Doch faßt der Spruch dich, anders sprechen wirst du bald!</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Ich glaub's; doch Beistand schickt mein Vater aus dem Grab.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Hoff auf die Toten, der du die Mutter tötetest!</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Zwiefachen Frevel lud sie auf ihr schuldig Haupt.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Wie das? Belehre dessen dort die Richtenden.</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Den Mann erschlug sie und erschlug den Vater mir.</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Du aber lebst noch, während sie den Mord gebüßt.</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Warum denn hast im Leben du sie nicht verfolgt?</l>
+            <pb n="218"/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Sie war dem Mann nicht blutsverwandt, den sie erschlug.</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Ich aber, sagst du, bin von meiner Mutter Blut?</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Trug denn, du Blutger, unter ihrem Herzen sie</l>
+              <l rend="zenoPLm4n4">Dich nicht? Verschwörst du deiner Mutter teures Blut?</l>
+            </lg>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Nun wollest du mir Zeugnis geben, lehren du</l>
+              <l rend="zenoPLm4n4">Mich nun, Apollon, ob ich mit Recht sie mordete.</l>
+              <l rend="zenoPLm4n4">Denn schuldig dieser Tat zu sein, nicht leugnen wir's;</l>
+              <l rend="zenoPLm4n4">Doch ob gerecht du oder nicht dies Blut erklärst,</l>
+              <l rend="zenoPLm4n4">Das woll entscheiden, daß ich's ihnen sagen kann!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">So sag denn ich es Athenaias großem Rat:</l>
+              <l rend="zenoPLm4n4">Gerecht, und täusch ihn, ich, der Seher, nimmermehr.</l>
+              <l rend="zenoPLm4n4">Niemals geweissagt hab ich auf dem Seherthron,</l>
+              <l rend="zenoPLm4n4">Für Mann und Weib, für Stadt und Volk verheißen nichts,</l>
+              <l rend="zenoPLm4n4">Was Zeus, der Vater im Olympos, nicht befahl.</l>
+              <l rend="zenoPLm4n4">Zu lernen trachtet dieses Recht, wie hoch es gilt,</l>
+              <l rend="zenoPLm4n4">Und nachzukommen meines Vaters ewgem Rat;</l>
+              <l rend="zenoPLm4n4">Denn nicht des Eides Heiligkeit gilt mehr denn Zeus!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Zeus hat, so sagst du, dir geboten solchen Spruch,</l>
+              <l rend="zenoPLm4n4">Daß du Orestes rietest, seines Vaters Mord</l>
+              <l rend="zenoPLm4n4">Zu rächen – sollte der Mutter Ehrfurcht nichts ihm sein?</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Gar anders ist es, wenn ein hochgeborner Mann,</l>
+              <l rend="zenoPLm4n4">Mit gottbeschiednem Zepter heilger Macht belehnt,</l>
+              <l rend="zenoPLm4n4">Umkommt von einem Weibe, nicht etwa im Kampf</l>
+              <l rend="zenoPLm4n4">Von einer Amazone ferngeschoßnem Pfeil,</l>
+              <l rend="zenoPLm4n4">Nein, Pallas, daß du's hörest, und die mit dir sind,</l>
+              <l rend="zenoPLm4n4">Mit ihren Stimmen zu entscheiden diesen Streit:</l>
+              <l rend="zenoPLm4n4">Als er vom Feldzug endlich wieder heimgekehrt,</l>
+              <l rend="zenoPLm4n4">Den Wohlgesinnten hochgerühmt, da bot sie ihm</l>
+              <l rend="zenoPLm4n4">Ein Bad, daß er ins Becken ging', in seinen Tod;</l>
+              <l rend="zenoPLm4n4">Sie zeltet drüber einen Mantel, fängt ihn ein</l>
+              <l rend="zenoPLm4n4">Im künstlich unendlichen Gewirk und schlägt ihn tot!</l>
+              <l rend="zenoPLm4n4">Wie ich erzählt, so war des Helden Untergang,</l>
+              <l rend="zenoPLm4n4">Des allerhabnen Seegeschwaderköniges;</l>
+              <l rend="zenoPLm4n4"><hi rend="italic">Sie</hi> stell ich so dar, daß es empören muß den Rat,</l>
+              <l rend="zenoPLm4n4">Dem übertragen dieses Streits Entscheidung ist!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Vorzieht das Los des Vaters Zeus nach deinem Wort</l>
+              <l rend="zenoPLm4n4">Und band doch seinen greisen Vater Kronos selbst!</l>
+              <l rend="zenoPLm4n4"><pb n="219"/>
+Sagst dies du nicht mit jenem klar im Widerspruch?</l>
+              <l rend="zenoPLm4n4">Ihr aber hört es und bedenkt's, beschwör ich euch!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ihr ganz verhaßten, gottverfluchten Ungeheur!</l>
+              <l rend="zenoPLm4n4">Erzbanden kann man lösen, da ist Hilfe noch,</l>
+              <l rend="zenoPLm4n4">Da zur Befreiung viele Mittel vieler Art;</l>
+              <l rend="zenoPLm4n4">Doch wenn des Mannes Blut der Staub getrunken hat –</l>
+              <l rend="zenoPLm4n4">Einmal gestorben, und es kommt kein Auferstehn:</l>
+              <l rend="zenoPLm4n4">Dafür erfand mein Vater keinen Spruch noch Kunst,</l>
+              <l rend="zenoPLm4n4">Der sonst doch alles allzumal hinab, hinauf</l>
+              <l rend="zenoPLm4n4">Verkehrend umstürzt, ohne daß sein Atem schwillt!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Versuche, wie du jenen zu befrein erreichst!</l>
+              <l rend="zenoPLm4n4">Der seiner Mutter blutverwandtes Blut vergoß,</l>
+              <l rend="zenoPLm4n4">Des sollt in Argos fürder sein das Vaterhaus?</l>
+              <l rend="zenoPLm4n4">Zu welchen Volksaltären wird er opfernd nahn,</l>
+              <l rend="zenoPLm4n4">Bei welchem Weihguß seinem Stamm willkommen sein?</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Drauf sag ich also, mein gerechtes Wort vernimm:</l>
+              <l rend="zenoPLm4n4">Nicht ist die Mutter ihres Kindes Zeugerin,</l>
+              <l rend="zenoPLm4n4">Sie hegt und trägt den eingesäten Samen nur;</l>
+              <l rend="zenoPLm4n4">Es zeugt der Vater, aber sie bewahrt das Pfand,</l>
+              <l rend="zenoPLm4n4">Dem Freund die Freundin, wenn ein Gott es nicht verletzt.</l>
+              <l rend="zenoPLm4n4">Mit sichrem Zeugnis will ich das bestätigen:</l>
+              <l rend="zenoPLm4n4">Denn Vater kann man ohne Mutter sein – Beweis</l>
+              <l rend="zenoPLm4n4">Ist dort die eigne Tochter des Olympiers Zeus,</l>
+              <l rend="zenoPLm4n4">Die nimmer eines Mutterschoßes Dunkel barg,</l>
+              <l rend="zenoPLm4n4">Und dennoch kein Gott zeugte je ein edler Kind.</l>
+              <l rend="zenoPLm4n4">Ich aber, Pallas, werde, wie ich's kann und weiß,</l>
+              <l rend="zenoPLm4n4">Groß machen dein Volk, deine Stadt zu aller Zeit.</l>
+              <l rend="zenoPLm4n4">So sandt ich diesen her in deines Tempels Schutz,</l>
+              <l rend="zenoPLm4n4">Auf daß er treu dir würde jetzt und immerdar,</l>
+              <l rend="zenoPLm4n4">Daß du dir, Göttin, ihn gewännst zum Bundesfreund</l>
+              <l rend="zenoPLm4n4">Und alle nach ihm, und es bleibe ewiglich,</l>
+              <l rend="zenoPLm4n4">Daß treu dem Bund sei'n alle Nachgeborenen!</l>
+            </lg>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Und so gebiet ich, werft nach eurem Sinn den Stein</l>
+              <l rend="zenoPLm4n4">Gerechten Urteils; denn des Wortes ist genug!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Wir selber haben abgeschossen jeden Pfeil;</l>
+              <l rend="zenoPLm4n4">Zu hören harr ich, wie der Kampf gerichtet wird!</l>
+            </lg>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Wie soll ich's fügen, daß ich euch sei tadellos?</l>
+            <pb n="220"/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ihr hörtet, was ihr mußtet; jetzt in tiefer Brust</l>
+              <l rend="zenoPLm4n4">Erwägt das Urteil, Freunde, eures Schwurs gedenk!</l>
+            </lg>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Hört mein Gesetz nun, Männer, Volk von Attika,</l>
+              <l rend="zenoPLm4n4">Der ersten Klage Richter um vergossen Blut!</l>
+              <l rend="zenoPLm4n4">Es soll des Aigeus Bürgern dieses Tribunal</l>
+              <l rend="zenoPLm4n4">Für alle Zukunft fürder bleiben und bestehn.</l>
+              <l rend="zenoPLm4n4">Denn dieser Areshügel, der Amazonen Ort</l>
+              <l rend="zenoPLm4n4">Und Lager, als sie gegen Theseus neidempört</l>
+              <l rend="zenoPLm4n4">Zu Felde zogen, unsrer neugebauten Stadt,</l>
+              <l rend="zenoPLm4n4">Der hochgetürmten, gegentürmten ihre Burg</l>
+              <l rend="zenoPLm4n4">Und sie dem Ares weihten, dessen Namen nun</l>
+              <l rend="zenoPLm4n4">Der Berg Areiospagos trägt – hier soll des Volks</l>
+              <l rend="zenoPLm4n4">Ehrwürdigkeit und eingeborne, fromme Scheu</l>
+              <l rend="zenoPLm4n4">Dem Frevel wehren, beides nächtens und am Tag,</l>
+              <l rend="zenoPLm4n4">Wenn nicht die Bürger selbst verletzen mein Gesetz.</l>
+              <l rend="zenoPLm4n4">Wer klares Wasser trübet mit unwürdigem</l>
+              <l rend="zenoPLm4n4">Zuguß und Schmutz, der schöpft sich fürder keinen Trunk.</l>
+              <l rend="zenoPLm4n4">Nicht unregiert und nicht gewaltbeherrscht zu sein,</l>
+              <l rend="zenoPLm4n4">Das sei dem Volk, fürsorgend rat ich's, hoch und wert!</l>
+              <l rend="zenoPLm4n4">Und nicht entfernt euch alles Mächtge aus der Stadt;</l>
+              <l rend="zenoPLm4n4">Denn welcher Mensch bleibt, wenn er nichts mehr scheut, gerecht?</l>
+              <l rend="zenoPLm4n4">Und scheut gerecht ihr dieses Rats Ehrwürdigkeit,</l>
+              <l rend="zenoPLm4n4">Des Landes Bollwerk, eures Staates Kraft und Heil,</l>
+              <l rend="zenoPLm4n4">So nennt ihr euer, was der Menschen keiner hat,</l>
+              <l rend="zenoPLm4n4">Der Skythe weder noch des Pelops nahes Land.</l>
+              <l rend="zenoPLm4n4">Goldunbestechlich hab ich dieses Tribunal,</l>
+              <l rend="zenoPLm4n4">Unschuldvertretend, zornesschnell, den Schlafenden</l>
+              <l rend="zenoPLm4n4">Zur immerwachen Hut des Landes eingesetzt.</l>
+              <l rend="zenoPLm4n4">Nach dieser Weisung, die für alle Zeit hinaus</l>
+              <l rend="zenoPLm4n4">Gegeben meinem Volke sei, erhebet euch,</l>
+              <l rend="zenoPLm4n4">Nehmt euer Steinchen und entscheidet diesen Streit,</l>
+              <l rend="zenoPLm4n4">Des Schwurs in Ehrfurcht denkend. Alles wißt ihr nun!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Doch nehmt den Rat an, nimmer unsre grause Schar</l>
+              <l rend="zenoPLm4n4">Aus eurem Lande fortzuweisen schmachverdammt!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Und ich gebiet euch, ehrt und fürchtet wohl des Zeus</l>
+              <l rend="zenoPLm4n4">Und mein Orakel und beraubt es nicht der Frucht!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ins Amt des Blutes mischst du unberufen dich!</l>
+              <l rend="zenoPLm4n4"><pb n="221"/>
+Nicht lauter mehr weissagen kannst du, wenn du weilst!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Mein Vater hat wohl auch gefehlt in seinem Rat,</l>
+              <l rend="zenoPLm4n4">Als er Ixion ersten Mordes reinigte?</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Du sagst es! Und wird unser Recht uns nicht zuteil,</l>
+              <l rend="zenoPLm4n4">Heimsuchen furchtbar werden dann wir dieses Land!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Doch unter allen jung und alten Göttern giltst</l>
+              <l rend="zenoPLm4n4">Du ewig ehrlos; mein gehören wird der Sieg!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Desselbengleichen tatest du in Pheres' Haus:</l>
+              <l rend="zenoPLm4n4">Du zwangst die Moira, daß sie die Toten wiedergab!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">So wär es nicht recht, wohlzutun dem, der mich ehrt,</l>
+              <l rend="zenoPLm4n4">Vor allem aber, wenn des Beistands er bedarf?</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Darnieder stürzest du die Mächte grauer Zeit,</l>
+              <l rend="zenoPLm4n4">Uralten Göttern stiehlst du, stiehlst uns unser Mahl!</l>
+            </lg>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Du, bald des Siegs verlustig in des Streites Spruch,</l>
+              <l rend="zenoPLm4n4">Speist Geifer, deinen Feinden nicht entsetzlich mehr!</l>
+            </lg>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Wenn du, der Jüngling, mich, die Greise, niederrennst,</l>
+              <l rend="zenoPLm4n4">So will ich doch zu hören warten ihren Spruch,</l>
+              <l rend="zenoPLm4n4">Selbst unentschlossen, Zorn zu hegen dieser Stadt.</l>
+            </lg>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE</speaker>
+            <stage>
+              <hi rend="italic">als letzte zur Urne tretend.</hi>
+            </stage>
+            <lg>
+              <l rend="zenoPLm4n4">Mein ist es, abzugeben einen letzten Spruch,</l>
+              <l rend="zenoPLm4n4">Und für Orestes leg ich diesen Stein hinein.</l>
+              <l rend="zenoPLm4n4">Denn keine Mutter wurde mir, die mich gebar,</l>
+              <l rend="zenoPLm4n4">Nein, vollen Herzens lob ich alles Männliche,</l>
+              <l rend="zenoPLm4n4">Bis auf die Ehe; denn des Vaters bin ich ganz.</l>
+              <l rend="zenoPLm4n4">Darum des Weibes Los begünstgen werd ich nie,</l>
+              <l rend="zenoPLm4n4">Die umgebracht hat ihren Mann, des Hauses Hort.</l>
+              <l rend="zenoPLm4n4">Es sieg Orestes auch bei stimmengleichem Spruch! –</l>
+              <l rend="zenoPLm4n4">So schüttet denn die Steinchen aus den Urnen hin,</l>
+              <l rend="zenoPLm4n4">Wieviel von euch, ihr Richter, dieses Amt versehn!</l>
+            </lg>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Phoibos Apollon, wie entschieden wird es sein?</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">O Mutter, schwarze Nacht, und siehst du, was geschieht?</l>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <l rend="zenoPLm4n4">Nun Tod von Henkershänden oder Freud und Licht!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Für uns Versinken oder Ehren alle Zeit!</l>
+          </sp>
+          <sp who="#apollon">
+            <speaker>APOLLON.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Sorgfältig, Freunde, zählet beider Steine Zahl</l>
+              <l rend="zenoPLm4n4">Und alles Unrecht scheuet bei der Sonderung;</l>
+              <l rend="zenoPLm4n4">Wenn eine Stimme fehlet, bringt es großen Gram,</l>
+              <l rend="zenoPLm4n4">Und wieder <hi rend="italic">ein</hi> Stein hebt ein tiefgestürztes Haus!</l>
+              <pb n="222"/>
+            </lg>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Du bist, Orestes, frei erkannt im Blutgericht,</l>
+              <l rend="zenoPLm4n4">Denn gleich in beiden Urnen ist der Steine Zahl!</l>
+            </lg>
+          </sp>
+          <sp who="#orestes">
+            <speaker>ORESTES.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">O Pallas, o du meines Hauses Retterin!</l>
+              <l rend="zenoPLm4n4">Und mich, der Heimat ganz Verwaisten, Göttin du,</l>
+              <l rend="zenoPLm4n4">Heimführest du mich! Die Hellenen sagen nun:</l>
+              <l rend="zenoPLm4n4">Argiver ist er wieder, wieder wohnet er</l>
+              <l rend="zenoPLm4n4">Im Haus des Vaters, Pallas gab's und Loxias</l>
+              <l rend="zenoPLm4n4">Ihm wieder und der dritte allvollendende</l>
+              <l rend="zenoPLm4n4">Erretter, der, vielehrend meines Vaters Los,</l>
+              <l rend="zenoPLm4n4">Wohl sieht der Mutter Vertreter dort, doch mich bewahrt!</l>
+              <l rend="zenoPLm4n4">Ich aber, deinem Lande, deinem teuren Volk,</l>
+              <l rend="zenoPLm4n4">Für aller Zukunft unerkennbar ferne Zeit</l>
+              <l rend="zenoPLm4n4">Schwör euch ich Treue! So zur Heimat will ich ziehn,</l>
+              <l rend="zenoPLm4n4">Und nimmermehr soll diesem Land aus jenem Land</l>
+              <l rend="zenoPLm4n4">Ein König mit geschärftem Speer kriegsrüstig nahn,</l>
+              <l rend="zenoPLm4n4">Nein, ich in meinem Grabe dann, ich selber will</l>
+              <l rend="zenoPLm4n4">Die Übertreter dieses meines heilgen Schwurs</l>
+              <l rend="zenoPLm4n4">Mit unentfliehbar schwerem Elend züchtigen,</l>
+              <l rend="zenoPLm4n4">Will ihre Heerfahrt, zeichentraurig ihren Weg</l>
+              <l rend="zenoPLm4n4">Verkümmern, bis sie selbst gereuet, was sie tun!</l>
+              <l rend="zenoPLm4n4">Doch wenn sie recht tun, wenn sie diese teure Stadt</l>
+              <l rend="zenoPLm4n4">Der Pallas hoch stets ehren mit getreuem Speer,</l>
+              <l rend="zenoPLm4n4">So werden gnädig ihnen wir und günstig sein!</l>
+              <l rend="zenoPLm4n4">Heil dir, Athene! Heil dir, Volk in dieser Stadt,</l>
+              <l rend="zenoPLm4n4">Unüberwindlich sei im Kampfe jedem Feind</l>
+              <l rend="zenoPLm4n4">Und allerrettend euer Speer und siegesstark!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Orestes und Apollon ab.</hi>
+            </stage>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Strophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">O neue Götter, alt Gesetz und uraltes Recht,</l>
+              <l rend="zenoPLm4n4">Ihr rennt sie nieder, reißt sie fort aus meiner Hand!</l>
+              <l rend="zenoPLm4n4">Und ich Unselge, schmachbeladen, bitterempört,</l>
+              <l rend="zenoPLm4n4">Zur Erde nieder, oh!</l>
+              <l rend="zenoPLm4n4">Ohu! hohu!</l>
+              <l rend="zenoPLm4n4">Rächend zu Boden hier trief ich des Herzens Gifttropfensaat,</l>
+              <l rend="zenoPLm4n4">Grausige, draus hervor ein blattlos, fruchtlos</l>
+              <l rend="zenoPLm4n4">Wuchernd Genist, o Schmach! über die Fluren gerankt,</l>
+              <l rend="zenoPLm4n4"><pb n="223"/>
+Pestbeulen, todesgiftige, durch das Land verstreut!</l>
+              <l rend="zenoPLm4n4">Ich wehklage? Was will ich? Was soll ich?</l>
+              <l rend="zenoPLm4n4">Die Schmach litt vom Volk ich und du,</l>
+              <l rend="zenoPLm4n4">Die geschickgroßen, unselgen Nachtkinder, entehrungstraurig!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Folgt meinem Wort; schmerzseufzend tragt nicht, was geschehn;</l>
+              <l rend="zenoPLm4n4">Denn nicht verurteilt seid ihr, sondern stimmengleich</l>
+              <l rend="zenoPLm4n4">Entschied der Richtspruch, wahrlich nicht für euch zur Schmach!</l>
+              <l rend="zenoPLm4n4">Jedoch von Zeus selbst trat ein Zeugnis leuchtend auf,</l>
+              <l rend="zenoPLm4n4">Und der's geboten, eben der bezeugete,</l>
+              <l rend="zenoPLm4n4">Es sei Orestes für die Tat der Strafe frei.</l>
+              <l rend="zenoPLm4n4">Ihr aber wollt nicht schweren Haß auf dieses Land</l>
+              <l rend="zenoPLm4n4">Ausschütten, nicht so zürnen, nicht Fruchtlosigkeit</l>
+              <l rend="zenoPLm4n4">Verhängen, Giftschaum niederspeiend, scheußlichen,</l>
+              <l rend="zenoPLm4n4">Der grünen Saat zerfressenden schonungslosen Mord!</l>
+              <l rend="zenoPLm4n4">Denn ich gelob euch und verspreche feierlich,</l>
+              <l rend="zenoPLm4n4">Daß ihr an rechter Stätte Sitz und Heiligtum,</l>
+              <l rend="zenoPLm4n4">An Gaben reich zu thronen auf geweihtem Herd,</l>
+              <l rend="zenoPLm4n4">Euch sollt gewinnen, meinen Bürgern fromm verehrt!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Gegenstrophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">O neue Götter, alt Gesetz und uraltes Recht,</l>
+              <l rend="zenoPLm4n4">Ihr rennt sie nieder, reißt sie fort aus meiner Hand!</l>
+              <l rend="zenoPLm4n4">Und ich Unselge, schmachbeladen, bitterempört,</l>
+              <l rend="zenoPLm4n4">Zur Erde nieder, oh!</l>
+              <l rend="zenoPLm4n4">Ohu! hohu!</l>
+              <l rend="zenoPLm4n4">Rächend zu Boden hier trief ich des Herzens Gifttropfensaat,</l>
+              <l rend="zenoPLm4n4">Grausige, draus hervor ein blattlos, fruchtlos</l>
+              <l rend="zenoPLm4n4">Wuchernd Genist, o Schmach! über die Fluren gerankt,</l>
+              <l rend="zenoPLm4n4">Pestbeulen, todesgiftige, durch das Land verstreut!</l>
+              <l rend="zenoPLm4n4">Ich wehklage? Was will ich? Was soll ich?</l>
+              <l rend="zenoPLm4n4">Die Schmach litt vom Volk ich und du,</l>
+              <l rend="zenoPLm4n4">Die geschickgroßen, unselgen Nachtkinder, entehrungstraurig!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Nicht seid entehrt ihr, drum so macht nicht zu erzürnt,</l>
+              <l rend="zenoPLm4n4">Göttinnen ihr, den Menschen unwirtbar ihr Land!</l>
+              <l rend="zenoPLm4n4"><pb n="224"/>
+Auf Zeus vertrau ich; was bedarf's der Worte dann?</l>
+              <l rend="zenoPLm4n4">Von den Göttern ich nur weiß den Schlüssel jener Burg,</l>
+              <l rend="zenoPLm4n4">In dem der Blitzstrahl siegeleingeschlossen ruht.</l>
+              <l rend="zenoPLm4n4">Doch dessen braucht's nicht, aber folge willig mir;</l>
+              <l rend="zenoPLm4n4">Schütt auf das Land nicht deines Mundes taube Saat</l>
+              <l rend="zenoPLm4n4">Hinab, die nichts als alles Unwillkommne trägt;</l>
+              <l rend="zenoPLm4n4">Bring deines Ingrimms schwarzen Wogensturz in Ruh,</l>
+              <l rend="zenoPLm4n4">Du Heilighehre, die du mit mir wohnen wirst.</l>
+              <l rend="zenoPLm4n4">Und wenn dir einst Erstlinge dieser weiten Au,</l>
+              <l rend="zenoPLm4n4">Dir Opfer für der Kinder, für der Ehen Heil</l>
+              <l rend="zenoPLm4n4">Geweihet werden, loben wirst mein Wort du dann!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Ich das erdulden, oh!</l>
+              <l rend="zenoPLm4n4">Unter der Erden ich mich verbergen, die Urweise?</l>
+              <l rend="zenoPLm4n4">Ich da ein Greul, o entehrt!</l>
+              <l rend="zenoPLm4n4">Hinab schäum ich Wut und jegliches Gehäß!</l>
+              <l rend="zenoPLm4n4">Hohu, Land, oh!</l>
+              <l rend="zenoPLm4n4">Wie sich der Schmerz mir tief einnagt in die Brust!</l>
+              <l rend="zenoPLm4n4">Höre du den Gram,</l>
+              <l rend="zenoPLm4n4">Mutter Nacht, schnöd beraubet, ach! hat meiner Ehren mich,</l>
+              <l rend="zenoPLm4n4">Nimmerersetzlich mich beraubt Göttertrug!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Den Zorn verzeih ich, denn du bist die Ältere;</l>
+              <l rend="zenoPLm4n4">Jedoch wie sehr viel weiser du auch seist denn ich,</l>
+              <l rend="zenoPLm4n4">Vergessen nicht hat Zeus mich mit Verständigkeit.</l>
+              <l rend="zenoPLm4n4">Wenn ihr hinauszieht fern in ferner Menschen Land,</l>
+              <l rend="zenoPLm4n4">Ihr werdet doch sehr wieder herverlangen; denn</l>
+              <l rend="zenoPLm4n4">In Ehren herrlich wird die Welle nächster Zeit</l>
+              <l rend="zenoPLm4n4">Mein Volk empor mir heben. Ja, in ehrender</l>
+              <l rend="zenoPLm4n4">Wohnung, Erechtheus' Tempel nah, wirst du dereinst</l>
+              <l rend="zenoPLm4n4">Von Männern hochgefeiert und von Weibern sein,</l>
+              <l rend="zenoPLm4n4">Wie dir in andren Ländern nimmer ward zuteil!</l>
+              <l rend="zenoPLm4n4">Nun aber schleudre nicht in meinem Land umher</l>
+              <l rend="zenoPLm4n4">Den blutgewetzten Hader, Haßverwilderung</l>
+              <l rend="zenoPLm4n4">Ins Herz der Jugend, trunken in weinloser Wut,</l>
+              <l rend="zenoPLm4n4">Noch gleich der Hähne Herzen, wechselkampfempört,</l>
+              <l rend="zenoPLm4n4"><pb n="225"/>
+Weih du zur Stätte je dem Ares meine Stadt,</l>
+              <l rend="zenoPLm4n4">Dem Kampf der Stammverbundnen, Stammvernichtenden!</l>
+              <l rend="zenoPLm4n4">Im Fernen sei'n die Kriege, doch nicht allzu fern,</l>
+              <l rend="zenoPLm4n4">In denen aufwacht edlen Heldenruhmes Lust –</l>
+              <l rend="zenoPLm4n4">Desselben Hofs Geflügel kenne keinen Streit!</l>
+              <l rend="zenoPLm4n4">Das nun zu wählen laß von mir dich lehren, daß</l>
+              <l rend="zenoPLm4n4">Wohltuend, wohlempfangend, wohlgeehrt du teil</l>
+              <l rend="zenoPLm4n4">An meinem Lande nehmst, dem gottgeliebtesten!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Gegenstrophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ich das erdulden, oh!</l>
+              <l rend="zenoPLm4n4">Unter der Erden ich mich verbergen, die Urweise?</l>
+              <l rend="zenoPLm4n4">Ich da ein Greul, o entehrt!</l>
+              <l rend="zenoPLm4n4">Hinab schäum ich Wut und jegliches Gehäß!</l>
+              <l rend="zenoPLm4n4">Hohu, Land, oh!</l>
+              <l rend="zenoPLm4n4">Wie sich der Schmerz mir tief einwühlt in die Brust!</l>
+              <l rend="zenoPLm4n4">Höre du den Gram,</l>
+              <l rend="zenoPLm4n4">Mutter Nacht! Schnöd beraubet, ach! hat meiner Ehren mich,</l>
+              <l rend="zenoPLm4n4">Nimmerersetzlich mich beraubt Göttertrug!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Nicht müde werd ich, dir zu sagen besten Rat,</l>
+              <l rend="zenoPLm4n4">Damit du nie meinst, du, die alte Göttin, seist</l>
+              <l rend="zenoPLm4n4">Von mir, der jüngren, und vom Volke meiner Stadt</l>
+              <l rend="zenoPLm4n4">Ehrlos und gastlos fortgejagt aus diesem Land.</l>
+              <l rend="zenoPLm4n4">Nein, wenn der Peitho Heiligkeit dir heilig ist,</l>
+              <l rend="zenoPLm4n4">Dir meiner Rede Sänftigung und süße Kunst,</l>
+              <l rend="zenoPLm4n4">So würdest hier du bleiben. Aber bleibst du nicht,</l>
+              <l rend="zenoPLm4n4">So ist es unrecht, daß du diese Stadt bedräust</l>
+              <l rend="zenoPLm4n4">Mit deiner Wut, mit deinem Zorn und großer Not,</l>
+              <l rend="zenoPLm4n4">Da dir doch freisteht, hier im vielglückselgen Land</l>
+              <l rend="zenoPLm4n4">Zu weilen hochehrwürdig stets und hochgeehrt!</l>
+            </lg>
+          </sp>
+          <sp who="#chorführer">
+            <speaker>CHORFÜHRER.</speaker>
+            <l rend="zenoPLm4n4">Herrin Athene, wie versprichst du die Stätte mir?</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Befreit von jedem Kummer; nimm sie willig an!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Wenn ich sie nähme, was für Ehren würden mir?</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Daß fürder kein Haus ohne dich je soll gedeihn!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Willst du erwirken, daß ich also viel vermag?</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Ja, wer dir fromm dient, des Geschick will ich erhöhn!</l>
+            <pb n="226"/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Und willst du Bürgschaft geben mir für alle Zeit?</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Ich sage niemals, was ich nicht zu enden weiß!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Du überzeugst mich, meines Zorns vergeß ich schon!</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <l rend="zenoPLm4n4">Einheimisch hier gewinnst du manchen dir zum Freund!</l>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <l rend="zenoPLm4n4">Und nun, wie sagst du, daß ich segne dieses Land?</l>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Was Segen immer solchem kummerlosen Sieg</l>
+              <l rend="zenoPLm4n4">Entkeimet aus der Erden, aus dem Tau der See,</l>
+              <l rend="zenoPLm4n4">Dem hohen Himmel und dem sonnigkühlen Wehn</l>
+              <l rend="zenoPLm4n4">Der Winde, wünsche alles das du unserm Land,</l>
+              <l rend="zenoPLm4n4">Und aller Herden, aller Fluren froh Gedeihn,</l>
+              <l rend="zenoPLm4n4">Dem Volk zum Wohlstand, daß es nimmer darben mag,</l>
+              <l rend="zenoPLm4n4">Gedeihn der lieben Hoffnung auch im Mutterschoß.</l>
+              <l rend="zenoPLm4n4">Nichtgottesfürchtgen aber sei zwiefach erzürnt,</l>
+              <l rend="zenoPLm4n4">Denn vollgenug ist nach des treuen Gärtners Art</l>
+              <l rend="zenoPLm4n4">Mir an der Gerechten frohem Blühn; des sorge du!</l>
+              <l rend="zenoPLm4n4">Ich aber, stets zum schlachtenkühnen Kampf des Ruhms</l>
+              <l rend="zenoPLm4n4">Gegürtet, will nicht ruhen, eh nicht alle Welt</l>
+              <l rend="zenoPLm4n4">In höchsten Ehren meine Stadt des Sieges hält!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Strophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Haus und Dienst neben Pallas nehm ich gern;</l>
+              <l rend="zenoPLm4n4">Nicht verschmähn will ich die Stadt,</l>
+              <l rend="zenoPLm4n4">Die so Zeus der Allbewältger, so Ares ehrt als Götterburg,</l>
+              <l rend="zenoPLm4n4">Als der Griechen altarschirmend Götterlieblingshaus;</l>
+              <l rend="zenoPLm4n4">Ihr den Segen sag ich gern,</l>
+              <l rend="zenoPLm4n4">Ihr verkünd ich gnadenmild:</l>
+              <l rend="zenoPLm4n4">In stetem Blühn des Lebens Glück, ein reich Gedeihn</l>
+              <l rend="zenoPLm4n4">Soll aus der Erde Schoß</l>
+              <l rend="zenoPLm4n4">Schmeicheln heitrer Sonnenschein!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ich bereitete wohl vorsorgend dem Volk,</l>
+              <l rend="zenoPLm4n4">Daß ich euch, Göttinnen, in unsere Stadt,</l>
+              <l rend="zenoPLm4n4">Die gewaltigen, schwerzuversöhnenden, nahm.</l>
+              <l rend="zenoPLm4n4">Denn es heischt ihr Amt, all menschliches Tun</l>
+              <l rend="zenoPLm4n4">Zum Gericht zu erspähn;</l>
+              <l rend="zenoPLm4n4">Wer den Zürnenden dann zufällt, weiß nicht,</l>
+              <l rend="zenoPLm4n4">Von wannen der Schlag ihn des Todes erzielt;</l>
+              <l rend="zenoPLm4n4"><pb n="227"/>
+Denn in ihre Gewalt hin gibt ihn die Schuld,</l>
+              <l rend="zenoPLm4n4">Die er einst nicht mied; und ein lautlos End,</l>
+              <l rend="zenoPLm4n4">Ob er laut auch ruft,</l>
+              <l rend="zenoPLm4n4">Es vergräbt ihn in grauser Vernichtung!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Gegenstrophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Wehen soll waldverwüstend Wetter nie!</l>
+              <l rend="zenoPLm4n4">Das ist mein Geschenk dem Land,</l>
+              <l rend="zenoPLm4n4">Und nie pflanzenaugesengender Brand heimsuchen dieses Landes Aun;</l>
+              <l rend="zenoPLm4n4">Nie ersticke Mißwachs jammervoll der Saaten Blühn;</l>
+              <l rend="zenoPLm4n4">Schafe, froh in Sattigkeit,</l>
+              <l rend="zenoPLm4n4">Zwillingslämmer um sie her,</l>
+              <l rend="zenoPLm4n4">Ernähr zu seiner Zeit der jungen Erde Grün,</l>
+              <l rend="zenoPLm4n4">Der Grasung lieber Ort,</l>
+              <l rend="zenoPLm4n4">Steter Göttergabe reich!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ihr habt es gehört, Obhüter der Stadt,</l>
+              <l rend="zenoPLm4n4">Was euch sie verheißt!</l>
+              <l rend="zenoPLm4n4">Denn der hehren Erinnys Wort, es vermag</l>
+              <l rend="zenoPLm4n4">Bei den Himmlischen viel, bei den Göttern der Nacht;</l>
+              <l rend="zenoPLm4n4">Und der Menschen Geschick, sie führen es klar,</l>
+              <l rend="zenoPLm4n4">Kraftvoll es hinaus,</l>
+              <l rend="zenoPLm4n4"><hi rend="italic">Dem</hi> frohen Gesang, <hi rend="italic">dem</hi> heimlichen Gram</l>
+              <l rend="zenoPLm4n4">Des in Tränen verkümmernden Daseins!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Strophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Menschenblutlüstres, unselges Amt, ich werf es fort;</l>
+              <l rend="zenoPLm4n4">Doch den Mädchen lieb und hold</l>
+              <l rend="zenoPLm4n4">Rüstet die bräutlichen Freuden – die des ihr Gewalt habt,</l>
+              <l rend="zenoPLm4n4">Ihr Urgöttinnen, Muhmen des Schicksals,</l>
+              <l rend="zenoPLm4n4">Mächte der friedlichen Ruh,</l>
+              <l rend="zenoPLm4n4">Jeglichem Bunde Vertraute,</l>
+              <l rend="zenoPLm4n4">Jeglicher Stunde gewärtig, heilger Pflichten Schutz zu sein,</l>
+              <l rend="zenoPLm4n4">Allzeit aller Götter Teuerste!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Daß dieses dem Land huldreich sich erfüllt,</l>
+              <l rend="zenoPLm4n4">Mich erfreut's schon jetzt;</l>
+              <l rend="zenoPLm4n4"><pb n="228"/>
+Wohl lob ich den Blick mir der Peitho sehr,</l>
+              <l rend="zenoPLm4n4">Die so hold mir das Wort und die Lippe gelenkt,</l>
+              <l rend="zenoPLm4n4">Daß ich sie erweicht, die unerweicht sonst;</l>
+              <l rend="zenoPLm4n4">Doch gesiegt hat Zeus, der Beredenden Hort;</l>
+              <l rend="zenoPLm4n4">So siege fortan</l>
+              <l rend="zenoPLm4n4">Stets unser Bemühn für das Gute!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Gegenstrophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Mag des Aufruhres blutungesättigt Wüten nie</l>
+              <l rend="zenoPLm4n4">Stätte finden hier im Land,</l>
+              <l rend="zenoPLm4n4">Nimmer der Staub mit dem Blute der Bürger sich tränken,</l>
+              <l rend="zenoPLm4n4">Nie Rachgier, wechselmordender Schuld lüstern,</l>
+              <l rend="zenoPLm4n4">Blutig zerrütten die Stadt!</l>
+              <l rend="zenoPLm4n4">Freude belohne, gemeinsam</l>
+              <l rend="zenoPLm4n4">Gleiches mit allen zu lieben, allen gleich zu hassen auch,</l>
+              <l rend="zenoPLm4n4">Das heilt vielen Gram der Sterblichen!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">So findet ihr euch wohlwollend den Pfad</l>
+              <l rend="zenoPLm4n4">Des erfreulichen Worts!</l>
+              <l rend="zenoPLm4n4">Von der furchtbaren Schar der Erinnyen seh</l>
+              <l rend="zenoPLm4n4">Ich erblühen dem Volk vielteuren Gewinn!</l>
+              <l rend="zenoPLm4n4">Wenn die freundlichen ihr mit freundlichem Sinn</l>
+              <l rend="zenoPLm4n4">Stets fromm hochehrt,</l>
+              <l rend="zenoPLm4n4">So werdet ihr Stadt und Gebiet allzeit</l>
+              <l rend="zenoPLm4n4">Euch schmücken im Ruhm des Gerechten!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Dritte Strophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Freue dich, freu dich im heiteren Glück des Reichtums!</l>
+              <l rend="zenoPLm4n4">Freue dich, Volk der teuren Stadt,</l>
+              <l rend="zenoPLm4n4">Nah zu sein dem höchsten Zeus,</l>
+              <l rend="zenoPLm4n4">Lieb der lieben Parthenos,</l>
+              <l rend="zenoPLm4n4">Ratbedacht zur rechten Zeit.</l>
+              <l rend="zenoPLm4n4">Wen Athenes Flügel deckt, den erhöht ihr Vater gern!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Heil wieder auch euch! Doch ich muß vorgehn,</l>
+              <l rend="zenoPLm4n4">Zum geweiheten Sitz euch zeigen den Weg;</l>
+              <l rend="zenoPLm4n4">Mit dem heiligen Schein des geleitenden Zugs</l>
+              <l rend="zenoPLm4n4"><pb n="229"/>
+Zieht hin; und hinab führ unter die Erd</l>
+              <l rend="zenoPLm4n4">Euch heilige Spende, daß all Unheil</l>
+              <l rend="zenoPLm4n4">Ihr dem Land abwehrt, daß jegliches Heil</l>
+              <l rend="zenoPLm4n4">Ihr empor zum Siege der Stadt schickt!</l>
+            </lg>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">So geleitet denn selbst sie, o Kinder der Stadt,</l>
+              <l rend="zenoPLm4n4">Ihr, Kranaos' Stamm, daß sie wohnen bei euch!</l>
+              <l rend="zenoPLm4n4">Stets wahre dem Volk</l>
+              <l rend="zenoPLm4n4">Für das Rechte sich rechtes Erkenntnis!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Dritte Gegenstrophe</hi>
+            </stage>
+            <lb/>
+          </sp>
+          <sp who="#chor">
+            <speaker>CHOR.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Freue dich, freue dich wieder, du Volk Athenes,</l>
+              <l rend="zenoPLm4n4">In der Stadt ihr allzumal,</l>
+              <l rend="zenoPLm4n4">Götter, Menschen, freuet euch,</l>
+              <l rend="zenoPLm4n4">Daß ihr Pallas' Stadt bewohnt!</l>
+              <l rend="zenoPLm4n4">Wenn ihr mich, die mit euch wohnt,</l>
+              <l rend="zenoPLm4n4">Fromm verehrt, so sollt ihr nie schelten eures Lebens Los!</l>
+            </lg>
+            <lb/>
+          </sp>
+          <sp who="#athene">
+            <speaker>ATHENE.</speaker>
+            <lg>
+              <l rend="zenoPLm4n4">Ich lobe dein Wort, deines Segens treuen Wunsch;</l>
+              <l rend="zenoPLm4n4">Mit strahlendheller Fackeln Licht geleit ich dich</l>
+              <l rend="zenoPLm4n4">Hinab zum Hades, zu der Toten dunklem Reich</l>
+              <l rend="zenoPLm4n4">Mit Tempeldienerinnen, die in heilger Hut</l>
+              <l rend="zenoPLm4n4">Mein Bild bewachen. Komme denn, du liebstes Aug</l>
+              <l rend="zenoPLm4n4">Des Theseidenlandes, fromme Mädchenschar,</l>
+              <l rend="zenoPLm4n4">Ihr treuen Frauen, du der greisen Mütter Zug,</l>
+              <l rend="zenoPLm4n4">Mit eurer Purpurfestgewande Pracht geschmückt;</l>
+              <l rend="zenoPLm4n4">In frommer Ehrfurcht traget vor der Fackeln Glanz,</l>
+              <l rend="zenoPLm4n4">Daß diese Mitherrinnen eures Vaterlands</l>
+              <l rend="zenoPLm4n4">Im Heil des Volks sich gnädig zeigen immerdar!</l>
+            </lg>
+            <lb/>
+            <p rend="zenoPC">Chor der Geleiterinnen</p>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Erste Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Wandert nach Haus, ihr Gewaltigen, Hehren,</l>
+              <l rend="zenoPLm4n4">Kindlose Kinder der Nacht, im getreuleitenden Festzug!</l>
+              <l rend="zenoPLm4n4">Festruf feiert, o Freundinnen!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic"><pb n="230"/>
+Erste Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Unter der Erd in ogygischen Tiefen</l>
+              <l rend="zenoPLm4n4">Sollt Ehr und Opfer und Festfeuer empfahn ihr!</l>
+              <l rend="zenoPLm4n4">Festruf feire, du Volk, mit uns!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Strophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Huldvoll, unserem Land vielgewogen,</l>
+              <l rend="zenoPLm4n4">Kommet, ihr Hochhehren, und freut euch</l>
+              <l rend="zenoPLm4n4">Mit an der lodernden Fackel im Zug!</l>
+              <l rend="zenoPLm4n4">Wir jauchzen und jubeln zum Festlied!</l>
+            </lg>
+            <lb/>
+            <stage rend="zenoPC">
+              <hi rend="italic">Zweite Gegenstrophe</hi>
+            </stage>
+            <lb/>
+            <lg>
+              <l rend="zenoPLm4n4">Weihtrank, fackelbestrahlt, bleibe dein stets!</l>
+              <l rend="zenoPLm4n4">Zeus ja, der Allschauer, und Moira</l>
+              <l rend="zenoPLm4n4">Einten im Volk der Athene sich froh!</l>
+              <l rend="zenoPLm4n4">Wir jauchzen und jubeln zum Festlied! –</l>
+            </lg>
+            <lb/>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

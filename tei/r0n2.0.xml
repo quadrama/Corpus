@@ -8,6 +8,7 @@
         <author key="pnd:118563076">Kleist, Heinrich von</author>
       </titleStmt>
       <publicationStmt>
+        <idno type="QUADRAMA-ID">r0n2.0</idno>
         <publisher xml:id="dlina">DLINA</publisher>
         <idno type="URL">https://dlina.github.io</idno>
         <idno type="DLINA-ID">152</idno>
@@ -94,6 +95,9 @@
           <person xml:id="die_amazonen">
             <persName>DIE AMAZONEN</persName>
             <persName xml:id="das_heer_der_amazonen">DAS HEER DER AMAZONEN</persName>
+          </person>
+          <person xml:id="die_drei_amazonen">
+            <persName>DIE DREI AMAZONEN</persName>
           </person>
           <person xml:id="penthesilea">
             <persName>PENTHESILEA</persName>
