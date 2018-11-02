@@ -33,7 +33,7 @@
             <title>Christoph Martin Wieland: Alceste. Ein Singspiel in fünf Aufzügen, Leipzig: Weidmanns Erben und Reich, 1773.</title>
             <date type="print" when="1773"/>
             <date type="premiere" when="1773"/>
-            <date type="written"/>
+            <date type="written" when="1773">1773</date>
           </bibl>
         </bibl>
       </sourceDesc>

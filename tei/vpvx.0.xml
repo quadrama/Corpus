@@ -33,7 +33,7 @@
             <title>Reinhard Johannes Sorge: Werke in drei Bänden. Eingeleitet und herausgegeben von Hans Gerd Rötzer, Nürnberg: Glock und Lutz, 1964.</title>
             <date type="print" when="1912"/>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1911">1911</date> 
           </bibl>
         </bibl>
       </sourceDesc>

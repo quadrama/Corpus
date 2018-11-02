@@ -33,7 +33,7 @@
             <title>Antonio Salieri: Der Rauchfangkehrer, oder Die unentbehrlichen Verräther ihrer Herrschaften aus Eigennutz. Ein musikalisches Lustspiel in drey Aufzügen, aufgeführt am k. k. Nationaltheater, Wien: Logenmeister, 1781.</title>
             <date type="print"/>
             <date type="premiere" when="1781"/>
-            <date type="written"/>
+            <date type="written" when="1781">1781</date>
           </bibl>
         </bibl>
       </sourceDesc>

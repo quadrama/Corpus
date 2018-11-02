@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../schema/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+         <titleStmt>
+            <title>Traumulus</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="handle">hdl:11858/00-1734-0000-0003-8D78-6</idno><idno type="TextGridUri">textgrid:qmsf.0</idno><availability>
+               
+               <p> Der annotierte Datenbestand der Digitalen Bibliothek inklusive Metadaten sowie
+                                   davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von
+                                   www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons
+                                   Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid) veröffentlicht. Die
+                                   Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden
+                                   allgemeinfreien Texte (Siehe auch Punkt 2 der Lizenzbestimmungen). </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+               </p>
+               <p>
+                  <ref target="http://creativecommons.org/licenses/by/3.0/de/"> Eine vereinfachte
+                                   Zusammenfassung des rechtsverbindlichen Lizenzvertrages in
+                                   allgemeinverständlicher Sprache </ref>
+               </p>
+               <p>
+                  <ref target="http://www.textgrid.de/Digitale-Bibliothek">Hinweise zur Lizenz und zur Digitalen Bibliothek</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+                              Erstdruck: München (Piper &amp; Co.), 1904. Uraufführung am 24.09.1904, Lessingtheater, Berlin.
+                           </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Arno Holz und Oskar Jerschke: Traumulus. Achtes bis zehntes Tausend, Dresden: Carl Reißner, 1909.</title>
+                  <author key="pnd:117115827">Jerschke, Oskar</author>
+               </titleStmt>
+               <extent>-</extent>
+               <publicationStmt>
+                  <date when="1909"/>
+                  <pubPlace>Dresden</pubPlace>
+               </publicationStmt>
+               <date type="print" when="1904">1904</date> 
+               <date type="premiere" when="1904">1904</date> 
+               <date type="written" /> 
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="1861" notAfter="1909"/>
+         </creation>
+         <textClass>
+            <keywords scheme="http://textgrid.info/namespaces/metadata/core/2010#genre">
+               <term>drama</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+            <text>
+               <body>
+                     
+                        
+                     
+                     
+                     
+                     <div type="text" xml:id="tg4.3">
+                        <milestone unit="sigel" n="Holz-Traumulus" xml:id="tg4.3.1"/>
+                        
+
+
+
+                        <head type="h4" xml:id="tg4.3.3">Arno Holz / Oskar Jerschke</head>
+
+
+                        <head type="h2" xml:id="tg4.3.4">
+                           <ref cRef="/Literatur/M/Holz, Arno/Dramen/Traumulus" xml:id="tg4.3.4.1">Traumulus</ref>
+                        </head>
+
+                        <head type="h4" xml:id="tg4.3.5">Tragische Komödie</head>
+                     </div>
+                  </body>
+            </text>
+         </TEI>

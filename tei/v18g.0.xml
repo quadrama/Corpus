@@ -33,7 +33,7 @@
             <title>Naturalismus_– Dramen. Lyrik. Prosa. Herausgegeben und mit einem Nachwort von Ursula Münchow, Band 2: 1892–1899, Berlin und Weimar: Aufbau, 1970.</title>
             <date type="print" when="1892"/>
             <date type="premiere" when="1900"/>
-            <date type="written"/>
+            <date type="written" when="1892">1892</date> 
           </bibl>
         </bibl>
       </sourceDesc>

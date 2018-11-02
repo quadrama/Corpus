@@ -31,9 +31,9 @@
           </availability>
           <bibl type="originalSource">
             <title>Weidmann, Paul: Johann Faust. Ein allegorisches Drama von fünf Aufzügen, Prag: Joseph Emanuel Diesbach auf dem Altstädter Kleinen Ring in Nro. 225, 1775.</title>
-            <date type="print" when="1775"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1775">1775</date>
+            <date type="premiere" when="1775">1775</date>
+            <date type="written" when="1775">1775</date>
           </bibl>
         </bibl>
       </sourceDesc>

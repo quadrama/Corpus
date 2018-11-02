@@ -33,7 +33,7 @@
             <title>Ludwig Uhland: Werke. Herausgegeben von Hartmut Fröschle und Walter Scheffler, Band 1–4, München: Winkler, 1980.</title>
             <date type="print" when="1818">1818</date>
             <date type="premiere" when="1818">1818</date>
-            <date type="written"/>
+            <date type="written" when="1817">1817</date>
           </bibl>
         </bibl>
       </sourceDesc>

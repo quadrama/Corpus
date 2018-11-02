@@ -33,7 +33,7 @@
             <title>Wolfgang Amadeus Mozart: Die Zauberflöte. Eine große Oper in zwei Aufzügen, von Emanuel Schikaneder, Wien: Ignaz Alberti, 1791.</title>
             <date type="print"/>
             <date type="premiere" when="1791"/>
-            <date type="written"/>
+            <date type="written" when="1791">1791</date> 
           </bibl>
         </bibl>
       </sourceDesc>

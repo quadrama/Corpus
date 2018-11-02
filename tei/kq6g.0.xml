@@ -31,9 +31,9 @@
           </availability>
           <bibl type="originalSource">
             <title>Conradin Kreutzer: Das Nachtlager von Granada. Romantische Oper in zwei Aufzügen, Dichtung nach Friedrich Kinds gleichnamigem Schauspiel von Karl Johann Braun, Ritter von Braunthal, hg. v. Carl Friedrich Wittmann, Leipzig: Reclam, [o. J.].</title>
-            <date type="print"/>
+            <date type="print" />
             <date type="premiere" when="1834">1834</date>
-            <date type="written"/>
+            <date type="written" when="1833">1833</date>
           </bibl>
         </bibl>
       </sourceDesc>

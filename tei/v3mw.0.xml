@@ -32,7 +32,7 @@
           <bibl type="originalSource">
             <title>Johann Elias Schlegel: Ausgewählte Werke. Herausgegeben von Werner Schubert, Weimar: Arion Verlag, 1963.</title>
             <date type="print" when="1747">1747</date>
-            <date type="premiere"/>
+            <date type="premiere" when="1754">1754</date> 
             <date type="written" when="1747">1747</date>
           </bibl>
         </bibl>

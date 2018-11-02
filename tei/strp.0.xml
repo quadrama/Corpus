@@ -33,7 +33,7 @@
             <title>Johann Nestroy: Gesammelte Werke. Ausgabe in sechs Bänden, Wien: Verlag von Anton Schroll &amp; Co., 1962.</title>
             <date type="print" when="1838">1838</date>
             <date type="premiere" when="1835">1835</date>
-            <date type="written"/>
+            <date type="written" when="1825">1825</date> 
           </bibl>
         </bibl>
       </sourceDesc>

@@ -33,7 +33,7 @@
             <title>Arthur Schnitzler: Die Dramatischen Werke. Frankfurt a.M.: S. Fischer Verlag, 1962.</title>
             <date type="print" when="1906"/>
             <date type="premiere" when="1903"/>
-            <date type="written"/>
+            <date type="written" when="1904">1904</date> 
           </bibl>
         </bibl>
       </sourceDesc>

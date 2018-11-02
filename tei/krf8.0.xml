@@ -31,7 +31,7 @@
           </availability>
           <bibl type="originalSource">
             <title>Johann André: Belmont und Constanze, oder: Die Entführung aus dem Serail. Eine Operette in drey Akten von C.F. Bretzner, Leipzig: Carl Friedrich Schneider, 1781.</title>
-            <date type="print"/>
+            <date type="print" when="1781">1781</date>
             <date type="premiere" when="1781"/>
             <date type="written"/>
           </bibl>

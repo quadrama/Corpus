@@ -32,8 +32,8 @@
           <bibl type="originalSource">
             <title>Arthur Schnitzler: Die Dramatischen Werke. Frankfurt a.M.: S. Fischer Verlag, 1962.</title>
             <date type="print" when="1899">1899</date>
-            <date type="premiere" when="1899">1899</date>
-            <date type="written"/>
+            <date type="premiere" when="1899">1899</date> 
+            <date type="written" when="1898">1898</date> 
           </bibl>
         </bibl>
       </sourceDesc>

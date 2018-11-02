@@ -32,7 +32,7 @@
           <bibl type="originalSource">
             <title>Peter Helfrich Sturz: Schriften. Leipzig: Weidmanns Erben und Reich, 1779–1782 [Nachdruck: München: Wilhelm Fink Verlag, 1971].</title>
             <date type="print" when="1767">1767</date>
-            <date type="premiere"/>
+            <date type="premiere" when="1768">1768</date>
             <date type="written"/>
           </bibl>
         </bibl>

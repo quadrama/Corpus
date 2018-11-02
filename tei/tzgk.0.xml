@@ -33,7 +33,7 @@
             <title>Friedrich Schiller: Sämtliche Werke, Auf Grund der Originaldrucke herausgegeben von Gerhard Fricke und Herbert G. Göpfert in Verbindung mit Herbert Stubenrauch, Band 1–5, 3. Auflage, München: Hanser, 1962.</title>
             <date type="print" when="1783"/>
             <date type="premiere" when="1782"/>
-            <date type="written"/>
+            <date type="written" when="1782">1782</date> 
           </bibl>
         </bibl>
       </sourceDesc>

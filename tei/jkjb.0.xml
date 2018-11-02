@@ -31,9 +31,9 @@
           </availability>
           <bibl type="originalSource">
             <title>Dramen des deutschen Naturalismus. Nach den Erstausgaben oder den Ausgaben letzter Hand, herausgegeben von Roy C. Cowen, München: Winkler Verlag, 1981.</title>
-            <date type="print" when="1890"/>
+            <date type="print" when="1890">1890</date>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1890">1890</date>
           </bibl>
         </bibl>
       </sourceDesc>

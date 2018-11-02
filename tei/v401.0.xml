@@ -31,9 +31,9 @@
           </availability>
           <bibl type="originalSource">
             <title>Franz Schubert: Alfonso und Estrella. Romantische Oper in drei Akten, textlich und musikalisch bearbeitet von J.H. Fuchs, Wien: Selbstverlag des k.k. Hof-Operntheaters, 1881.</title>
-            <date type="print"/>
-            <date type="premiere" when="1854"/>
-            <date type="written"/>
+            <date type="print" /> 
+            <date type="premiere" when="1854">1854</date> 
+            <date type="written" when="1822">Zwischen 1821 und 1822</date> 
           </bibl>
         </bibl>
       </sourceDesc>

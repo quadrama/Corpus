@@ -31,7 +31,7 @@
           </availability>
           <bibl type="originalSource">
             <title>Wolfgang Amadeus Mozart: Der Schauspieldirektor. Ein Gelegenheitsstück in einem Aufzuge, Wien: Joseph von Kurzbek, 1786.</title>
-            <date type="print"/>
+            <date type="print" when="1786">1786</date> 
             <date type="premiere" when="1786"/>
             <date type="written"/>
           </bibl>
