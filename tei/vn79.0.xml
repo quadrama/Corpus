@@ -41,6 +41,7 @@
           <titleStmt>
             <title>William Shakespeare: Sämtliche Werke in vier Bänden. Band 1, Herausgegeben von Anselm Schlösser. Berlin: Aufbau, 1975.</title>
             <author key="pnd:118613723">Shakespeare, William</author>
+            <editor key="pnd:11737606X" role="translator">Tieck, Dorothea</editor>
           </titleStmt>
           <extent>150-</extent>
           <publicationStmt>
