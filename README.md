@@ -80,3 +80,13 @@ Undirected relations use the `mutual` attribute to list all ids in the relations
 	<relation type="personal" name="spouses" mutual="#bärbel #adam"/>
 
 The label from the table above is given as a `name`. 
+
+## XML
+*What you **really** need to know about the XML structure*
+
+- **Character speech** is enclosed in `<sp>`-tags. `<sp>`-tags should have a `who` attribute that specifies who speaks (by listing their ids). If the character speech is in verse, it is given in lines with `<l>`-tags, otherwise it is in `<p>`-tags.
+- **Speaker declarations** are enclosed in `<speaker>`-tags, and are placed within a character speech (i.e., within an `<sp>`-tag).
+- **Stage directions** are enclosed in `<stage>`-tags, even if they are within a character speech.
+- Initial or concluding remarks (e.g., "Ende des Trauerspiels") are not part of a character's speech, and are enclosed in `<trailer>`-tags.
+- **Speakers ids** should be declared in the header of the TEI file (i.e., **not** in the dramatis personae section), under `profileDesc/particDesc/listPerson`.
+- **Emphasis** should be marked with `<emph>` (it is often marked as `<hi>`, which is too generic).
