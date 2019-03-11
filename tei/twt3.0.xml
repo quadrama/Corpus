@@ -9746,6 +9746,7 @@
               <stage>
                 <hi>Leicester allein zurückbleibend.</hi>
               </stage>
+			  <sp who="#leicester">
               <p>Ich lebe noch! Ich trag es, noch zu leben!</p>
               <p>Stürzt dieses Dach nicht sein Gewicht auf mich!</p>
               <p>Tut sich kein Schlund auf, das elendeste</p>
@@ -9789,6 +9790,7 @@
               <p>Nur schluchzen hör ich, und die Weiber weinen –</p>
               <p>Sie wird entkleidet – Horch! Der Schemel wird</p>
               <p>Gerückt – Sie kniet aufs Kissen – legt das Haupt –</p>
+			  </sp>
               <stage>
                 <hi>Nachdem er die letzten Worte mit steigender Angst gesprochen, und eine Weile inne gehalten, sieht man </hi>
               </stage>
