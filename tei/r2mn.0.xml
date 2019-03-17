@@ -59,7 +59,7 @@
           </person>
           <person xml:id="gurli">
             <persName>GURLI</persName>
-            <persName xml:id="guhli">GUHLI</persName>
+            <persName xml:id="gurli">GURLI</persName>
           </person>
           <person xml:id="visitator">
             <persName>VISITATOR</persName>
@@ -1001,8 +1001,8 @@
                 <l> Wen denn?</l>
                 <pb n="141"/>
               </sp>
-              <sp who="#guhli">
-                <speaker>GUHLI.</speaker>
+              <sp who="#gurli">
+                <speaker>GURLI.</speaker>
                 <l> Das weiß ich nicht.</l>
               </sp>
               <sp who="#samuel">
@@ -4185,7 +4185,7 @@
                 <speaker>MÄSTER STRUSSEL.</speaker>
                 <l> Sie sind ein Narr mit Ihrer Vorsicht.</l>
               </sp>
-              <sp who="#mäster_staff_samuel #der_visitator">
+              <sp who="#mäster_staff #samuel #der_visitator">
                 <speaker>MÄSTER STAFF, SAMUEL UND DER VISITATOR</speaker>
                 <stage>
                   <hi>zugleich.</hi>
@@ -4401,7 +4401,7 @@
                 <speaker>KABERDAR.</speaker>
                 <p> Wirklich! dann muß ich ein seltner Mensch sein, denn reich und großmütig fand ich noch nie beisammen. <pb n="185"/> Doch jede Tugend kann ausarten, so auch die Großmut. Sie wissen Sir, ich stehe auf dem Sprunge selbst wieder zu heiraten und sehr möglich, daß einst noch ein Dutzend Kin der Anspruch auf meine väterliche Großmut machen.</p>
               </sp>
-              <sp who="#_samuel">
+              <sp who="#samuel">
                 <speaker> SAMUEL</speaker>
                 <stage>
                   <hi>verlegen.</hi>
@@ -5671,7 +5671,7 @@
                 </stage>
                 <l> Nicht Geister? <hi>Sie nähern sich einander mit ausgebreiteten Armen.</hi> </l>
               </sp>
-              <sp who="#_fazir">
+              <sp who="#fazir">
                 <speaker> FAZIR.</speaker>
                 <l> Lebst du würklich Gurli?</l>
               </sp>
