@@ -2221,11 +2221,11 @@
                   <l>Daß alle Lachen.</l>
                   <l>Hä! hä! hä! hä!</l>
                 </lg>
-                <stage>
-                  <hi>Ende des ersten Aufzugs.</hi>
-                </stage>
                 <pb n="42"/>
               </sp>
+              <trailer>
+                <hi>Ende des ersten Aufzugs.</hi>
+              </trailer>
             </div>
           </div>
         </div>
@@ -3396,11 +3396,11 @@
                   <l>Mein Loos sey jederzeit,</l>
                   <l>Muth und Entschlossenheit.</l>
                 </lg>
-                <stage>
-                  <hi>Ende des zweyten Aufzugs.</hi>
-                </stage>
                 <pb n="66"/>
               </sp>
+              <trailer>
+                <hi>Ende des zweyten Aufzugs.</hi>
+              </trailer>
             </div>
           </div>
         </div>
@@ -5514,11 +5514,11 @@
                 <lg>
                   <l><hi>A Dio!</hi> wir gehn, es ist nichts mehr zu hören.</l>
                 </lg>
-                <stage>
-                  <hi>Ende des Singspiels.</hi>
-                </stage>
                 <pb n="108"/>
               </sp>
+              <trailer>
+                <hi>Ende des Singspiels.</hi>
+              </trailer>
             </div>
           </div>
         </div>
