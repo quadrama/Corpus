@@ -4651,10 +4651,10 @@
                 <stage>
                   <hi>Vorhang fällt.</hi>
                 </stage>
-                <stage>
-                  <hi>Ende.</hi>
-                </stage>
               </sp>
+              <trailer>
+                <hi>Ende.</hi>
+              </trailer>
             </div>
           </div>
         </div>
