@@ -2047,10 +2047,10 @@
               <stage>
                 <hi>Der Vorhang fällt.</hi>
               </stage>
-              <stage>
-                <hi>Ende der Katastrophe.</hi>
-              </stage>
             </sp>
+            <trailer>
+              <hi>Ende der Katastrophe.</hi>
+            </trailer>
           </div>
         </div>
       </div>
@@ -2280,14 +2280,14 @@
               <stage>
                 <hi><pb n="285"/> Bei den letzten Worten ist er in den Zuschauerraum hinabgesprungen. Die ganze Versammlung war schon bei Beginn seiner Rede wie von einem unfaßbaren Zauber ergriffen; mit offnen Lippen und großen Augen lauschte sie seinem Vortrag, starr, ohne ein Glied zu rühren, unter dämonischem Bann. Jetzt schlägt er mit der Geburtszange auf die Köpfe der Anwesenden los, welche in furchtbarer Verwirrung heulend entfliehen.</hi>
               </stage>
-              <stage>
-                <hi>Ende.</hi>
-              </stage>
-              <stage>
-                <hi>Berlin, Karneval 1890</hi>
-              </stage>
               <pb n="286"/>
             </sp>
+            <trailer>
+              <hi>Ende.</hi>
+            </trailer>
+            <trailer>
+              <hi>Berlin, Karneval 1890</hi>
+            </trailer>
           </div>
         </div>
       </div>
