@@ -8418,8 +8418,10 @@
                   <stage>
                     <hi>Der Vorhang fällt.</hi>
                   </stage>
-                  <p>Ende.</p>
                 </sp>
+                <trailer>
+                  <p>Ende.</p>
+                </trailer>
               </div>
             </div>
           </div>
