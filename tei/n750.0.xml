@@ -540,7 +540,9 @@
               <stage>
                 <hi>Julchen allein.</hi>
               </stage>
-              <p>Wie? Er geht? Aber warum bin ich so unruhig? Ich liebe ihn ja nicht ... Nein, ich bin ihm nur gewogen. Es ist doch ein unerträglicher Stolz, daß er mich verläßt. Aber habe ich ihn etwan beleidiget? Er ist ja sonst so vernünftig und so großmütig ... Nein, nein, er liebt mich nicht. Es muß Verstellung gewesen sein. Ich habe heute ein recht mürrisches Wesen. <hi>Lottchen tritt unvermerkt herein.</hi> Wenn ich nur meine Laute hier hätte, ich wollte ...</p>
+              <sp who="#julchen">
+                <p>Wie? Er geht? Aber warum bin ich so unruhig? Ich liebe ihn ja nicht ... Nein, ich bin ihm nur gewogen. Es ist doch ein unerträglicher Stolz, daß er mich verläßt. Aber habe ich ihn etwan beleidiget? Er ist ja sonst so vernünftig und so großmütig ... Nein, nein, er liebt mich nicht. Es muß Verstellung gewesen sein. Ich habe heute ein recht mürrisches Wesen. <hi>Lottchen tritt unvermerkt herein.</hi> Wenn ich nur meine Laute hier hätte, ich wollte ...</p>
+              </sp>
             </div>
           </div>
         </div>
@@ -3502,8 +3504,10 @@
               <sp who="#lottchen">
                 <speaker>LOTTCHEN.</speaker>
                 <p> O Himmel! laß es dem Betrüger nicht übelgehen. Wie redlich habe ich ihn geliebt, und wie unglücklich bin ich durch die Liebe geworden! Doch nicht die Liebe, die Torheit des Liebhabers hat mich unglücklich gemacht. Bedauren Sie mich.</p>
-                <p>Ende des dritten und letzten Aufzugs.</p>
               </sp>
+              <trailer>
+                <p>Ende des dritten und letzten Aufzugs.</p>
+              </trailer>
             </div>
           </div>
         </div>

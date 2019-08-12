@@ -9858,8 +9858,10 @@
                 <stage>
                   <hi>Indem sie sich nach rechts wenden, fällt der Vorhang.</hi>
                 </stage>
-                <p>Ende des Stückes.</p>
               </sp>
+              <trailer>
+                <p>Ende des Stückes.</p>
+              </trailer>
             </div>
           </div>
         </div>
