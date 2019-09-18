@@ -65,7 +65,7 @@ The following relations have been annotated:
 | ----- | ----- | ------ |
 | `parent_of` | directed | One character is a parent of the other | 
 | `lover_of` | directed | For lovers | 
-| `related_with` | directed | Ohter **family** relations (e.g. uncles) | 
+| `related_with` | directed | Other **family** relations (e.g. uncles) | 
 | `associated_with` | directed | For clearly associated characters (e.g., butlers) | 
 | `siblings` | undirected | Characters that have at least one parent in common |
 | `spouses` | undirected | Characters in marriage (or engaged) |
